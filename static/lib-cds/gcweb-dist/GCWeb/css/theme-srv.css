@@ -1,0 +1,2882 @@
+@charset "utf-8";
+/*!
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ * v5.1.0-development - 2019-04-10
+ *
+ */
+@charset "UTF-8";
+/*!
+ *
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ *
+ */
+/*
+ Global variables for GCWeb
+ */
+/*
+Left menu variables
+*/
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * HOW TO USE THIS FILE
+ * Use this file to override Bootstrap variables and WET custom variables.
+ * If there is a Bootstrap variable not shown here that you want to override, go to "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables" to view the variables that you can override. Simply copy and paste the variable and its applicable section (if applicable) from the Bootstrap file into this override file and override the variables as applicable.
+ */
+/*!
+ * GLYPHICONS Halflings for Twitter Bootstrap by GLYPHICONS.com | Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ */
+/*!
+ * Bootstrap v3.4.0 (https://getbootstrap.com/)
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+  *,
+  *:before,
+  *:after {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important; }
+  a,
+  a:visited {
+    text-decoration: underline; }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  tr,
+  img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; }
+  .label {
+    border: 1px solid #000; }
+  .table {
+    border-collapse: collapse !important; }
+    .table td,
+    .table th {
+      background-color: #fff !important; } }
+
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("../../wet-boew/fonts/glyphicons-halflings-regular.eot");
+  src: url("../../wet-boew/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../wet-boew/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../../wet-boew/fonts/glyphicons-halflings-regular.woff") format("woff"), url("../../wet-boew/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../../wet-boew/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.glyphicon-th:before {
+  content: "\e011"; }
+
+.glyphicon-remove:before {
+  content: "\e014"; }
+
+.glyphicon-volume-up:before {
+  content: "\e038"; }
+
+.glyphicon-play:before {
+  content: "\e072"; }
+
+.glyphicon-chevron-right:before {
+  content: "\e080"; }
+
+.glyphicon-chevron-up:before {
+  content: "\e113"; }
+
+.glyphicon-subtitles:before {
+  content: "\e188"; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4375;
+  color: #333333;
+  background-color: #fff; }
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+a {
+  color: #295376;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #0535d2;
+    text-decoration: underline; }
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+
+figure {
+  margin: 0; }
+
+img {
+  vertical-align: middle; }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+hr {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border: 0;
+  border-top: 1px solid #eeeeee; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+[role="button"] {
+  cursor: pointer; }
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit; }
+  h1 small,
+  h1 .small, h2 small,
+  h2 .small, h3 small,
+  h3 .small, h4 small,
+  h4 .small, h5 small,
+  h5 .small,
+  .h1 small,
+  .h1 .small, .h2 small,
+  .h2 .small, .h3 small,
+  .h3 .small, .h4 small,
+  .h4 .small, .h5 small,
+  .h5 .small {
+    font-weight: 400;
+    line-height: 1;
+    color: #6f6f6f; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: 23px;
+  margin-bottom: 11.5px; }
+  h1 small,
+  h1 .small, .h1 small,
+  .h1 .small,
+  h2 small,
+  h2 .small, .h2 small,
+  .h2 .small,
+  h3 small,
+  h3 .small, .h3 small,
+  .h3 .small {
+    font-size: 65%; }
+
+h4, .h4,
+h5, .h5 {
+  margin-top: 11.5px;
+  margin-bottom: 11.5px; }
+  h4 small,
+  h4 .small, .h4 small,
+  .h4 .small,
+  h5 small,
+  h5 .small, .h5 small,
+  .h5 .small {
+    font-size: 75%; }
+
+h1, .h1 {
+  font-size: 34px; }
+
+h2, .h2 {
+  font-size: 26px; }
+
+h3, .h3 {
+  font-size: 22px; }
+
+h4, .h4 {
+  font-size: 18px; }
+
+h5, .h5 {
+  font-size: 16px; }
+
+p {
+  margin: 0 0 11.5px; }
+
+.lead {
+  margin-bottom: 23px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4; }
+  @media (min-width: 768px) {
+    .lead {
+      font-size: 24px; } }
+
+small,
+.small {
+  font-size: 87%; }
+
+mark,
+.mark {
+  padding: .2em;
+  background-color: #fcf8e3; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 11.5px; }
+  ul ul,
+  ul ol,
+  ol ul,
+  ol ol {
+    margin-bottom: 0; }
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px; }
+  .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px; }
+
+dl {
+  margin-top: 0;
+  margin-bottom: 23px; }
+
+abbr[title],
+abbr[data-original-title] {
+  cursor: help; }
+
+blockquote {
+  padding: 11.5px 23px;
+  margin: 0 0 23px;
+  font-size: 20px;
+  border-left: 5px solid #eeeeee; }
+  blockquote p:last-child,
+  blockquote ul:last-child,
+  blockquote ol:last-child {
+    margin-bottom: 0; }
+  blockquote footer,
+  blockquote small,
+  blockquote .small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.4375;
+    color: #6f6f6f; }
+    blockquote footer:before,
+    blockquote small:before,
+    blockquote .small:before {
+      content: "\2014 \00A0"; }
+
+
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  text-align: right;
+  border-right: 5px solid #eeeeee;
+  border-left: 0; }
+  
+  blockquote.pull-right footer:before,
+  blockquote.pull-right small:before,
+  blockquote.pull-right .small:before {
+    content: ""; }
+  
+  blockquote.pull-right footer:after,
+  blockquote.pull-right small:after,
+  blockquote.pull-right .small:after {
+    content: "\00A0 \2014"; }
+
+address {
+  margin-bottom: 23px;
+  font-style: normal;
+  line-height: 1.4375; }
+
+code,
+pre {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px; }
+
+pre {
+  display: block;
+  padding: 11px;
+  margin: 0 0 11.5px;
+  font-size: 15px;
+  line-height: 1.4375;
+  color: #333333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+  pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  .container:before, .container:after {
+    display: table;
+    content: " "; }
+  .container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  .container-fluid:before, .container-fluid:after {
+    display: table;
+    content: " "; }
+  .container-fluid:after {
+    clear: both; }
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+  .row:before, .row:after {
+    display: table;
+    content: " "; }
+  .row:after {
+    clear: both; }
+
+ .col-md-2, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-sm-5, .col-md-5, .col-xs-6, .col-sm-6, .col-md-6, .col-sm-7, .col-md-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-sm-9, .col-xs-10, .col-sm-10, .col-md-10, .col-xs-12, .col-sm-12, .col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+ .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-10, .col-xs-12 {
+  float: left; }
+
+.col-xs-4 {
+  width: 33.3333333333%; }
+
+.col-xs-6 {
+  width: 50%; }
+
+.col-xs-8 {
+  width: 66.6666666667%; }
+
+.col-xs-10 {
+  width: 83.3333333333%; }
+
+.col-xs-12 {
+  width: 100%; }
+
+.col-xs-offset-1 {
+  margin-left: 8.3333333333%; }
+
+@media (min-width: 768px) {
+   .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-12 {
+    float: left; }
+  .col-sm-3 {
+    width: 25%; }
+  .col-sm-4 {
+    width: 33.3333333333%; }
+  .col-sm-5 {
+    width: 41.6666666667%; }
+  .col-sm-6 {
+    width: 50%; }
+  .col-sm-7 {
+    width: 58.3333333333%; }
+  .col-sm-8 {
+    width: 66.6666666667%; }
+  .col-sm-9 {
+    width: 75%; }
+  .col-sm-10 {
+    width: 83.3333333333%; }
+  .col-sm-12 {
+    width: 100%; }
+  .col-sm-pull-4 {
+    right: 33.3333333333%; }
+  .col-sm-push-8 {
+    left: 66.6666666667%; }
+  .col-sm-offset-1 {
+    margin-left: 8.3333333333%; } }
+
+@media (min-width: 992px) {
+   .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-10, .col-md-12 {
+    float: left; }
+  .col-md-2 {
+    width: 16.6666666667%; }
+  .col-md-3 {
+    width: 25%; }
+  .col-md-4 {
+    width: 33.3333333333%; }
+  .col-md-5 {
+    width: 41.6666666667%; }
+  .col-md-6 {
+    width: 50%; }
+  .col-md-7 {
+    width: 58.3333333333%; }
+  .col-md-8 {
+    width: 66.6666666667%; }
+  .col-md-10 {
+    width: 83.3333333333%; }
+  .col-md-12 {
+    width: 100%; }
+  .col-md-offset-2 {
+    margin-left: 16.6666666667%; } }
+
+@media (min-width: 1200px) {
+   .col-lg-3, .col-lg-4, .col-lg-8 {
+    float: left; }
+  .col-lg-3 {
+    width: 25%; }
+  .col-lg-4 {
+    width: 33.3333333333%; }
+  .col-lg-8 {
+    width: 66.6666666667%; } }
+
+table {
+  background-color: transparent; }
+  table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none; }
+  table td[class*="col-"],
+  table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none; }
+
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #6f6f6f;
+  text-align: left; }
+
+th {
+  text-align: left; }
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 23px; }
+  
+  .table > tbody > tr > th,
+  .table > tbody > tr > td {
+    padding: 8px;
+    line-height: 1.4375;
+    vertical-align: top;
+    border-top: 1px solid #ddd; }
+  .table > tbody + tbody {
+    border-top: 2px solid #ddd; }
+  .table .table {
+    background-color: #fff; }
+
+
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th {
+  background-color: #f0f0f0; }
+
+
+.table > tbody > tr > td.success,
+.table > tbody > tr > th.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th {
+  background-color: #dff0d8; }
+
+
+.table > tbody > tr > td.info,
+.table > tbody > tr > th.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th {
+  background-color: #d9edf7; }
+
+
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th {
+  background-color: #fcf8e3; }
+
+
+.table > tbody > tr > td.danger,
+.table > tbody > tr > th.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th {
+  background-color: #f2dede; }
+
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 23px;
+  font-size: 24px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5; }
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700; }
+
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal; }
+  input[type="radio"][disabled], input[type="radio"].disabled,
+  input[type="checkbox"][disabled],
+  input[type="checkbox"].disabled {
+    cursor: not-allowed; }
+
+input[type="file"] {
+  display: block; }
+
+input[type="range"] {
+  display: block;
+  width: 100%; }
+
+select[multiple],
+select[size] {
+  height: auto; }
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+output {
+  display: block;
+  padding-top: 11px;
+  font-size: 16px;
+  line-height: 1.4375;
+  color: #555555; }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 37px;
+  padding: 10px 14px;
+  font-size: 16px;
+  line-height: 1.4375;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s; }
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  .form-control::-moz-placeholder {
+    color: #5c5c5c !important;
+    opacity: 1; }
+  .form-control:-ms-input-placeholder {
+    color: #5c5c5c !important; }
+  .form-control::-webkit-input-placeholder {
+    color: #5c5c5c !important; }
+  .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0; }
+  .form-control[disabled], .form-control[readonly] {
+    background-color: #eeeeee;
+    opacity: 1; }
+  .form-control[disabled] {
+    cursor: not-allowed; }
+
+textarea.form-control {
+  height: auto; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 37px; } }
+
+.form-group {
+  margin-bottom: 15px; }
+
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .radio.disabled label,
+  .checkbox.disabled label {
+    cursor: not-allowed; }
+  .radio label,
+  .checkbox label {
+    min-height: 23px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer; }
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  margin-top: 4px \9;
+  margin-left: -20px; }
+
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px; }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 10px 14px;
+  font-size: 16px;
+  line-height: 1.4375;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+  .btn:hover, .btn:focus, .btn.focus {
+    color: #335075;
+    text-decoration: none; }
+  .btn:active, .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  .btn.disabled, .btn[disabled] {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    opacity: 0.65;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+a.btn.disabled {
+  pointer-events: none; }
+
+.btn-default {
+  color: #335075;
+  background-color: #eaebed;
+  border-color: #dcdee1; }
+  .btn-default:focus, .btn-default.focus {
+    color: #335075;
+    background-color: #cfd1d5;
+    border-color: #989da6; }
+  .btn-default:hover {
+    color: #335075;
+    background-color: #cfd1d5;
+    border-color: #bbbfc5; }
+  .btn-default:active, .btn-default.active {
+    color: #335075;
+    background-color: #cfd1d5;
+    background-image: none;
+    border-color: #bbbfc5; }
+    .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus {
+      color: #335075;
+      background-color: #bbbfc5;
+      border-color: #989da6; }
+  .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus {
+    background-color: #eaebed;
+    border-color: #dcdee1; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #2572b4;
+  border-color: #143c5f; }
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #1c578a;
+    border-color: black; }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #1c578a;
+    border-color: #091c2d; }
+  .btn-primary:active, .btn-primary.active {
+    color: #fff;
+    background-color: #1c578a;
+    background-image: none;
+    border-color: #091c2d; }
+    .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus {
+      color: #fff;
+      background-color: #16446c;
+      border-color: black; }
+  .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus {
+    background-color: #2572b4;
+    border-color: #143c5f; }
+
+.btn-link {
+  font-weight: 400;
+  color: #295376;
+  border-radius: 0; }
+  .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled] {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    border-color: transparent; }
+  .btn-link:hover, .btn-link:focus {
+    color: #0535d2;
+    text-decoration: underline;
+    background-color: transparent; }
+  .btn-link[disabled]:hover, .btn-link[disabled]:focus {
+    color: #6f6f6f;
+    text-decoration: none; }
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px; }
+
+
+.dropdown {
+  position: relative; }
+
+.open > a {
+  outline: 0; }
+
+.btn-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; }
+  .btn-group > .btn {
+    position: relative;
+    float: left; }
+    .btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active {
+      z-index: 2; }
+
+.btn-group .btn + .btn,
+.btn-group .btn + .btn-group,
+.btn-group .btn-group + .btn,
+.btn-group .btn-group + .btn-group {
+  margin-left: -1px; }
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0; }
+
+.btn-group > .btn:first-child {
+  margin-left: 0; }
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+
+.btn-group > .btn:last-child:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.btn-group > .btn-group {
+  float: left; }
+
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0; }
+
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+[data-toggle="buttons"] > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none; }
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+  .nav:before, .nav:after {
+    display: table;
+    content: " "; }
+  .nav:after {
+    clear: both; }
+  .nav > li {
+    position: relative;
+    display: block; }
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 10px 15px; }
+      .nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #eeeeee; }
+    .nav > li.disabled > a {
+      color: #6f6f6f; }
+      .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+        color: #6f6f6f;
+        text-decoration: none;
+        cursor: not-allowed;
+        background-color: transparent; }
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #eeeeee;
+    border-color: #295376; }
+  .nav > li > a > img {
+    max-width: none; }
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 23px 0;
+  border-radius: 4px; }
+  .pagination > li {
+    display: inline; }
+    .pagination > li > a,
+    .pagination > li > span {
+      position: relative;
+      float: left;
+      padding: 10px 14px;
+      margin-left: -1px;
+      line-height: 1.4375;
+      color: #335075;
+      text-decoration: none;
+      background-color: #eaebed;
+      border: 1px solid #dcdee1; }
+      .pagination > li > a:hover, .pagination > li > a:focus,
+      .pagination > li > span:hover,
+      .pagination > li > span:focus {
+        z-index: 2;
+        color: #335075;
+        background-color: #d4d6da;
+        border-color: #bbbfc5; }
+    .pagination > li:first-child > a,
+    .pagination > li:first-child > span {
+      margin-left: 0;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px; }
+    .pagination > li:last-child > a,
+    .pagination > li:last-child > span {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px; }
+  .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+  .pagination > .active > span,
+  .pagination > .active > span:hover,
+  .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #2572b4;
+    border-color: #2572b4; }
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    color: #6f6f6f;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd; }
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em; }
+  .label:empty {
+    display: none; }
+  .btn .label {
+    position: relative;
+    top: -1px; }
+
+a.label:hover, a.label:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer; }
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0; }
+  to {
+    background-position: 0 0; } }
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0; }
+  to {
+    background-position: 0 0; } }
+
+.progress {
+  height: 23px;
+  margin-bottom: 23px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
+
+.media {
+  margin-top: 15px; }
+  .media:first-child {
+    margin-top: 0; }
+
+.media {
+  overflow: hidden;
+  zoom: 1; }
+
+
+.media > .pull-right {
+  padding-left: 10px; }
+
+
+.media > .pull-left {
+  padding-right: 10px; }
+
+.panel {
+  margin-bottom: 23px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
+
+.panel > .table {
+  margin-bottom: 0; }
+  .panel > .table caption {
+    padding-right: 15px;
+    padding-left: 15px; }
+
+.panel > .table:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+  
+  .panel > .table:first-child > tbody:first-child > tr:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+    
+    .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+    .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+      border-top-left-radius: 3px; }
+    
+    .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+    .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+      border-top-right-radius: 3px; }
+
+.panel > .table:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px; }
+  .panel > .table:last-child > tbody:last-child > tr:last-child {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; }
+    .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+    .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child {
+      border-bottom-left-radius: 3px; }
+    .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+    .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child {
+      border-bottom-right-radius: 3px; }
+
+.panel > .table > tbody:first-child > tr:first-child th,
+.panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0; }
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
+  .well blockquote {
+    border-color: #ddd;
+    border-color: rgba(0, 0, 0, 0.15); }
+
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 0.2; }
+  .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 0.5; }
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none; }
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px; }
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  outline: 0; }
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5; }
+  .modal-header:before, .modal-header:after {
+    display: table;
+    content: " "; }
+  .modal-header:after {
+    clear: both; }
+
+.modal-header .close {
+  margin-top: -2px; }
+
+.modal-title {
+  margin: 0;
+  line-height: 1.4375; }
+
+.modal-body {
+  position: relative;
+  padding: 15px; }
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto; }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); } }
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: " "; }
+
+.clearfix:after {
+  clear: both; }
+
+.pull-right {
+  float: right !important; }
+
+.pull-left {
+  float: left !important; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.hidden {
+  display: none !important; }
+
+.affix {
+  position: fixed; }
+
+@-ms-viewport {
+  width: device-width; }
+
+.visible-xs {
+  display: none !important; }
+
+.visible-sm {
+  display: none !important; }
+
+.visible-md {
+  display: none !important; }
+
+.visible-lg {
+  display: none !important; }
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important; }
+  table.visible-xs {
+    display: table !important; }
+  tr.visible-xs {
+    display: table-row !important; }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important; }
+  table.visible-sm {
+    display: table !important; }
+  tr.visible-sm {
+    display: table-row !important; }
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important; }
+  table.visible-md {
+    display: table !important; }
+  tr.visible-md {
+    display: table-row !important; }
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important; } }
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important; }
+  table.visible-lg {
+    display: table !important; }
+  tr.visible-lg {
+    display: table-row !important; }
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important; } }
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important; } }
+
+.visible-print-inline {
+  display: none !important; }
+  @media print {
+    .visible-print-inline {
+      display: inline !important; } }
+
+@media print {
+  .hidden-print {
+    display: none !important; } }
+
+/*
+  WET-BOEW
+  @title: Bootstrap overrides for WET-BOEW
+ */
+/*
+ *	Link colour and decoration
+ */
+a.btn, .nav a {
+  text-decoration: none; }
+
+a {
+  text-decoration: underline; }
+  a:visited {
+    color: #7834bc; }
+  a:not([href]) {
+    color: inherit;
+    text-decoration: none; }
+    a:not([href]):hover, a:not([href]):focus {
+      color: inherit;
+      outline: none;
+      text-decoration: none; }
+
+.btn-default:visited {
+  color: #335075; }
+
+.btn-primary:visited {
+  color: #fff; }
+
+.nav > li > a:visited {
+  color: #295376; }
+
+/*
+ *	Override the design of alerts and labels
+ */
+ .label {
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0 0 0 4px; }
+
+/*
+ *	Heading top margins
+ */
+h1,
+.h1, h2,
+.h2, h3,
+.h3, h4,
+.h4, h5,
+.h5 {
+  font-weight: 700; }
+
+h1,
+.h1, h2,
+.h2 {
+  margin-top: 38px; }
+
+h3, .h3 {
+  margin-top: 32px; }
+
+h4, .h4 {
+  margin-top: 26px; }
+
+h5, .h5 {
+  margin-top: 23px; }
+
+/*
+ * Code
+ */
+code {
+  white-space: normal; }
+
+/*
+ * Adding space for definition list items
+ */
+
+/*
+ *	Firefox-safe line height on input[type="reset|button|submit"]
+ */
+input[type="reset"], input[type="button"], input[type="submit"] {
+  height: 37px; }
+  input[type="reset"].btn-lg, input[type="button"].btn-lg, input[type="submit"].btn-lg {
+    height: 46px; }
+
+/*
+ *	Blockquote font size
+ */
+blockquote {
+  font-size: 16px; }
+
+/*
+ *	Form control width
+ *
+ *	Default should be representative of the expected length of input.
+ *	Full width should be only for cases when the expected length of input is
+ *	greater than the available width.
+ */
+.form-control {
+  max-width: 100%;
+  width: auto; }
+
+/*
+ *	Fieldset/legend border position
+ *
+ *	Bootstrap puts the border below the legend which creates a visual
+ *	separation between the legend and the fields to which it relates. Putting
+ *	the border above eliminates that visual separation. Putting it on the
+ *	fieldset element instead ensures that all fieldsets will have a separation
+ *	even when no legend is used.
+ */
+legend {
+  border-bottom: 0;
+  float: left; }
+
+ .btn.disabled, .btn[disabled] {
+  border-style: solid; }
+
+/*
+ *	Pagination
+ *	  * Add left/right arrows to previous/next buttons
+ *	  * Increase size of the pagination buttons
+ *	  * Prevent contrast ratio issues on active placeholder links
+ */
+.pagination > li:first-child [rel="prev"]:before, [dir=rtl] .pagination [rel="next"]:before, .pagination > li:last-child [rel="next"]:after, [dir=rtl] .pagination [rel="prev"]:after {
+  content: " ";
+  font-family: "Glyphicons Halflings";
+  font-weight: 400;
+  line-height: 1em;
+  position: relative;
+  top: .1em; }
+
+.pagination > li:first-child [rel="prev"]:before, [dir=rtl] .pagination [rel="next"]:before {
+  content: "\e091";
+  margin-right: .5em; }
+
+.pagination > li:last-child [rel="next"]:after, [dir=rtl] .pagination [rel="prev"]:after {
+  content: "\e092";
+  margin-left: .5em; }
+
+.pagination > li > a {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: .5em;
+  padding: 10px 16px; }
+
+.pagination > li.active > a {
+  cursor: default; }
+
+.pagination > li.disabled + li > a {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+.pagination > .active {
+  color: #fff; }
+
+/*
+ *	Use button border style 'outset' to give buttons depth, except when disabled
+ */
+.btn {
+  border-style: outset;
+  /*
+	 * These two property overrides should be recommended upstream to
+	 * Bootstrap as a fix for button wrapping (see wet-boew/wet-boew#4454)
+	 */
+  height: auto;
+  min-height: 36px;
+  min-width: 36px;
+  white-space: normal; }
+
+/*
+ * btn-xs should be equal to btn-sm in >v4.0.*
+*/
+
+/*
+ *  Right-to-left support
+ */
+
+[dir=rtl] .pagination [rel="prev"] {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+[dir=rtl] .pagination [rel="next"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+[dir=rtl] .pagination > li {
+  float: right; }
+  [dir=rtl] .pagination > li.disabled + li > a {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; }
+
+caption {
+  color: #333;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center; }
+
+/* WET Core */
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ Global placeholders
+ */
+ .wb-inv, .wb-sl, #wb-lng h2, #wb-sm h2, #wb-info h2, #mb-pnl h3 {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 1px; }
+
+ .wb-sl:focus {
+  clip: rect(auto, auto, auto, auto);
+  height: inherit;
+  margin: inherit;
+  overflow: inherit;
+  position: static;
+  width: inherit; }
+
+.pagination.disabled, .pagination > li.disabled, [dir=rtl] .pagination [rel="prev"]:before, [dir=rtl] .pagination [rel="next"]:after, #mb-pnl .modal-body h2 {
+  display: none; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/* TODO: Use bootstratp placeholder when nested extends are supproted */
+
+/*! WET-BOEW Core and Plugins */
+/*
+  WET-BOEW
+  @title: Accessibility Additions to WET-BOEW
+ */
+#wb-tphp {
+  list-style-type: none;
+  margin-bottom: 0; }
+
+.wb-slc {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 100%;
+  z-index: 3; }
+
+.wb-sl {
+  padding: 5px;
+  z-index: 501; }
+
+q:before, q:after {
+  content: ""; }
+
+/*
+  WET-BOEW
+  @title: Breadcrumb CSS
+ */
+
+/*
+  WET-BOEW
+  @title: Language selector
+ */
+
+/*
+  WET-BOEW
+  @title: Ellipsis
+ */
+
+/*
+* Based upon jQuery Mobile Transitions (http://jquerymobile.com)
+*
+* Copyright 2010, 2013 jQuery Foundation, Inc. and other contributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+.pop.in {
+  opacity: 1;
+  visibility: visible; }
+
+.pop.out {
+  opacity: 0;
+  visibility: hidden; }
+
+.out {
+  display: none !important; }
+
+.pop {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%; }
+  .pop.in {
+    -webkit-animation-duration: 350ms;
+            animation-duration: 350ms;
+    -webkit-animation-name: popin;
+            animation-name: popin;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    visibility: visible; }
+  .pop.out {
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms;
+    -webkit-animation-name: fadeout;
+            animation-name: fadeout;
+    visibility: hidden; }
+
+@-webkit-keyframes popin {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes popin {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@-webkit-keyframes popout {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); } }
+
+@keyframes popout {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); } }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@-webkit-keyframes fadeoutnoheight {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    max-height: 100%; }
+  99.9999% {
+    max-height: 100%; }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0; } }
+
+@keyframes fadeoutnoheight {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    max-height: 100%; }
+  99.9999% {
+    max-height: 100%; }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0; } }
+
+.slide.out, .slide.in {
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out; }
+
+.slide.out {
+  -webkit-animation-name: slideouttoleft;
+          animation-name: slideouttoleft;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  visibility: hidden; }
+
+.slide.in {
+  -webkit-animation-name: slideinfromright;
+          animation-name: slideinfromright;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  visibility: visible; }
+
+/* keyframes for slidein from sides */
+@-webkit-keyframes slideinfromright {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+@keyframes slideinfromright {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+@-webkit-keyframes slideinfromleft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+@keyframes slideinfromleft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+/* keyframes for slideout to sides */
+@-webkit-keyframes slideouttoleft {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    visibility: hidden; } }
+@keyframes slideouttoleft {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    visibility: hidden; } }
+
+@-webkit-keyframes slideouttoright {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    visibility: hidden; } }
+
+@keyframes slideouttoright {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    visibility: hidden; } }
+
+/* slide up/down */
+
+@-webkit-keyframes slideinfromtop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@keyframes slideinfromtop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@-webkit-keyframes slideouttotop {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    visibility: hidden; } }
+
+@keyframes slideouttotop {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    visibility: hidden; } }
+
+@-webkit-keyframes slideinfrombottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@keyframes slideinfrombottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@-webkit-keyframes slideouttobottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    visibility: hidden; } }
+
+@keyframes slideouttobottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    visibility: visible; }
+  99% {
+    visibility: visible; }
+  100% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    visibility: hidden; } }
+
+/*
+  WET-BOEW
+  @title: Proximity CSS
+ */
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * HOW TO USE THIS FILE
+ * Use this file to override Bootstrap variables and WET custom variables.
+ * If there is a Bootstrap variable not shown here that you want to override, go to "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables" to view the variables that you can override. Simply copy and paste the variable and its applicable section (if applicable) from the Bootstrap file into this override file and override the variables as applicable.
+ */
+
+/*
+ *	Removes bold from elements
+ */
+
+/*
+ *	Fix for missing bullets in Chrome and Safari
+ */
+[class*=clmn-] {
+  list-style: outside;
+  padding-left: 1.3em; }
+  [class*=clmn-] > li {
+    margin-left: 1.3em; }
+
+.mrgn-lft-md {
+  margin-left: 15px; }
+
+.mrgn-bttm-0 {
+  margin-bottom: 0; }
+
+.mrgn-bttm-md {
+  margin-bottom: 15px; }
+
+.mrgn-bttm-lg {
+  margin-bottom: 30px; }
+
+.mrgn-tp-0 {
+  margin-top: 0; }
+
+.mrgn-tp-md {
+  margin-top: 15px; }
+
+.mrgn-rght-md {
+  margin-right: 15px; }
+
+/*
+ *	Fix for missing bullets in Chrome and Safari
+ */
+[class*=colcount-] {
+  list-style-position: outside;
+  padding-left: 1.3em; }
+  [class*=colcount-] > li {
+    margin-left: 1.3em; }
+
+/*
+  WET-BOEW
+  @title: List CSS
+ */
+
+/*
+  WET-BOEW
+  @title: Form additions to WET-BOEW
+ */
+label.required:before,
+legend.required:before,
+.checkbox.required:before,
+input.required[type="checkbox"]:before, label.required strong.required,
+legend.required strong.required,
+.checkbox.required strong.required,
+input[type="checkbox"].required strong.required {
+  color: #d3080c;
+  font-weight: 700; }
+
+label.required:before,
+legend.required:before,
+.checkbox.required:before,
+input[type="checkbox"].required:before {
+  content: "* ";
+  margin-left: -0.665em; }
+
+[dir=rtl] label.required:before,
+[dir=rtl] legend.required:before {
+  margin-left: auto;
+  margin-right: -0.665em; }
+
+/*
+  WET-BOEW
+  @title: Details/summary CSS
+ */
+summary {
+  cursor: pointer; }
+  summary:hover, summary:focus {
+    background: #ddd;
+    color: #000; }
+  summary > :first-child {
+    display: inline; }
+
+details {
+  padding-left: 1.1em;
+  padding-right: 1.1em; }
+  details > summary {
+    margin-left: -1.1em;
+    margin-right: -1.1em; }
+  details[open] {
+    padding-bottom: 1em; }
+
+/*
+ Plugins
+ */
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ *	Dismissable content container
+ */
+
+/*
+ *	Dismissable content wrapper
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * HOW TO USE THIS FILE
+ * Use this file to override Bootstrap variables and WET custom variables.
+ * If there is a Bootstrap variable not shown here that you want to override, go to "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables" to view the variables that you can override. Simply copy and paste the variable and its applicable section (if applicable) from the Bootstrap file into this override file and override the variables as applicable.
+ */
+
+/* Right to left (RTL) SCSS */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * HOW TO USE THIS FILE
+ * Use this file to override Bootstrap variables and WET custom variables.
+ * If there is a Bootstrap variable not shown here that you want to override, go to "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables" to view the variables that you can override. Simply copy and paste the variable and its applicable section (if applicable) from the Bootstrap file into this override file and override the variables as applicable.
+ */
+/* Magnific Popup CSS */
+
+.mfp-hide {
+  display: none !important; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* Main image in popup */
+
+/* The shadow behind the image */
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */ }
+
+.modal-dialog {
+  left: auto;
+  padding: 0;
+  position: relative; }
+
+.modal-content {
+  background: transparent; }
+
+.modal-body {
+  background: #fff; }
+
+/* Should fix upstream in Magnific Popup rather than overriding in WET */
+/* Should fix upstream in Magnific Popup rather than overriding in WET */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * Menu Sass
+ */
+
+ #mb-pnl nav {
+  padding: 10px 20px 8px; }
+
+#mb-pnl nav a {
+  display: inline-block;
+  margin: 6px 0 6px -6px;
+  padding: 0 6px;
+  width: 100%; }
+
+#mb-pnl nav summary {
+  padding-left: 3px; }
+
+#mb-pnl details[open] {
+  padding-bottom: 0; }
+
+#mb-pnl details ul {
+  padding-left: 1.2em; }
+
+#mb-pnl details details {
+  margin: 6px 0 6px -1.28em; }
+
+[dir=rtl] #mb-pnl nav a {
+  margin-left: 0;
+  margin-right: -6px; }
+
+[dir=rtl] #mb-pnl nav summary {
+  margin-left: 0;
+  margin-right: -3px;
+  padding-left: 0;
+  padding-right: 3px; }
+
+[dir=rtl] #mb-pnl details ul {
+  padding-left: 0;
+  padding-right: .7em; }
+
+/*
+  Multimedia Player Code
+ */
+
+.wb-mm-ctrls .btn:focus, .wb-mm-ctrls progress:focus, .wb-mm-ctrls input:focus[type=range] {
+  outline: 1px solid #4aafff; }
+
+.wb-mm-cc {
+  max-height: 0;
+  padding: 0; }
+
+.wb-mm-cc:before, .wb-mm-cc div {
+  display: table-cell;
+  height: 3em;
+  vertical-align: middle; }
+
+.wb-mm-cc {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: all .26s ease;
+  transition: all .26s ease;
+  width: 100%; }
+  .wb-mm-cc:before {
+    content: " "; }
+
+.wb-mm-ctrls .frstpnl, .wb-mm-ctrls .lastpnl, .wb-mm-ctrls .tline {
+  display: table-cell;
+  vertical-align: middle; }
+
+.wb-mm-ctrls {
+  background: #3e3e3e;
+  color: #fff;
+  display: table;
+  padding-top: 2em;
+  position: relative;
+  width: 100%;
+  /* Progress Bar */
+  /* Slider polyfill styles */ }
+  .wb-mm-ctrls .btn {
+    background: transparent;
+    border: 0;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    color: #fff;
+    font-size: 130%; }
+  .wb-mm-ctrls .frstpnl {
+    text-align: center;
+    width: 13em; }
+  .wb-mm-ctrls .lastpnl {
+    text-align: center;
+    width: 3em; }
+  .wb-mm-ctrls .tline .wb-mm-tmln-crrnt:after {
+    content: " / ";
+    padding: 0 .5em; }
+  .wb-mm-ctrls .wb-mm-txtonly {
+    padding: 0 1em; }
+    .wb-mm-ctrls .wb-mm-txtonly p {
+      display: inline; }
+  .wb-mm-ctrls .wb-mm-txtonly,
+  .wb-mm-ctrls .wb-mm-prgrss {
+    display: table-cell;
+    vertical-align: middle; }
+  .wb-mm-ctrls progress {
+    /* Important Thing */
+    -webkit-appearance: none;
+    background: #fff;
+    background-clip: padding-box;
+    border: 7px solid #3e3e3e;
+    border-radius: 14px;
+    color: #176ca7;
+    display: block;
+    height: 30px;
+    left: 0;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .wb-mm-ctrls progress::-webkit-progress-bar {
+      background: #fff; }
+    .wb-mm-ctrls progress::-webkit-progress-value {
+      background: #176ca7;
+      border-radius: 7px; }
+    .wb-mm-ctrls progress::-moz-progress-bar {
+      background: #176ca7;
+      border-radius: 7px; }
+  .wb-mm-ctrls .progress {
+    height: 22px; }
+  .wb-mm-ctrls input[type=range] {
+    -webkit-appearance: none;
+    background: transparent;
+    display: inline-block;
+    height: 2.5em;
+    padding: 0;
+    width: 7em; }
+    .wb-mm-ctrls input[type=range]:focus {
+      /* Prevent Webkit/Blink browsers from defaulting to a -2px outline offset. */
+      outline-offset: 0; }
+    .wb-mm-ctrls input[type=range]::-webkit-slider-runnable-track {
+      background: #aaa;
+      height: 4px; }
+    .wb-mm-ctrls input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      background: #fff;
+      border: 1px solid #707070;
+      -webkit-box-sizing: content-box;
+              box-sizing: content-box;
+      height: 1.3em;
+      margin-top: -9px;
+      width: 10px; }
+    .wb-mm-ctrls input[type=range]::-moz-range-track {
+      background: #aaa;
+      border: 0; }
+    .wb-mm-ctrls input[type=range]::-moz-range-thumb {
+      background: #fff;
+      border: 1px solid #707070;
+      border-radius: 0;
+      height: 1.3em;
+      width: 10px; }
+    .wb-mm-ctrls input[type=range]::-ms-track {
+      border: 0;
+      color: transparent;
+      height: 4px; }
+    .wb-mm-ctrls input[type=range]::-ms-fill-upper {
+      background: #aaa; }
+    .wb-mm-ctrls input[type=range]::-ms-fill-lower {
+      background: #aaa; }
+    .wb-mm-ctrls input[type=range]::-ms-thumb {
+      background: #fff;
+      border: 1px solid #707070;
+      height: 1.3em;
+      width: 10px; }
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ *	Overlay base
+ */
+
+/*
+ *	Overlay styles
+ */
+
+/*
+ *	Overlay parts
+ */
+.overlay-def {
+  overflow-y: auto; }
+  .overlay-def header {
+    background-color: #2e5274;
+    color: #fff;
+    display: block;
+    padding: 0 44px 0 1em; }
+  .overlay-def .modal-title {
+    font-size: 1.15em;
+    padding: 10px 0; }
+
+[dir=rtl] .overlay-def header {
+  padding: 0 1em 0 44px; }
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/* Pretty printing styles. Used with prettify.js. */
+/* SPAN elements with the classes below are added by prettyprint. */
+/* plain text */
+
+/* Right to left (RTL) CSS */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+[dir=rtl] .email:before {
+  margin-left: .6em;
+  margin-right: auto; }
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licence-fra.html
+ */
+
+/*
+ * Table styles
+ */
+
+/*
+ * Control feature layout
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licence-fra.html
+*/
+
+/**
+ * Openlayer pan zoom bar button
+ */
+
+/*
+ * When a potential text is bigger than the image it move the image
+ * with some headers (closes #3154)
+ */
+
+/**
+ * Cursor styles
+ */
+
+/**
+ * Animations
+ */
+
+/**
+ * GeoMap
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ Polyfills
+ */
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+  WET-BOEW
+  @title: Details/summary polyfill pre-Modernizr CSS
+ */
+summary {
+  display: list-item !important;
+  list-style-type: none;
+  list-style-type: disclosure-closed;
+  visibility: visible !important; }
+
+details:not([open]) details summary, details .out details summary {
+  display: none !important; }
+
+details {
+  margin-bottom: .25em; }
+  details summary {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #295376;
+    padding: 5px 15px; }
+    details summary:focus, details summary:hover {
+      background-color: transparent;
+      color: #0535d2;
+      text-decoration: underline; }
+    details summary:focus {
+      outline-style: dotted;
+      outline-width: 1px; }
+  details[open] {
+    border: 1px solid #ddd;
+    border-radius: 4px; }
+    details[open] > summary {
+      border: 0;
+      border-bottom: 1px solid #ddd;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      list-style-type: disclosure-open;
+      margin-bottom: .25em; }
+  details:not([open]) {
+    visibility: hidden; }
+    details:not([open]) > details,
+    details:not([open]) > * {
+      display: none; }
+
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+
+/*
+ Views
+ */
+/* All screen views */
+@media screen {
+  /*
+  WET-BOEW
+  @title: All screen views
+ */
+  /* Hide MathML check */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /* Pretty printing styles. Used with prettify.js. */
+   .var {
+    color: #606; }
+  /* string content - from #080 */
+  /* a keyword - from #008 */
+  /* a comment */
+  .com {
+    color: #800; }
+  /* a type name */
+  /* a literal value */
+  .lit {
+    color: #066; }
+  /* punctuation, lisp open bracket, lisp close bracket */
+  /* a markup tag name - from #008 */
+  .tag {
+    color: #125b7e; }
+  /* a markup attribute name */
+  /* a markup attribute value - from #080 */
+  /* a declaration */
+  /* a variable name */
+  /* a function name */
+  .fun {
+    color: #f00; }
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /**
+ * Screen-only styles
+ */ }
+
+/* Extra-small view and under */
+@media screen and (max-width: 767px) {
+  /*
+  WET-BOEW
+  @title: Extra-small view and under (screen only)
+ */ }
+
+/* Small view and under */
+@media screen and (max-width: 991px) {
+  /*
+  WET-BOEW
+  @title: Small view and under (screen only)
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /**
+ * Mobile-friendly styles
+ */ }
+
+/* Medium view and under */
+@media screen and (max-width: 1199px) {
+  /*
+  WET-BOEW
+  @title: Medium view and under (screen only)
+ */ }
+
+/* Large view and under */
+@media screen and (max-width: 1599px) {
+  /*
+  WET-BOEW
+  @title: Large view and under (screen only)
+ */ }
+
+/* Extra-small view and over */
+@media screen and (min-width: 480px) {
+  /*
+  WET-BOEW
+  @title: Extra-small view and over (screen only)
+ */
+  /*
+  WET-BOEW
+  @title: Proximity CSS - Extra-small view and over
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  #mb-pnl {
+    min-width: 300px; }
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */ }
+
+/* Small view and over */
+@media screen and (min-width: 768px) {
+  /*
+  WET-BOEW
+  @title: Small view and over (screen only)
+ */
+  /*
+  WET-BOEW
+  @title: Proximity CSS - Small view and over
+ */ }
+
+/* Medium view and over */
+@media screen and (min-width: 992px) {
+  /*
+  WET-BOEW
+  @title: Medium view and over (screen only)
+ */
+  /*
+  WET-BOEW
+  @title: Proximity CSS - Medium view and over
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */ }
+
+/* Large view and over */
+@media screen and (min-width: 1200px) {
+  /*
+  WET-BOEW
+  @title: Large view and over (screen only)
+ */
+  /*
+  WET-BOEW
+  @title: Proximity CSS - Medium view and over
+ */ }
+
+/* Extra-extra-small view */
+@media screen and (max-width: 479px) {
+  /*
+  WET-BOEW
+  @title: Extra-extra-small view (screen only)
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  #mb-pnl {
+    min-width: 65%; }
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */ }
+
+/* Extra-small view */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /*
+  WET-BOEW
+  @title: Extra-small view (screen only)
+ */ }
+
+/* Small view */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /*
+  WET-BOEW
+  @title: Small view (screen only)
+ */ }
+
+/* Medium view */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /*
+  WET-BOEW
+  @title: Medium view (screen only)
+ */ }
+
+/* Large view */
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+  /*
+  WET-BOEW
+  @title: Large view (screen only)
+ */ }
+
+/* Extra-large view */
+@media screen and (min-width: 1600px) {
+  /*
+  WET-BOEW
+  @title: Extra-large view (screen only)
+ */
+  /*
+  WET-BOEW
+  @title: Proximity CSS - Medium view and over
+ */ }
+
+/* Print view */
+@media print {
+  /*
+  WET-BOEW
+  @title: Print view
+ */
+  a[href]:after {
+    content: none; }
+  #wb-tphp {
+    display: none; }
+  /*
+  WET-BOEW
+  @title: Breadcrumb print CSS overrides
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licence-fra.html
+*/
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /*
+  Multimedia Player Code (print view)
+ */
+  .wb-mm-ctrls {
+    display: none; }
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /**
+ * Print styles
+ */
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /* Use higher contrast and text-weight for printable form. */
+   .tag {
+    font-weight: 700; }
+   .tag {
+    color: #006; }
+  .com {
+    color: #600;
+    font-style: italic; }
+  .lit {
+    color: #044; }
+  /*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+  /**
+ * Print styles
+ */ }
+
+/*
+ Views
+ */
+/* All screen views */
+@media screen {
+  /*
+ *
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ *
+ */
+  /*
+  @title: All screen views - Splash page
+ */
+  header {
+    margin-top: 1.2em; } }

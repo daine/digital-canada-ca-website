@@ -1,0 +1,19 @@
+base-url: "http://digital.canada.ca"
+email: cds-snc@tbs-sct.gc.ca
+youtube: cds
+github: cds-snc
+linkedin: cds-snc
+medium:
+  en:
+    name: Canadian Digital Service (CDS)
+    url: "https://medium.com/@canadiandigitalservice"
+  fr:
+    name: Service numérique canadien (SNC)
+    url: "https://medium.com/@servnumcanadien" 
+mailchimp:
+  en:
+    name: CDS Newsletter
+    url: "https://us15.campaign-archive.com/home/?u=729a207773f7324e217a1d945&id=eb357181d2"
+  fr:
+    name: SNC Infolettre
+    url: "https://us15.campaign-archive.com/home/?u=729a207773f7324e217a1d945&id=5fe89f4d28"

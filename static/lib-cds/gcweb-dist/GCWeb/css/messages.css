@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*!
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ * v5.1.0-development - 2019-04-10
+ *
+ */
+@charset "UTF-8";
+/*
+ Global variables for GCWeb
+ */
+/*
+Left menu variables
+*/
+/*
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
+ */
+/*
+ * HOW TO USE THIS FILE
+ * Use this file to override Bootstrap variables and WET custom variables.
+ * If there is a Bootstrap variable not shown here that you want to override, go to "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables" to view the variables that you can override. Simply copy and paste the variable and its applicable section (if applicable) from the Bootstrap file into this override file and override the variables as applicable.
+ */
+
+.error .box {
+  background-color: #e1e4e7;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 30px; }
+
+.error .h1 {
+  border: medium none;
+  font-size: 27px;
+  margin-bottom: .2em;
+  padding-bottom: .2em; }
+  .error .h1 img {
+    margin-right: 10px; }
+
+.error .tofpg {
+  line-height: 2em;
+  margin-top: 18px; }
+  .error .tofpg span {
+    margin-left: 0;
+    margin-right: 15px; }

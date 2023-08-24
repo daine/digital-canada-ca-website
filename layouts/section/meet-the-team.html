@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{ .Content }}
+<section class="section our-team--listing">
+
+  <div class="meet-us-container container">
+    <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+      <h2 class="heading">{{ i18n "leadership" }}</h2>
+    </div>
+    <div class="row team-listing wb-eqht ">
+    {{ range $member := .Site.Data.team.exec }}
+        {{ partial "meet-the-team-partials.html" (dict "team" $member "lang" (string ( $.Site.Language) ) )}}
+    {{end}}
+    </div>
+
+    {{$category := slice}}
+    {{ range $member := .Site.Data.team.team }}
+      {{ $v1 := not (isset $member "archived") }}
+      {{ if or ($v1) (eq $member.archived false) }}
+        {{$r1 := index $member.title (string ( $.Site.Language) )}}
+        {{$category = $category | append $r1}}
+      {{end}}  
+    {{ end }}
+    {{$category = uniq $category}}
+
+    {{ range sort $category }}
+      {{ $role := .}}
+      <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+        <h2 class="heading">{{ $role }}</h2>
+      </div>
+      <div class="row team-listing wb-eqht ">
+        {{$lang := ""}}
+        {{if (eq $.Site.Language.Lang "en")}}
+          {{$lang = "title.en"}}
+        {{else}}
+          {{$lang = "title.fr"}} 
+        {{end}}
+
+        {{$teamArr := slice}}
+        {{range where $.Site.Data.team.team $lang $role}}
+          {{$teamArr = $teamArr | append .}}
+        {{end}}
+
+        {{range $teamMember := $teamArr}}
+          {{ partial "meet-the-team-partials.html" (dict "team" $teamMember "lang" (string ( $.Site.Language) ) )}}
+        {{end}}  
+        </div>
+    {{end}}
+  </div>
+</section>
+{{ end }}

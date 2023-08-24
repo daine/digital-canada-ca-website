@@ -1,0 +1,161 @@
+{{ define "main" }}
+<div class="container job-postings-container">
+
+  <section class="padding">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+        {{ if and (.Params.leverId) (eq .Params.archived false) }}
+          <a href="#apply-now">Apply now</a>
+        {{end}}
+        {{ if and (.Params.leverId) (eq .Params.archived true) }}
+        <div class="job-posting-banner">
+          <p>We're no longer accepting applications for this position. To see a list of active job postings, please visit our <a style="color: black;" href="/careers/">Careers page</a>.</p>
+        </div>
+        
+        {{ end }}
+        <div class="content">
+          {{.Content}}
+        </div>
+        <div>
+          <h2 class="h2-font-weight">Work anywhere in Canada</h2>
+          <p>CDS is a fully distributed team. This job can be performed from anywhere in Canada.</p>
+          <p>
+            <a href="https://www.canada.ca/en/public-service-commission/services/assessment-accommodation-page.html"
+              rel="external">Assessment
+              accommodation<img src="/img/icons/assessment-accomodation.svg" alt="external link" /></a>
+          </p>
+
+          <p>Out of an abundance of caution, all interviews will be conducted via video or teleconference for the
+            foreseeable future.</p>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+</div>
+<!-- HIRING PROCESS -->
+
+<div class="hiring-process">
+  <div class="container job-postings-container">
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+        <p class="cds-title">At CDS, we welcome and invite difference.</p>
+        <p>We proudly, passionately, and actively strive to make CDS more reflective of the society that we serve. We
+          will only be able to deliver better, more accessible, and more inclusive public services if we harness diverse
+          thoughts, experiences, and skills. We work hard to create an environment where different perspectives and
+          experiences are valued. We are committed to helping diverse talent thrive.</p>
+        <p>CDS welcomes all applicants, including Veterans and people of all races, ethnicities, religions, sexual
+          orientations, gender identities and expressions, national origins, disabilities, ages, body sizes and
+          including those with diverse households and family commitments. We are committed to providing an inclusive and
+          barrier-free work environment, starting with the hiring process. If you need to be accommodated during any
+          phase of the evaluation process, please use the Contact information below to request specialized
+          accommodation. All information received in relation to accommodation will be kept confidential.</p>
+        <p>A pool of qualified persons resulting from this process MAY be created and MAY be used to fill similar positions, with linguistic profiles (english essential, bilingual imperative BBB/BBB, bilingual imperative CBC/CBC, as well as tenures (indeterminate, deployment, acting, assignment, secondment, specified period) which may vary according to the position being staffed.</p>
+        <div class="cta__link black">
+
+          <a href="/careers/">More about our hiring process<img src="/img/icons/arrow-right-white.svg" role="presentation" alt=""/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="apply-now" class="row work-with-us--apply-now container">
+  {{ if and (.Params.leverId) (eq .Params.archived false) }}
+  <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+    <h2>Apply now</h2>
+    <form enctype="multipart/form-data" class="text-left" id="contactForm">
+      <input type="hidden" id="jobId" name="jobId" value="{{.Params.leverId}}" />
+      <!-- Full Name -->
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" class="form-control validate-required" id="name" name="name" aria-required="true"
+          aria-describedby="name-required" />
+        <span id="name-required" class="error-message validate-required-message" style="display: none;">This field
+          is required</span>
+      </div>
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" class="form-control validate-required validate-email" id="email"
+          aria-required="true" aria-describedby="email-required" />
+        <span id="email-required" class="error-message validate-required-message" style="display: none;">This field
+          is required</span>
+      </div>
+
+      <!-- Resume -->
+
+      
+      <div class="form-group">
+        <label for="resume">Resume
+          <div class="browse">
+            <div>Browse...
+              <input class="resume" type="file" id="resume" name="resume"
+                accept="application/msword, application/pdf, text/plain" required  />
+            </div>
+
+          </div>
+        </label>
+      
+        <span class="no-file-chosen" id="no-file-chosen-text">No file selected</span>
+
+      </div>
+
+      <!-- Body -->
+
+      <div class="form-group">
+        <label for="body">Tell us in 300 words or less why you want to work with us and,
+          if applicable, what we should know about your
+          work samples</label>
+        <textarea class="form-control validate-required validate-maxwords" id="body" name="body" rows="5"
+          aria-required="true" aria-describedby="body-required word-count-message"></textarea>
+        <span id="body-required" class="error-message validate-required-message" style="display: none;">This field
+          is required<br />
+        </span>
+        <span id="word-count-message" class="help-text">
+          <span id="word-count">300</span> words remaining</span>
+
+      </div>
+      <!-- Samples of your work -->
+      <div class="form-group">
+        <label for="samples">Samples of your work<span class="alt-label"> (optional)</span></label>
+        <div>
+          <span class="url">URLs, please!</span>
+
+        </div>
+
+        <textarea class="form-control" id="samples" name="samples" rows="5"></textarea>
+      </div>
+
+      <!-- How did you hear about this job-->
+      <div class="form-group">
+        <label style="margin-bottom: 1rem;" for="talent_tracking">How did you hear about this job posting?</label>
+        <input type="text" class="form-control validate-required" name="talent_tracking" id="talent_tracking" aria-required="true" aria-describedby="talent-tracking-required"/>
+        <span id="talent-tracking-required" class="error-message validate-required-message" style="display: none;">This field
+          is required</span>
+      </div>
+      <!-- Submit-->
+      <div>
+        <button type="submit" class="submit-button" id="submit-btn">
+          <span class="submit-button-text">Submit<img src="/img/icons/arrow-right-white.svg" role="presentation" alt=""/></span>
+        </button>
+      </div>
+      <div class="privacy-link">
+        <a href="/legal/privacy/">Privacy Notice</a>
+      </div>
+
+
+    </form>
+  </div>
+  {{end}}
+</div>
+
+
+
+{{ end }}

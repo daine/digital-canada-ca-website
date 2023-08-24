@@ -1,0 +1,82 @@
+{{define "title"}}
+  {{partial "menu.html" . }}
+  {{ with .Params.imagealt }}
+  <div class="page-banner" role="img" aria-label="{{ .Params.imagealt }}" style="background-image: url('{{ .Params.image }}')"></div>
+  {{ else }}
+  <div class="page-banner" style="background-image:url('{{ .Params.image }}')"></div>
+  {{ end }}
+{{end}}
+
+{{define "main"}}
+  <!-- <div class="container"> -->
+  <section class="blog-single">
+    <div class="row">
+      <div class="">
+        {{ with index .Params "image-translation" }}
+          <div class="header-translation"><strong>Traduction&nbsp;:&nbsp;</strong>{{ index .Params "image-translation" }}</div>
+        {{ end }}
+
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="post-header">
+                <div class="post-title-container">
+                  <div class="container">
+                    <span class="blogpost-pretitle">
+                      <a href="/blog/">{{i18n "blog"}} /</a>
+                    </span>
+                    <h1>{{ .Params.title | markdownify }}</h1>
+                  </div>
+                </div>
+                <div class="container">
+                  <p class="post-meta">
+                    <time datetime="{{ .Params.date }}" itemprop="datePublished">
+                    {{ if eq .Lang "en" }}
+                      {{ .Date.Format "Jan 2, 2006" }}
+                    {{ end }}
+
+                    {{ if eq .Lang "fr" }}
+                      {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                    {{ end }}
+                    </time>
+                    <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                      <span itemprop="name">{{ .Params.author }}</span>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="container">
+              <div class="post-content" itemprop="articleBody">
+                  {{ .Content }}
+              </div>
+          </div>
+        </article>
+        <div class="previous-next-nav">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-6 pull-left text-left">
+                {{with .NextInSection }}
+                <a href="{{ .RelPermalink }}"><span class="wb-inv">:</span>
+                  <span class="fas fa-arrow-circle-left"></span>
+                  {{i18n "next-post"}}
+                  <div class="nav-post-title nav-post-title-right">{{ .Params.title | markdownify }}</div>
+                </a>
+                {{ end }}
+              </div>
+    
+              <div class="col-xs-6 pull-right text-right">
+                {{with .PrevInSection }}
+                <a href="{{ .RelPermalink }}">
+                  {{i18n "previous-post"}}
+                  <span class="fas fa-arrow-circle-right"></span>
+                  <span class="wb-inv">:</span>
+                  <div class="nav-post-title nav-post-title-left">{{ .Params.title | markdownify }}</div>
+                </a>
+                {{end}}
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+        </section>
+  <!-- </div> -->
+{{ end }}
