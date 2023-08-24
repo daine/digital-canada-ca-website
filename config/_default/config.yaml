@@ -1,0 +1,80 @@
+DefaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+sitemap:
+  filename: sitemap.xml
+languages:
+  en:
+    baseUrl: https://digital.canada.ca/
+    contentDir: content/en
+    lang: en
+    languageName: English
+    title: Blog
+    Paginate: 6
+    frontmatter:
+      date: [":filename", ":default"]
+    permalinks:
+      blog: /:year/:month/:day/:filename
+      work-with-us: /:title
+    weight: 1
+    menu:
+      main:
+        - identifier: careers
+          name: Careers
+          url: /careers/
+          weight: 1
+        - identifier: blog
+          name: Blog
+          url: /blog/
+          weight: 2
+      dropdown:
+        - identifier: coaching-and-advice
+          name: Coaching and advice
+          url: /coaching-and-advice/
+          weight: 1
+        - identifier: product-suite
+          name: Product suite
+          url: /product-suite/
+          weight: 2
+        - identifier: guides
+          name: Guides
+          url: /guides/
+          weight: 3      
+  fr:
+    baseUrl: https://numerique.canada.ca/
+    contentDir: content/fr
+    lang: fr
+    languageName: Francais
+    title: Blogue
+    Paginate: 6
+    weight: 2
+    frontmatter:
+      date: [":filename", ":default"]
+    permalinks:
+      blog: /:year/:month/:day/:filename
+      work-with-us: /:title
+    menu:
+      main:
+        - identifier: carrieres
+          name: Carrières
+          url: /carrieres/
+          weight: 1
+        - identifier: blogue
+          name: Blogue
+          url: /blogue/
+          weight: 2
+      dropdown:
+          - identifier: encadrement-et-conseil
+            name: Encadrement et conseil
+            url: /encadrement-et-conseil/
+            weight: 1
+          - identifier: suite-de-produits
+            name: Suite de produits
+            url: /suite-de-produits/
+            weight: 2
+          - identifier: guides
+            name: Guides
+            url: /guides/
+            weight: 3       
+outputs:
+  home : [HTML, RSS, JSON]
+  page : HTML         

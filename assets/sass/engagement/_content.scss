@@ -1,0 +1,132 @@
+@media screen {
+
+    .engagement-report {
+
+        .engagement-report-section {
+            @media screen and (min-width: 500px) {
+                margin: 5rem auto;
+                max-width: 61rem;
+            }
+        }
+        // Base font styles
+        font-size: 1.8rem;
+
+        // Quotes
+        blockquote { font-size: inherit; }
+
+        // List base styles
+        ul, ol             { margin-bottom: 1em; }
+        ul                 { list-style: outside disc; }
+        li + li,
+        li ul:first-child  { margin-top: 0.75em; }
+
+        // Photo Caption
+        .caption {
+            font-size: 1.4rem;
+            color: #676767;
+        }
+
+        // Date
+        .date {
+            border-left: #000 5px solid;
+            padding-left: 1.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        // Paragraphs
+        p {
+            margin-bottom   : 1em;
+            margin-top      : 1em;
+
+            &:first-child { margin-top: 0; }
+        }
+
+        p, li, blockquote {
+            line-height     : 1.5;
+        }
+
+        // Heading Styles
+        h3 { margin-bottom: 0.8em; }
+
+        // Comment side Pannels
+        .comment-panel {
+            background-color : #333;
+            border-bottom    : 4px solid #1a3346;
+            color            : #fff;
+            margin-bottom    : 20px;
+            padding          : 20px;
+
+            @media screen and (min-width: 810px) and (max-width: 1029px) {
+                margin-left: -6rem;
+                margin-right: -6rem;
+            }
+
+            p {font-size: 1.6rem; margin: 0;}
+
+            a {
+                color: #b6cce8;
+
+                &:visited { color: #d3bde8; }
+              }
+
+            // Section specific comment panels
+            &.section--engagement {
+                background-color: $engagement-color !important;
+                border-color: darken($engagement-color, 10%);
+            }
+
+            &.section--organizing {
+                background-color: $organizing-color !important;
+                border-color: darken($organizing-color, 10%);
+            }
+
+            &.section--talent {
+                background-color: $talent-color !important;
+                border-color: darken($talent-color, 10%);
+            }
+
+            &.section--design {
+                background-color: $design-color !important;
+                border-color: darken($design-color, 10%);
+            }
+
+            &.section--foundations {
+                background-color: $foundations-color !important;
+                border-color: darken($foundations-color, 10%);
+            }
+
+            &.section--your-thoughts {
+                background-color: $yourthoughts-color !important;
+                border-color: darken($primary-color, 10%);
+            }
+
+
+        } // END .comment-pannel
+
+        .comment-panel-right {
+            @media screen and (min-width: 1030px) {
+                float: right;
+                margin-right: -20rem;
+                max-width: 31rem;
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+
+            @media screen and (min-width: 1210px) { margin-right: -22rem; }
+        }
+
+        .comment-panel-left {
+            @media screen and (min-width: 1030px) {
+                float: left;
+                margin-left: -20rem;
+                max-width: 31rem;
+                margin-right: 40px;
+                margin-top: 5px;
+            }
+
+            @media screen and (min-width: 1210px) { margin-left: -22rem; }
+        }
+
+    } // END .engagement-report
+} // END @media(screen)

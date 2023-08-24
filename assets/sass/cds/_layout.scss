@@ -1,0 +1,500 @@
+////////////////////////////////////////////////////////////
+//
+// Canada Top Back Bar Header
+//
+////////////////////////////////////////////////////////////
+
+#fip {
+  background-color: $black;
+  padding: 1.15rem;
+  line-height: 0;
+
+  @include tablet {
+    padding: 1.5rem 2rem;
+  }
+
+  .logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    z-index: 1;
+    height : 1.5rem;
+
+    // BILINGUAL SPECIFIC CDS LOGO
+    &.en {
+      background-image: url("../img/cds/goc--header-logo.svg");
+    }
+    &.fr {
+      background-image: url("../img/cds/goc--header-logo-fr.svg");
+    }
+
+    @include tablet {
+      height: 2rem;
+    }
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .fip-logo:after {
+    bottom: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  // Language Selector
+  #wb-lng {
+    padding-top: 0 !important;
+  }
+
+  .lang {
+    display: block;
+    text-align: right;
+    width: 100%;
+    color: $white;
+
+    a {
+      display: inline-block;
+      color: $white;
+      display: inline-block;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-top: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      padding-bottom: 1rem;
+      border-bottom: #000 1px solid;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        border-bottom: #CCC 1px solid;
+      }
+
+      @include desktop {
+        font-weight: 200;
+        font-size: 2rem;
+      }
+
+      @include tablet {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////
+//
+// TOP PAGE BANNER
+//
+////////////////////////////////////////////////////////////
+
+#wb-sm {
+  background: none;
+  position: relative;
+  border-bottom: 6px solid $black;
+  padding-bottom: 20px;
+}
+
+.page-banner {
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+
+  // height: 12rem;
+  position: relative;
+
+  @include mobile_only {
+    border-top: 15px solid $black;
+  }
+
+  .page-blogpost & {
+    height: 25rem;
+
+    @include tablet {
+      height: 30rem;
+    }
+
+    @include desktop {
+      height: 40rem;
+    }
+  }
+}
+
+.h1 {
+  width: calc(70% - (15px / 2));
+
+  @include mobile_only {
+    width: 100%;
+  }
+}
+
+.page-banner--title {
+  display: block;
+  font-weight: 100;
+  text-align: left;
+  width: 100%;
+  padding: 35px 0 25px 0;
+
+  h1 {
+    border-bottom: none;
+    font-size : 4.6rem;
+    color: #333;
+    font-weight: 100;
+    margin: 1.5rem;
+    padding: 0;
+  }
+}
+
+main {
+  position: relative;
+  z-index: 0;
+}
+
+// Generic page styles
+blockquote{
+  border-left: 5px solid $primary-color;
+}
+
+hr {
+  border: 0.5px solid $medium-grey;
+  margin: 30px 0;
+}
+
+// Research page styles
+.research-page-contact {
+  margin-bottom: 23px;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Exposure Notification privacy policy styles
+.en-privacy-policy {
+  .section--title {
+    text-align: left;
+  }
+
+  .section--title::after {
+    content: none;
+  }
+}
+
+// Universal style for tables
+table,
+td,
+th {
+  border: 1px solid $icon-grey;
+}
+
+table {
+  display: table;
+  width: 100%;
+  margin: 25px 0;
+}
+
+th {
+  color: $white;
+  background-color: $icon-grey;
+  font-weight: 500;
+}
+
+td, th {
+  padding: 10px 20px;
+  vertical-align: top;
+}
+
+td {
+  font-weight: 100;
+  color: $icon-grey;
+}
+
+th,
+td {
+  // same base styles as p, main ul, main ol
+  font-size: 1.75rem;
+
+	@include tablet {
+		font-size: 2rem;
+	}
+
+	@include desktop {
+		font-size: 2.25rem;
+		line-height: 3.5rem;
+		margin-bottom: 2.75rem;
+	}
+}
+
+// Style for text image wrap in blog posts
+
+.flex-blog {
+  display: flex;
+  flex-direction: row;
+
+  @include mobile_only {
+    display: block;
+  }
+
+  .flex-text {
+    width: 65%;
+    margin-right: 15px;
+    @include mobile_only {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  .flex-image {
+    width: 35%;
+    height: 100%;
+
+    @include mobile_only {
+      width: 80%;
+      margin: 20px 0;
+    }
+
+  }
+}
+
+// Style for Field Note tables (in our Blog section)
+.field-note {
+  .bold {
+    font-weight: 500;
+  }
+ }
+
+ .logo-field-note {
+  background-image: url("../img/cds/cds-logo-en-v2.svg");
+ }
+
+ .logo-field-note-fr {
+  background-image: url("../img/cds/cds-logo-fr-v2.svg");
+ }
+
+ .logo-field-note,
+ .logo-field-note-fr {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-right: 10px;
+ }
+
+ .field-note-title {
+  background-color: $action-orange;
+  border: none;
+ }
+
+ .page-blogpost .field-note-header {
+  background-color: $action-orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: none;
+  padding-top: 15px;
+  color: $black;
+
+  h2 {
+    font-size: 1.85em;
+    margin-bottom: 0;
+  }
+ }
+
+ .page-blogpost .field-note-subheader {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  h3 {
+    font-size: 1.85rem;
+  }
+ }
+
+ .unbold {
+  font-weight: 100;
+ }
+
+ .field-note-img {
+  max-width: 70%;
+  margin: 15px 0;
+ }
+
+// Style for Diary (in our Blog section)
+.diary-entry {
+  display: inline-block;
+  position: relative;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #888;
+  padding: 30px 30px 30px 100px;
+
+  @include mobile_only {
+    padding: 0px 20px;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  td, th {
+    border: 1px solid transparent;
+  }
+
+  .diary-img {
+    width: 30%;
+  }
+ }
+
+ .diary-entry:before{
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 80px;
+  background: radial-gradient(#575450 10px, transparent 7px) repeat-y;
+  background-size: 70px 70px;
+  border-right: 3px solid #D44147;
+  box-sizing: border-box;
+
+  @include mobile_only {
+    display: none;
+  }
+ }
+
+
+// Style for circle arrow icon turning right (featured beside links in different sections of the homepage)
+.fa-arrow-circle-right {
+  margin-left: 0.5rem;
+}
+
+// Canada Footer
+#goc-footer{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #262A2D;
+  margin-bottom: -23px;
+
+  nav { padding: 0.5rem 0 0 0 !important; }
+}
+
+
+.goc-footer--links {
+  ul {
+    margin: 0;
+    padding-left: 0px;
+    text-align: center;
+
+    @include tablet { text-align : left; }
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.7em 2em 0.7em 0em;
+  }
+
+  a { color: $white; }
+}
+
+#wb-info a:hover {
+  text-decoration: underline;
+}
+
+.goc-footer--logo {
+  text-align: center;
+  margin-top: 5px;
+  padding-right: 60px;
+
+
+  @include tablet { text-align: right; }
+
+  .logo { height: 40px; }
+}
+
+.social-links-footer {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background-color: #232323;
+
+  #contact-us-links {
+    color: $white;
+    font-size: 2.1rem;
+  }
+  a {color: $white;}
+  li {list-style: none;}
+
+  .nopadding {
+    padding: 0 !important; 
+  }
+
+  .brown-padding {
+    @media screen and (max-width: 991px) {
+      padding: 0 !important; 
+      
+    }
+  }
+}
+
+.social-links-footer ul {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.ul-margin {
+  margin-top: 2rem;
+}
+.social-links-footer a {
+  color: $white;
+}
+
+.border-green {
+  border-top: 4px solid #329574;
+  margin-bottom: 3rem;
+}
+.border-brown {
+  border-top: 4px solid #AF7D57;
+  @media (max-width: 990px) {
+    margin-top: 30px;
+  }
+}
+.border-yellow {
+  border-top: 4px solid #FFCC33;
+  @media (max-width: 990px) {
+    margin-top: 30px;
+  }
+}
+.border-gray {
+  border-top: 4px solid #848C8D;
+  @media (max-width: 990px) {
+    margin-top: 30px;
+  }
+}
+.social-links-footer .div-margin{
+  margin-left: 20px;
+}
+.social-links-footer .inline-block {
+  display: inline-block;
+}
+
+.social-links-footer li:first-child { margin-left:0; }
+
+.social-links-footer .contact-info li {
+  margin-bottom: 1rem;
+
+  @include mobile_only {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.social-links-footer span {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}

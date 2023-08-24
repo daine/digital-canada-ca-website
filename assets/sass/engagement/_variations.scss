@@ -1,0 +1,34 @@
+
+// Easing for test
+.cover, #themenav, .section-heading-container, .section--engagement, .section--organizing, .section--talent,
+.section--design, .section--foundations, .section--yourthoughts {
+    transition: all 0.5s ease;
+}
+
+$engagement-color   : #0c3b31;
+$organizing-color   : #322f42;
+$talent-color       : #62211d;
+$design-color       : #38430f;
+$foundations-color  : #151512;
+$yourthoughts-color : #702c0f;
+
+#themenav {
+    .affix {
+
+        .nav-link, li.active {
+            &:hover, &:focus, &:active, .nav-link {
+                background-color: $active-nav-background-colour !important;
+            }
+        }
+    }
+}
+
+.comment-panel {
+    &.section--intro         { background-color: $primary-color !important; }
+    &.section--engagement    { background-color: $engagement-color !important; }
+    &.section--organizing    { background-color: $organizing-color !important; }
+    &.section--talent        { background-color: $talent-color !important; }
+    &.section--design        { background-color: $design-color !important; }
+    &.section--foundations   { background-color: $foundations-color !important; }
+    &.section--yourthoughts  { background-color: $yourthoughts-color !important; }
+}

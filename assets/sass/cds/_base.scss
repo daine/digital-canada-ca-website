@@ -1,0 +1,273 @@
+// Font Imports
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-Bold",700, null, ttf);
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-BoldItalic",700, italic, ttf);
+
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-SemiBold",600, null, ttf);
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-SemiBoldItalic",600, italic, ttf);
+
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-Regular",400, null, ttf);
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-Italic",400, italic, ttf);
+
+@import "font-awesome/fontawesome";
+@import "font-awesome/solid.scss";
+@import "font-awesome/brands.scss";
+
+
+// CDS Base Styles and Style Overrides
+html {
+	// This sets the base font size as 1rem or 10px. 
+	font-size: 62.5%; 
+	scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
+	font-family	: "SourceSansPro", sans-serif !important;
+}
+
+body {
+	box-sizing	: border-box;
+	overflow-x: hidden;
+	background-color: $bg-color;
+}
+
+a {
+	color 		: inherit;
+	font-weight 	: 500;
+	transition: all 0.3s ease-in-out;
+	
+
+	@include mobile_only {
+		font-size: 1.75rem;
+	}
+
+	@include tablet{
+		font-size: 2rem;
+	}
+
+	@include desktop{
+		font-size: 2.25rem;
+	}
+
+	&:visited {
+		color: $dark-grey;
+	}
+
+	&:hover, focus {
+		color: lighten($dark-grey, 15);
+		cursor: pointer;
+	}
+
+	&:hover:not[class] {
+		text-decoration: none;
+		border-bottom : $dark-grey 1px solid;
+	}
+}
+
+p a {
+	color: $link-color;
+}
+
+p, main ul, main ol {
+	font-weight 	: 100;
+	font-size 		: 1.75rem;
+	position 		: relative;
+
+	@include tablet {
+		font-size 	: 2rem;
+	}
+
+	@include desktop {
+		font-size 	: 2.25rem;
+		line-height: 3.5rem;
+		margin-bottom: 2.75rem;
+	}
+
+	&.lead {
+		font-size : 2.25rem ;
+		color: $secondary-color;
+
+		@include tablet {
+			font-size: 2.5rem;
+			line-height: 1.35em;
+		}
+
+		@include desktop {
+			font-size: 3rem;
+		}
+	}
+}
+
+h1, .h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: 100;
+	font-family: "SourceSansPro", sans-serif;
+	border-bottom: none;
+	color: $white;
+	font-size: 3rem;
+	line-height: 1.2em;
+
+	@include mobile_only {
+		padding: 1.5rem 1.5rem;
+	}
+}
+
+h2 {
+	font-family: "SourceSansPro", sans-serif;
+	font-weight: 500;
+	margin-top: 0;
+
+	@include desktop {
+		font-size: 2.75rem;
+	}
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 2.6rem;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+html .container {
+	width: 70%;
+
+	@include mobile_only {
+		width: 100%;
+	}
+}
+
+.dark-bg:visited, hover, focus{
+	color: $light-grey;
+}
+
+.term {
+	font-style:italic;
+}
+
+//TODO: this overwrites the whole purpose of the col and we need to reevaluate as right now it breaks trying to use it
+.col-sm-10,
+.col-sm-offset-1 {
+	margin: 0;
+	width: 100%;
+}
+
+.section {
+	padding: 6rem 0;
+	position: relative;
+	z-index: 0;
+	margin: 0 auto;
+	width: 100%;
+
+	@include mobile_only {
+		padding: 3rem 0;
+	}
+}
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section--title {
+	color: $black;
+	font-weight: 300;
+	position: relative;
+	font-size: 4rem;
+	margin: 0 0 3.5rem 0;
+	padding: 0;
+	text-align: center;
+
+	&::after {
+		content:'';
+		display: block;
+		position: absolute;
+		height: 3px;
+		background: $primary-color;
+		bottom: -1.5rem;
+		width: 5rem;
+		left: 50%;
+		transform: translateX(-50%);
+
+		@include desktop {
+			width: 10%;
+			bottom: -2rem;
+		}
+	}
+	
+
+	@include tablet {
+		font-size: 3.5rem;
+	}
+
+	@include desktop {
+		font-size: 5rem;
+		margin-bottom: 4rem;
+	}
+}
+
+input.error {
+	border: 2px solid red;
+}
+
+.form-group.error {
+	padding-left: 10px;
+	border-left: 4px solid red;
+}
+
+.error-message {
+	color: red;
+}
+
+ol ul, ol ol, ul ul, ul ol {
+	margin-bottom: 0rem;
+}
+
+.bolded {
+	font-weight: 500;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bg-med-grey {
+	background: $medium-grey;
+}
+
+.bg-white {
+	background: white;
+}
+
+@mixin major($color: inherit) {
+	font-family	: "SourceSansPro", sans-serif !important;
+	font-size: 4.5rem !important;
+	font-weight: 400;
+	line-height: 1.08;
+	color: $color;
+	margin-top: 2rem;
+}
+
+@mixin paragraph {
+	font-family	: "SourceSansPro", sans-serif !important;
+	font-size: 2.2rem !important;
+	line-height: 1.59;
+}
+
+@mixin label {
+	font-family	: "SourceSansPro", sans-serif !important;
+	font-size: 2.25rem !important;
+	font-weight: 600;
+	line-height: 1.244;
+}
+
+@mixin h2styling {
+	font-family	: "SourceSansPro", sans-serif !important;
+	font-weight: 600;
+	font-size: 2.8rem !important;
+	margin-top: 1rem;
+}
+
+
