@@ -36,32 +36,18 @@ goc-symbol:
   other: "Symbol of the Government of Canada"
 hiring:
   other: "We're hiring"
-homepage-tag-line:
-  other: "People expect government services to be simple and easy to use."
-how-it-works:
-  other: "How it works"
-how-we-do-it:
-  other: "How we do it"
 in-flight:
   other: "In flight products"
-key-contacts:
-  other: "Key contacts"
 leadership:
   other: "Leadership"
 design:
   other: "Design"
-design_research:
-  other: "Design Research"
 development:
   other: "Development"
-internal_operations:
-  other: "Internal Operations"
 partnerships:
   other: "Partnerships"
 policy:
   other: "Policy"
-product_management:
-  other: "Product Management"
 outreach:
   other: "Outreach"
 talent:
@@ -74,8 +60,6 @@ lang-switch-label:
   other: "Français"
 links:
   other: "Links"
-meet-the-full-team:
-  other: "The full team"
 next-post:
   other: "Next post"
 meet-the-team:
@@ -84,86 +68,6 @@ partner:
   other: "Partner"
 partnerships:
   other: "Partnerships"
-partnerships-intro:
-  other: "We provide free support for federal public servants to improve their public facing services. Through advice and feedback, we enable your team to design, develop, buy, and maintain a service on their own. Instead of building the products for you, we empower you to build them."
-partnerships-how-it-works:
-  other: "How it works"
-partnerships-what-we-can-help-title:
-  other: "What we can help your team with"
-partnerships-what-we-can-help-1st:
-  other: "We can work together on things like:"
-partnerships-what-we-can-help-list-1:
-  other: "Improving usability and accessibility of your service."
-partnerships-what-we-can-help-list-2:
-  other: "Optimizing service delivery and change management processes."
-partnerships-what-we-can-help-list-3:
-  other: "Setting up effective procurements for services or software."
-partnerships-what-we-can-help-list-4:
-  other: "Hiring digital practitioners."
-partnerships-three-ways-heading:
-  other: "The three different ways we can work together"
-partnerships-time-commitment:
-  other: "Time commitment"
-partnerships-consultation:
-  other: "Consultation"
-partnerships-consultation-time-commitment:
-  other: "1-hour meetings as needed"
-partnerships-consultation-description:
-  other: "We’ll meet with you to learn more about your specific service delivery challenges. We’ll share knowledge and documentation from our past work to help you solve similar problems." 
-partnerships-exploration:
-  other: "Exploration" 
-partnerships-exploration-time-commitment:
-  other: "About 4 weeks"
-partnerships-exploration-description:
-  other: "We’ll conduct a deep dive into your team to learn about your current service delivery conditions. From there, we’ll create a roadmap and final report with recommended next steps to improve your service and processes." 
-partnerships-embedded-team:
-  other: "Embedded team"
-partnerships-embedded-team-time-commitment:
-  other: "4 months – 1.5 years"
-partnerships-embedded-team-description:
-  other: "One of our teams will work alongside you, full-time, coaching your team to optimize practices and remove delivery obstacles. To inform how we do that, we’ll first run an Exploration to learn more about your current service delivery conditions."       
-partnerships-how-we-do-it-1st:
-  other: "We work with our partners in the open, regularly sharing progress via public platforms. This creates a culture of learning and fosters best practices. It means non-partner departments can apply our work and <a href=\"https://digital.canada.ca/tools-and-resources/\">use our resources</a> to develop their own services."
-partnerships-how-we-do-it-2nd:
-  other: "Together, we form a team that follows the <a class='term' href=\"https://digital.canada.ca/2018/11/29/from-build-first-to-users-first/#the-details\">'Agile software development methodology'</a>. This means we begin with an intensive <span class='term'>'Discovery'</span> research phase to explore user needs and possible solutions to meeting those needs. After that, we move into a prototyping <span class='term'>'Alpha'</span> phase to find and test ways to meet user needs. Next comes the <span class='term'>'Beta'</span> phase, where we release the solution to the public and intensively test it. Lastly, there is a <span class='term'>'Live'</span> phase, where the service is fully released and continues to be monitored and improved upon."
-partnerships-how-we-do-it-3d:
-  other: "Between the <span class='term'>Beta</span> and <span class='term'>Live</span> phases, our team members step back from the service, and the partner team in the department continues the maintenance and development. We can help partners recruit their service team from both internal and external sources."
-partnerships-how-we-do-it-4th:
-  other: "Before each phase begins, CDS and the partner sign a partnership agreement which outlines the goal and outcomes for the coming phase, how we’ll get there, and a commitment to get them done."
-partnerships-team:
-  other: "Who is on the team"
-partnerships-team-blurb:
-  other: "Each team has a mix of members from CDS and the partner department so we can share our ways of working, and get a shared understanding of the problem we’re trying to solve together."
-partnerships-cds:
-  other: "From CDS:"
-partnerships-cds-pm:
-  other: "A <a class=\"dark-bg\" href=\"https://digital.canada.ca/2019/07/23/so-what-exactly-is-a-product-manager-anyway/\">product manager</a> &mdash; they form the vision of the service, and set priorities for the team"
-partnerships-cds-researcher:
-  other: "A researcher &mdash; they work with people who will use the service to learn about their needs"
-partnerships-cds-designers:
-  other: "Designers &mdash; they design solutions to meet the needs of people who will use the service"
-partnerships-cds-developers:
-  other: "Developers &mdash; they write the code to build the service"
-partnerships-cds-support:
-  other: "Support from the Partnership, Policy and Outreach teams"
-partnerships-from-partner:
-  other: "The people and disciplines we need from a partner department varies, but in most cases the partner provides"
-partnerships-partner-owner:
-  other: "A service owner throughout"
-partnerships-partner-experts:
-  other: "Experts from relevant service areas"
-partnerships-partner-for-beta:
-  other: "Research, design, developer and policy staff, to match those on the CDS side (for the <span class='term'>Alpha</span> and <span class='term'>Beta</span> phases)"
-partnerships-partner-for-live:
-  other: "A full time autonomous multi-disciplinary team to continuously improve the service (for the <span class='term'>Live</span> phase)"
-partnerships-interested-in-chatting:
-  other: "Want to work with us?"
-partnerships-partner-overview:
-  other: "Check out the overview of CDS partnerships below! To learn how we choose our partnerships, read this"
-partnerships-past:
-  other: "Past partnerships"
-partnerships-inflight:
-  other: "In flight partnerships"
 blog-post:
   other: "blog post"
 past-products:
@@ -224,65 +128,23 @@ past-projects-link:
   other: "/past-projects/"  
 top-of-page:
   other: "Top of Page"
-trans-abbr-switch:
-  other: "fr"
-trans-abbr:
-  other: "en"
-trans-base-url:
-  other: "http://numerique.canada.ca"
 twitter:
   other: CDS_GC
 view-product:
   other: "View this product"
 careers:
   other: "Careers"  
-what-were-working-on:
-  other: "What we’ve worked on"
 partnerships:
   other: "Partnerships"
-featured-post:
-  other: "Recent blog posts"
 more-posts:
   other: "View all"
-tools-and-resources:
-  other: "Tools and resources"
-tools-and-resources-platform-title:
-  other: "Platform tools"
-tools-and-resources-platform-description-1st:
-  other: "Service delivery teams across government face many challenges when building digital services. We believe some of these problems can be solved by a common set of tools, technologies and processes shared across departments."
-tools-and-resources-platform-description-2nd:
-  other: "Our team builds these components — also known as Platform Products — that departments can set up for their services instead of having to build them from scratch. For example, any department can use our Notify tool if they need to send email or text message updates to public servants or Canadians."
-tools-and-resources-platform-description-3rd:
-  other: "The benefit of using platform products is that it allows departments to focus their efforts on the details that are unique to their services. Here are the platform products we’ve built, which your department can use:"
-tools-and-resources-resources-title:
-  other: "Resources"
-tools-and-resources-resources-description:
-  other: "Here are some resources developed by our teams here at the Canadian Digital Service (CDS). They are available to everyone inside and outside of government, and they can help you build new solutions to service delivery by adopting best practices in design, research, policy and product management."
-the-platform-team:
-  other: "The Platform Team"
 version-history:
   other: "Version history"
-roadmap-show-less:
-  other: "Show less"
-roadmap-show-all:
-  other: "Show all"
-roadmap-next-steps:
-  other: "Next steps"
 roadmap-date-modified:
   other: "Date modified:"
-products-btn:
-  other: "Products"
-developer-tools-btn:
-  other: "Tools and resources"
 website-usability-testing:
   other: "Website usability testing"
-spa-research:
-  other: "Take part in our research"
 cppd-research:
-  other: "Take part in our research"
-rcmp-research:
-  other: "Take part in our research"
-notify-research:
   other: "Take part in our research"
 subscribe-title:
   other: "Subscribe to our newsletter"
@@ -298,32 +160,8 @@ view-privacy-notice:
   other: "View Privacy Notice"
 privacy-notice:
   other: "Privacy Notice"
-privacy-notice-pt-1:
-  other: "Our newsletter feature uses <a href=\"https://mailchimp.com/\">Mailchimp</a>, a third-party application. Sign-up is voluntary and subject to the <a href=\"https://mailchimp.com/legal/terms/\">Terms of Use</a> for the Mailchimp platform.  When you sign up, your email address and language preference (English or French) is collected. No other personal information is collected."
-privacy-notice-pt-2:
-  other: "The collection and use of your personal information is authorized by the <em>Financial Administration Act</em>. Collection and use of your personal information for this site is in accordance with the federal <em>Privacy Act</em>. Your personal information may be used to respond to your inquiries, if applicable, and to help evaluate the effectiveness of Treasury Board of Canada Secretariat (TBS) programs in responding to client needs. In exceptional circumstances (e.g., individuals who make inappropriate remarks or threats), personal information may be disclosed without your consent pursuant to subsection 8(2) of the <em>Privacy Act</em>."
-privacy-notice-pt-3:
-  other: "Any personal information that may be collected is described in the Standard Personal Information Bank entitled <a href=\"https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu938\"> Outreach Activities, PSU 938</a>, which can be found in the TBS webpage <a href=\"https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings.html\">Information about programs and information holdings</a>."
-privacy-notice-pt-4:
-  other: "Any questions, comments, concerns or complaints you may have regarding this Statement, your privacy rights and the Privacy Act may be directed to the TBS Access to Information and Privacy Coordinator by email at <a href=\"mailto:ATIP.AIPRP@TBS-SCT.gc.ca\">ATIP.AIPRP@tbs-sct.gc.ca</a> or by telephone at 1-866-312-1511. You may also wish to contact the Office of the Privacy Commissioner of Canada by email at <a href=\"mailto:info@priv.gc.ca\">info@priv.gc.ca</a> or by telephone at 1-800-282-1376. You have the right to complain to the Office of the Privacy Commissioner of Canada about the handling of your personal information by TBS."
-how-we-work:
-  other: "We work in agile, multi-disciplinary teams to build digital products like these."
-great-team:
-  other: "We've got a great team"
-say-hello:
-  other: "Say hello to the designers, developers, researchers, policy hackers, communicators who make up CDS."
-cds-team:
-  other: "CDS Team"
-but-need-help:
-  other: "but we need your help"
-product-impact:
-  other: "Our products will impact people's everyday lives. It's an exciting thing to be part of. And we need you."
 apply-now:
   other: "Apply now"
-who-is-on-the-team:
-  other: "Who is on the team"
-options-below:
-  other: "using one of the options below"
 skip-links:
   other: "Skip Navigation Links"
 menu:
@@ -343,25 +181,11 @@ close:
 results:
   other: "results"
 search-site:
-  other: "Search on the website"  
-header-img-alt:
-  other: "Four people at a table, working together on a digital project."  
+  other: "Search on the website"    
 how-we-can-help:
-  other: "How we can help"
-partner-with-us-title:
-  other: "Partner with us"
-partner-with-us-subtitle:
-  other: "If you need advice on what to focus on to improve your service."      
-use-our-tools-and-resources-title:
-  other: "Use our tools and resources"
-use-our-tools-and-resources-subtitle:
-  other: "If you need a specific tool or guide to solve a specific problem."
-use-our-tools-and-resources-description:
-  other: "Integrate our common components into your existing systems, or read up on best practices for service delivery." 
+  other: "How we can help"      
 product-image-alt:
   other: "One person using multiple digital tools with different functions to run an online service."  
-learn-more:
-  other: "Learn more"
 join-our-team:
   other: "Join our team"
 join-our-team-description:
@@ -369,17 +193,9 @@ join-our-team-description:
 job-postings:
   other: "Job postings"
 read-our-blog-posts:
-  other: "Read our blog posts"   
-about-partnerships:
-  other: " about Partnerships"
-about-tools-and-resources:
-  other: " about Tools and Resources"
-partnership-tag:
-  other: "partnership-tag"  
+  other: "Read our blog posts"     
 careers-tag:
   other: "careers-tag" 
-tools-and-resources-tag:
-  other: "tools-and-resources-tag"
 read-our-blog-tag:
   other: "read-our-blog-tag"
 product-tag:

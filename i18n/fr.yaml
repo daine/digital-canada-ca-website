@@ -34,32 +34,18 @@ goc-symbol:
   other: "Symbole du gouvernement du Canada"
 hiring:
   other: "Nous embauchons"
-homepage-tag-line:
-  other: "Les gens s’attendent à ce que les services gouvernementaux soient simples et faciles à utiliser."
-how-it-works:
-  other: "Comment ça marche"
-how-we-do-it:
-  other: "Comment on fait"
 in-flight:
   other: "Produits en cours"
-key-contacts:
-  other: "Contacts principaux"
 leadership:
   other: "Direction"
 design:
   other: "Conception"
-design_research:
-  other: "Recherche en conception"
 development:
   other: "Développement"
-internal_operations:
-  other: "Opérations internes"
 partnerships:
   other: "Partenariats"
 policy:
   other: "Politiques"
-product_management:
-  other: "Gestion de produits"
 outreach:
   other: "Liaison et diffusion"
 talent:
@@ -72,8 +58,6 @@ lang-switch-label:
   other: English
 links:
   other: "Liens"
-meet-the-full-team:
-  other: "Toute l’équipe"
 next-post:
   other: "Billet suivant"
 meet-the-team:
@@ -84,86 +68,6 @@ partner:
   other: "Partenaire"
 partnerships:
   other: "Partenariats"
-partnerships-intro:
-  other: "Nous offrons un soutien gratuit aux fonctionnaires fédéraux afin d’améliorer les services qu’ils proposent au public. Nous misons sur les conseils et sur la rétroaction pour permettre à votre équipe de concevoir, de développer, d’acheter et d’entretenir un service par elle-même. Au lieu de construire les produits pour vous, nous vous donnons les moyens d’y parvenir."
-partnerships-how-it-works:
-  other: "Fonctionnement"
-partnerships-what-we-can-help-title:
-  other: "L’aide que nous pouvons apporter à votre équipe"
-partnerships-what-we-can-help-1st:
-  other: "Nous pouvons collaborer sur les points suivants :"
-partnerships-what-we-can-help-list-1:
-  other: "Amélioration de la convivialité et de l’accessibilité de votre service."
-partnerships-what-we-can-help-list-2:
-  other: "Optimisation des processus de prestation de service et de gestion du changement."
-partnerships-what-we-can-help-list-3:
-  other: "Mise en place d’approvisionnements efficaces pour les services ou pour les logiciels."
-partnerships-what-we-can-help-list-4:
-  other: "Recrutement de praticiens du numérique. "
-partnerships-three-ways-heading:
-  other: "Les trois modes de collaboration possibles"
-partnerships-time-commitment:
-  other: "Durée"
-partnerships-consultation:
-  other: "Consultation"
-partnerships-consultation-time-commitment:
-  other: "Réunions d’une heure en fonction de vos besoins"
-partnerships-consultation-description:
-  other: "Nous vous rencontrons pour en apprendre davantage sur les défis spécifiques que vous rencontrez en matière de prestation de services. Nous partageons avec vous les connaissances et la documentation issues de nos travaux antérieurs pour vous aider à résoudre des problèmes similaires."
-partnerships-exploration:
-  other: "Exploration" 
-partnerships-exploration-time-commitment:
-  other: "Environ 4 semaines"
-partnerships-exploration-description:
-  other: "Nous étudions le fonctionnement de votre équipe en détail pour en apprendre davantage sur l’état actuel de vos prestations de services. Nous créons ensuite une feuille de route et un rapport final détaillant les prochaines étapes recommandées pour améliorer votre service et vos processus."
-partnerships-embedded-team:
-  other: "Équipe intégrée"
-partnerships-embedded-team-time-commitment:
-  other: "4 à 18 mois"
-partnerships-embedded-team-description:
-  other: "L’une de nos équipes vous accompagne à temps plein et forme vos membres afin d’optimiser vos pratiques et d’éliminer tout obstacle à vos prestations. Pour ce faire, nous commençons par une étape d’exploration afin d’en apprendre davantage sur l’état actuel de vos prestations de services."
-partnerships-how-we-do-it-1st:
-  other: "Nous travaillons avec nos partenaires de façon ouverte, en partageant régulièrement nos progrès sur des plateformes publiques. Cette démarche crée une culture de l’apprentissage et favorise des pratiques exemplaires. Elle permet par le fait même aux ministères non partenaires de recourir à notre travail et d’<a href=\"https://numerique.canada.ca/outils-et-ressources/\">utiliser nos ressources</a> pour développer leurs propres services. "
-partnerships-how-we-do-it-2nd:
-  other: "Ensemble, nous formons une équipe qui suit la « <a href=\"https://numerique.canada.ca/2018/11/29/de-la-conception-dabord-aux-utilisateurs-dabord/#the-details\">méthode de développement agile</a> ». Nous commençons avec une phase de recherche intensive appelée <span class=\"term\">«&nbsp;découverte&nbsp;»</span>, où nous explorons les besoins des utilisateurs et les solutions possibles d’y répondre. Puis nous passons en phase <span class=\"term\">«&nbsp;alpha&nbsp;»</span>, où nous construisons des prototypes pour trouver et tester des moyens de répondre aux besoins des utilisateurs. Vient ensuite la phase <span class=\"term\">«&nbsp;bêta&nbsp;»</span>, où nous faisons paraître une solution publique pour la tester de façon intensive. Enfin, dans la phase de <span class=\"term\">«&nbsp;mise en service&nbsp;»</span>, le service entre entièrement en fonction et continue d’être surveillé et amélioré."
-partnerships-how-we-do-it-3d:
-  other: "Entre la phase <span class=\"term\">bêta</span> et la <span class=\"term\">mise en service</span>, les membres de notre équipe se retirent. L’équipe du ministère partenaire continue alors à maintenir et à développer le service. Nous pouvons aider les partenaires à recruter leur équipe de service à partir de sources internes et externes."
-partnerships-how-we-do-it-4th:
-    other: "Avant le début de chaque phase, le Service numérique canadien et le partenaire signent une entente de partenariat. Celle-ci décrit l’objectif et les résultats de la phase à venir, la façon d’y parvenir ainsi qu’un engagement à les réaliser."
-partnerships-team:
-  other: "Composition de l’équipe"
-partnerships-team-blurb:
-  other: "Chaque équipe est composée de membres du Service numérique canadien et de membres du ministère partenaire, de sorte que nous pouvons partager nos façons de travailler et avoir une vision commune du problème que nous tentons de résoudre ensemble."
-partnerships-cds:
-  other: "En provenance du Service numérique canadien :"
-partnerships-cds-pm:
-  other: "Un <a class=\"dark-bg\" href=\"https://numerique.canada.ca/2019/07/23/cest-quoi-au-juste-un-gestionnaire-de-produits/\">gestionnaire de produits</a> : cette personne établit la vision du service et les priorités de l’équipe"
-partnerships-cds-researcher:
-  other: "Un chercheur : cette personne travaille avec ceux et celles qui utiliseront le service afin de connaître leurs besoins"
-partnerships-cds-designers:
-  other: "Des concepteurs : ces personnes conçoivent des solutions de façon à répondre aux besoins des gens qui utiliseront le service"
-partnerships-cds-developers:
-  other: "Des développeurs : ces personnes écrivent le code qui se cache derrière le service"
-partnerships-cds-support:
-  other: "Un soutien de l'équipe des partenariats, des politiques et de liaison et diffusion"
-partnerships-from-partner:
-  other: "Les personnes et les disciplines nécessaires chez le ministère partenaire varient. Mais dans la plupart des cas, le partenaire fournit "
-partnerships-partner-owner:
-  other: "Un propriétaire de service du début à la fin"
-partnerships-partner-experts:
-  other: "Des experts dans des secteurs de service pertinents"
-partnerships-partner-for-beta:
-  other: "Des chercheurs, des concepteurs, des développeurs et des analystes politiques de façon à refléter ceux provenant du SNC (pour les phases <span class=\"term\">alpha</span> et <span class=\"term\">bêta</span>)"
-partnerships-partner-for-live:
-  other: "Une équipe multidisciplinaire autonome à temps plein dédiée à améliorer de façon continue le service (pour la phase de <span class=\"term\">mise en service</span>)"
-partnerships-interested-in-chatting:
-  other: "Vous souhaitez collaborer?"
-partnerships-partner-overview:
-  other: "Voici un aperçu des produits sur lesquels le SNC travaille! Pour savoir comment nous choisissons nos partenariats, lisez ce"
-partnerships-past:
-  other: "Partenariats passés"
-partnerships-inflight:
-  other: "Partenariats en cours"
 blog-post:
   other: "billet de blogue"
 past-products:
@@ -222,26 +126,8 @@ how-cds-started-link:
   other: "https://numerique.canada.ca/les-debuts-du-snc/"
 past-projects-link:
   other: "/anciens-projets/"  
-tools-and-resources-platform-title:
-  other: "Outils de plateforme"
-tools-and-resources-platform-description-1st:
-  other: "Les équipes de prestation de services dans l’ensemble du gouvernement sont confrontées à de nombreux défis lors de la création de services numériques. Nous pensons que certains de ces problèmes peuvent être résolus par un ensemble commun d’outils, de technologies et de processus partagés entre les ministères."
-tools-and-resources-platform-description-2nd:
-  other: "Notre équipe construit ces composants — également connus sous le nom de produits de plateforme — que les ministères peuvent mettre en place pour leurs services au lieu de devoir les créer de toutes pièces. Par exemple, tous les ministères peuvent utiliser notre outil Notification s’ils ont besoin d’envoyer des mises à jour par courriel ou par message texte aux fonctionnaires ou à la population canadienne."
-tools-and-resources-platform-description-3rd:
-  other: "L’avantage d’utiliser des produits de plateforme est que cela permet aux ministères de concentrer leurs efforts sur les détails propres à leurs services. Voici les produits de plateforme que nous avons mis au point et que votre ministère peut utiliser :"
-tools-and-resources-resources-title:
-  other: "Ressources"
-tools-and-resources-resources-description:
-  other: "Voici des ressources développées par nos équipes ici au Service numérique canadien (SNC). Elles sont à la disposition de tous, à l’intérieur comme à l’extérieur du gouvernement, et elles peuvent vous aider à élaborer de nouvelles solutions de prestation de services grâce à des pratiques exemplaires en matière de conception, de recherche, de politique et de gestion de produits."
 top-of-page:
   other: "Haut de la page"
-trans-abbr-switch:
-  other: "en"
-trans-abbr:
-  other: "fr"
-trans-base-url:
-  other: "http://digital.canada.ca"
 twitter:
   other: SNC_GC
 view-product:
@@ -252,39 +138,17 @@ partenariats:
   other: "Partenariats"
 contact-us:
   other: "Participez à la conversation"
-featured-post:
-  other: "Récents billets de blogue"
 more-posts:
   other: "Voir tous les produits"
 more-blogs:
   other: "Voir tous les billets"
-tools-and-resources:
-  other: "Outils et ressources"
-the-platform-team:
-  other: "Équipe des plateformes"
 version-history:
   other: "Versions historiques"
-roadmap-show-less:
-  other: "Voir moins"
-roadmap-show-all:
-  other: "Voir plus"
-roadmap-next-steps:
-  other: "Prochaines étapes"
 roadmap-date-modified:
   other: "Date de modification:"
-products-btn:
-  other: "Produits"
-developer-tools-btn:
-  other: "Outils et ressources"
 website-usability-testing:
   other: "Test d’utilisabilité du site Web"
-spa-research:
-  other: "Participez à notre recherche"
 cppd-research:
-  other: "Participez à notre recherche"
-rcmp-research:
-  other: "Participez à notre recherche"
-notify-research:
   other: "Participez à notre recherche"
 subscribe-title:
   other: "Abonnez-vous à notre infolettre"
@@ -300,34 +164,8 @@ view-privacy-notice:
   other: "Consulter l’avis de confidentialité"
 privacy-notice:
   other: "Avis de confidentialité"
-privacy-notice-pt-1:
-  other: "Notre fonction Bulletin de nouvelles fait appel &agrave;&nbsp;<a href=\"https://mailchimp.com/\">Mailchimp</a>, une application tierce.&nbsp;L&rsquo;adh&eacute;sion est libre et est assujettie aux&nbsp;<a href=\"https://mailchimp.com/legal/terms/\">Conditions d&rsquo;utilisation</a>&nbsp;associ&eacute;es &agrave; la plateforme Mailchimp.&nbsp;&nbsp;Au moment de l&rsquo;adh&eacute;sion, le syst&egrave;me enregistre votre adresse &eacute;lectronique et votre langue de pr&eacute;f&eacute;rence (anglais ou fran&ccedil;ais).&nbsp;Aucun autre renseignement personnel n&rsquo;est recueilli."
-privacy-notice-pt-2:
-  other: "La collecte et l&rsquo;utilisation de vos renseignements personnels sont autoris&eacute;es par la&nbsp;<em>Loi sur la gestion des finances publiques</em>. La collecte et l&rsquo;utilisation de vos renseignements personnels aux fins du pr&eacute;sent site sont conformes &agrave; la&nbsp;<em>Loi f&eacute;d&eacute;rale sur la protection des renseignements personnels</em>. Vos&nbsp;renseignements personnels&nbsp;peuvent servir &agrave; r&eacute;pondre &agrave; vos demandes de renseignements, au besoin, et &agrave; &eacute;valuer l&rsquo;efficacit&eacute; avec laquelle les programmes du Secr&eacute;tariat du Conseil du Tr&eacute;sor&nbsp;(SCT)&nbsp;r&eacute;pondent aux besoins des clients. &nbsp;Dans des cas exceptionnels (p. ex., le cas de quelqu&rsquo;un qui fait des remarques inappropri&eacute;es ou des menaces), les renseignements personnels peuvent &ecirc;tre divulgu&eacute;s sans votre consentement conform&eacute;ment au paragraphe 8(2) de la&nbsp;<em>Loi sur la protection des renseignements personnels</em>."
-privacy-notice-pt-3:
-  other: "Tout renseignement personnel&nbsp;qui pourra &ecirc;tre&nbsp;recueilli&nbsp;est&nbsp;d&eacute;crit&nbsp;dans&nbsp;le Fichier de renseignement personnel ordinaire intitul&eacute;&nbsp;<a href=\"https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou938\">Activit&eacute;s de sensibilisation, POU 938</a> qui figure sur&nbsp;la page Web&nbsp;du SCT&nbsp;intitul&eacute;e&nbsp;<a href=\"https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html\"><em>Renseignements sur les programmes et les fonds de renseignements</em></a>."
-privacy-notice-pt-4:
-  other: "Pour transmettre vos questions, commentaires ou pr&eacute;occupations concernant le pr&eacute;sent avis, vos droits en mati&egrave;re de protection des renseignements personnels ou la&nbsp;<em>Loi sur la protection des renseignements personnels</em>, communiquez avec le coordonnateur de l&rsquo;acc&egrave;s &agrave; l&rsquo;information et de la protection des renseignements personnels du SCT, &agrave;&nbsp;<a href=\"mailto:atip.aiprp@tbs-sct.gc.ca\">atip.aiprp@tbs-sct.gc.ca</a>, ou en composant le&nbsp;1-866-312-1511. Vous pouvez aussi communiquer avec le Commissariat &agrave; la protection de la vie priv&eacute;e du Canada par courriel, &agrave;&nbsp;<a href=\"mailto:info@priv.gc.ca\">info@priv.gc.ca</a>, ou par t&eacute;l&eacute;phone, au&nbsp;1-800-282-1376. Vous avez &eacute;galement la possibilit&eacute; de d&eacute;poser une plainte aupr&egrave;s du Commissariat &agrave; la protection de la vie priv&eacute;e du Canada quant &agrave; la fa&ccedil;on dont le SCT traite vos renseignements personnels."
-how-we-work:
-  other: "Nous travaillons au sein d’équipes agiles et multidisciplinaires pour construire des produits numériques comme ceux-ci."
-great-team:
-  other: "Nous avons une équipe géniale"
-say-hello:
-  other: "Dites bonjour aux concepteurs, développeurs, chercheurs, stratèges politiques et communicateurs qui composent le SNC."
-cds-team:
-  other: "Équipe CDS"
-but-need-help:
-  other: "mais nous avons besoin de votre aide"
-product-impact:
-  other: "Nos produits auront un impact sur la vie quotidienne des gens. C’est une expérience passionnante à vivre. Faites-en partie!"
 apply-now:
   other: "Soumettre votre candidature"
-what-were-working-on:
-  other: "Nos projets précédents"
-who-is-on-the-team:
-  other: "Qui est dans l'équipe"
-options-below:
-  other: "using one of the options below"
 skip-links:
   other: "Liens saut de navigation"
 menu:
@@ -348,24 +186,10 @@ results:
   other: "résultats"
 search-site:
   other: "Rechercher sur le site"
-header-img-alt:
-  other: "Quatre personnes assises autour d’une table, collaborant sur un projet numérique."   
 how-we-can-help:
-  other: "Comment nous pouvons vous aider"
-partner-with-us-title:
-  other: "Collaborez avec nous"
-partner-with-us-subtitle:
-  other: "Si vous avez besoin de conseils pour savoir sur quoi mettre l’accent pour améliorer votre service."     
-use-our-tools-and-resources-title:
-  other: "Utilisez nos outils et ressources"
-use-our-tools-and-resources-subtitle:
-  other: "Si vous avez besoin d’un outil ou d’un guide spécifique pour résoudre un problème particulier."
-use-our-tools-and-resources-description:
-  other: "Intégrez nos composants communs dans vos systèmes ou découvrez nos meilleures pratiques de prestation de services." 
+  other: "Comment nous pouvons vous aider"     
 product-image-alt:
   other: "Une personne utilisant plusieurs outils numériques offrant différentes fonctionnalités pour faire fonctionner un service en ligne."  
-learn-more:
-  other: "En savoir plus"
 join-our-team:
   other: "Joignez-vous à notre équipe"
 join-our-team-description:
@@ -373,17 +197,9 @@ join-our-team-description:
 job-postings:
   other: "Offres d’emploi"
 read-our-blog-posts:
-  other: "Lire tous les billets"
-about-partnerships:
-  other: " sur les Partenariats"
-about-tools-and-resources:
-  other: " plus sur les Outils et les Ressources"
-partnership-tag:
-  other: "partenariats-tag"  
+  other: "Lire tous les billets"  
 careers-tag:
   other: "carrieres-tag" 
-tools-and-resources-tag:
-  other: "outils-tag"
 read-our-blog-tag:
   other: "blogue-tag"
 product-tag:
