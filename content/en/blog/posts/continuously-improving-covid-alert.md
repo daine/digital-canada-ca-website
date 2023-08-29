@@ -63,6 +63,7 @@ thumb: https://de2an9clyit2x.cloudfront.net/small_improving_covid_alert_banner_6
            <ul>
                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist">Mozilla’s
                        Mobile accessibility checklist</a></li>
+                       <!-- GUIDES - need to replace -->
                <li><a href="https://www.uswitch.com/mobiles/guides/smartphone-accessibility/">Uswitch’s Smartphone
                        accessibility: a comprehensive guide</a></li>
                <li><a href="https://blog.canada.ca/2020/06/05/designing-for-accessibility.html">Designing for
