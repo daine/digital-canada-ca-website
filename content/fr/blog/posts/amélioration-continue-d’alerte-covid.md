@@ -71,6 +71,7 @@ thumb: https://de2an9clyit2x.cloudfront.net/small_improving_covid_alert_banner_6
                notre équipe. Nous avons utilisé d’excellentes ressources en cours de route :</p>
 
            <ul>
+           <!-- GUIDES - need to replace -->
                <li><a href="https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/Checklist_accessibilite_mobile">La
                        <span class="italic">check-list</span> pour l’accessibilité mobile</a> de Mozilla</li>
                <li><a href="https://www.uswitch.com/mobiles/guides/smartphone-accessibility/">L’accessibilité des

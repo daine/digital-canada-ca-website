@@ -232,7 +232,7 @@ translationKey: blog-gcforms-accessible-approaches
 <details class="wp-block-cds-snc-accordion"><summary>Ressources en matière de recherche : Concevoir des expériences accessibles relatives au produit</summary>
 <h5 class="wp-block-heading"><strong>Conseils concernant la recherche en conception au sein du GC</strong></h5>
 
-
+<!-- GUIDES - need to replace -->
 
 <p>Nous avons créé des ressources pour vous aider à planifier vos <a href="https://numerique.canada.ca/guides/guide-tests-d-utilisabilite/">méthodes de test</a> et à mener <a href="https://numerique.canada.ca/guides/guide-entrevue/">des entrevues de recherche</a>. Nous offrons également un service pour vous aider à <a href="https://privacy-statements.cds.alpha.canada.ca/fr/">générer des formulaires de confidentialité et de consentement pour les séances de recherche.</a></p>
 

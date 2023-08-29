@@ -1,10 +1,4 @@
-# Generic Project Template
+# CDS WEBSITE 5.0
 
-This repository provides some base files for setting up a repository at
-CDS. Plan is to create more project template for specific technologies:
+Currently this is a WIP for the new 5.0 website. This website is not live and will have no impact on digital.canada.ca or numerique.canada.ca
 
-- project-template-terraform
-- project-template-python
-- project-template-nodejs
-
-Note that default community health files are maintained at https://github.com/cds-snc/.github 
