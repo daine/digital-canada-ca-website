@@ -48,7 +48,8 @@
   {{- $css := resources.Get "sass/cds.scss" | toCSS (dict "targetPath" $target)}}
   <link rel="stylesheet" href="{{ print $css.RelPermalink | replaceRE "^/[a-z]{2}/(.*)" "$1" }}" media="screen" />
   <noscript>
-    <link rel="stylesheet" href="/lib-cds/gcweb-dist/wet-boew/css/noscript.min.css" /></noscript>
+    <link rel="stylesheet" href="/lib-cds/gcweb-dist/wet-boew/css/noscript.min.css" />
+  </noscript>
 
   <link rel="alternate" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   <link rel="alternate" type="application/rss+xml" title="{{ i18n "canadian-digital-service" }}"
@@ -60,13 +61,13 @@
   <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TKWHLPM"></script>
   <!-- FR -->
   <script src="https://www.googleoptimize.com/optimize.js?id=OPT-MS9WLFR"></script>
-  <!-- Font Awesome (Icons) -->
-  <script src="https://kit.fontawesome.com/892cb27850.js" crossorigin="anonymous"></script>
+<!-- Font Awesome (Icons) -->
+<script src="https://kit.fontawesome.com/892cb27850.js" crossorigin="anonymous"></script>
 
-  <!-- GC Design System -->
-  <link rel="stylesheet" href="/node_modules/@cdssnc/gcds-components/dist/gcds/gcds.css">
-  <script type="module" src="/node_modules/@cdssnc/gcds-components/dist/gcds/gcds.esm.js"></script>
-  <script nomodule src="/node_modules/@cdssnc/gcds-components/dist/gcds/gcds.js"></script>
+<!-- GC Design System -->
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.css">
+<script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.esm.js"></script>
+<script nomodule src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.js"></script>
 </head>
 
 {{ with $pageTitle }}

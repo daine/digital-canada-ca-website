@@ -62,7 +62,7 @@
 
   // BILINGUAL SPECIFIC CDS LOGO
   &.en {
-    background-image: url("../img/cds/cds-lockup-ko-en.svg");
+    background-image: url("../img/cds/cds-logo-blk-en.svg");
   }
   &.fr {
     background-image: url("../img/cds/cds-lockup-ko-fr.svg");
@@ -115,6 +115,7 @@
     display: inline-block;
     position: relative;
     font-size: 2rem;
+    color: black;
     @include mobile_only {
       display: block;
       padding-bottom: 3rem;
@@ -124,7 +125,7 @@
       margin-right: 2rem;
     }
     text-decoration: none;
-    color: $white;
+    
 
     &::after {
       display: block;
@@ -549,8 +550,8 @@
 ////////////////////////////////////////////////////////////
 
 #wb-sm {
-  background-color: $black;
-  border-top: 2px solid $primary-color;
+  background-color: white;
+  
 }
 
 .cds-menu.sticky {
