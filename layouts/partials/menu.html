@@ -24,15 +24,6 @@
               </div>
             </div>
             <div class="menu-items">
-              <div class="dropdown">
-                <button class="how-we-can-help-btn" id="how-we-can">{{ i18n "how-we-can-help"}} <i class="fa fa-caret-down"></i></button>
-                  
-                  <div class="dropdown-content" id="dropdwn-cnt">
-                    {{ range $dropdown := .Site.Menus.dropdown}}
-                    <a href="{{ .URL | relLangURL }}" id="{{.Identifier}}-nav-tag">{{ .Name }}</a>
-                    {{ end }}
-                  </div>
-              </div>
 
               {{ $title := .Params.title }}
               {{ range $menu := .Site.Menus.main }}
