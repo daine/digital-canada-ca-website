@@ -2,6 +2,10 @@ DefaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 sitemap:
   filename: sitemap.xml
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  
 languages:
   en:
     baseUrl: https://digital.canada.ca/
@@ -9,7 +13,7 @@ languages:
     lang: en
     languageName: English
     title: Blog
-    Paginate: 6
+    Paginate: 1
     frontmatter:
       date: [":filename", ":default"]
     permalinks:
@@ -57,6 +61,13 @@ languages:
           name: Blogue
           url: /blogue/
           weight: 3      
+outputFormats:
+  BlogIndex:
+    mediaType: "application/json"
+    baseName: "index_2"
+    isPlainText: true
+    notAlternative: true
+
 outputs:
-  home : [HTML, RSS, JSON]
+  home : [HTML, RSS, JSON, BlogIndex]
   page : HTML         

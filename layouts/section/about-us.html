@@ -1,3 +1,18 @@
 {{ define "main" }}
-<div>About us page</div>
+<!-- <div>About us page</div> -->
+{{ .Content }}
+<div class="container">
+    <gcds-fieldset fieldset-id="fieldset" legend="Contact CDS">
+        <gcds-input input-id="name-input" label="Name" size="20"></gcds-input>
+        <gcds-input input-id="email-input" label="Email Address" size="20"></gcds-input>
+        <gcds-input input-id="message-input" label="Message" size="20"></gcds-input>
+    </gcds-fieldset>
+    <gcds-button type="link" href="/products/" class="button">
+        <span>Send</span>
+        
+        <img src="/img/icons/white-arrow-icon.svg" role="presentation" alt="" />
+    </gcds-button>
+    <h2>Stay in touch</h2>
+
+</div>
 {{ end }}

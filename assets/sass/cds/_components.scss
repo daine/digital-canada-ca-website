@@ -1,4 +1,4 @@
-.button {
+.mc-button {
   position: relative;
   display: inline-block;
   font-weight: 400;
@@ -43,6 +43,21 @@
     margin: 1rem 0;
     padding: 0.5rem;
     font-size: 1.2rem;
+  }
+}
+
+.button {
+  // background-image: url("../img/icons/white-arrow-icon.svg");
+  // background-size: cover;
+  // width: 200px;
+  // height: 150px;
+
+  span {
+    font-size: 1.5rem;
+    // background-image: url("../img/icons/white-arrow-icon.svg");
+  }
+  img {
+    // src: url("../img/icons/white-arrow-icon.svg");
   }
 }
 

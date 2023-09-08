@@ -1,22 +1,39 @@
 {{ define "main" }}
-<div class="container section">
-    <!-- <div style="display: flex; flex-direction: column;">
-        <ul style="list-style: none;">
-            {{ range .Paginator.Pages }}
-            {{ .Render "list"}}
-            {{end}}
-        </ul>
-        <div><h1 style="color: black;">FILTER</h1></div>
-    </div> -->
+<div class="container section" style="display: flex; flex-direction: column;">
+
     <div>
-        <!-- <h1 style="color: black;">Hello</h1> -->
-        <ul class="col-lg-8" style="list-style: none;">
-            {{ range .Paginator.Pages }}
+        
+        <ul id="blog-list-result" class="col-lg-8 blogpost-list">
+            <!-- {{ range .Paginator.Pages }}
             {{ .Render "list"}}
-            {{end}}
+            {{end}} -->
+            <!-- <li><h2 id="blog-title" style="font-size: 4rem; font-weight: 600;"></h2></li> -->
+            <!-- {{ .Render "list"}} -->
+
+            <!-- {{ $paginator := .Paginator }}
+            {{ $adjacent_links := 2 }}
+            {{ $max_links := (add (mul $adjacent_links 2) 1)}}
+            {{ $lower_limit := (add $adjacent_links 1) }}
+            {{ $upper_limit := (sub .Paginator.TotalPages $adjacent_links )}} -->
+            <!-- {{ range $trail := .Paginator.Pagers }}
+            <p> {{$trail.URL}}</p>
+            {{end}} -->
+            <!-- <li class="post">
+                <div class="row post-container">
+                    <div class="text-container">
+                        <div>
+                            <a href='#' class="blog-title">
+                                <h2 id="blog-title" style="font-size: 4rem; font-weight: 600;">Hello</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li> -->
+
+            
         </ul>
         <div class="col-lg-4" style="padding-left: 6rem;">
-            <!-- display: flex; justify-content: center; -->
+            
             <h2 style="color: black;">Filter and Sort</h2>
             <ul style="list-style: none; padding-left: 0;">
                 <li>tag</li>
@@ -25,6 +42,10 @@
             </ul>
         </div>
         
+    </div>
+
+    <div style="margin-left: auto; margin-right: auto;">
+        <gcds-button button-id="load-more-blog-btn" class="button">Load more</gcds-button>
     </div>
     
 

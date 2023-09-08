@@ -1,5 +1,5 @@
 var current_page = 1;
-let pagesIndex, searchIndex, results, filtered, post_type, searchedResults;
+let pagesIndex, searchIndex, results, filtered, post_type, searchedResults
 
 const searchResults = document.getElementById("site-results");
 const resultNumber = document.getElementById("results-number");
@@ -51,11 +51,12 @@ async function initSearchIndex() {
       });
     });
   } catch (e) {
-    console.log(e);
+    console.log('error is: ', e);
   }
   if (!inputVal.value) inputVal.value = getQueryVariable();
 
   results = searchSite(getQueryVariable());
+  console.log('pagesIndex are: ', pagesIndex)
   keepFocus();
 
   renderSearchResult(results);
