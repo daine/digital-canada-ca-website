@@ -1,22 +1,10 @@
 {{ define "main" }}
-<div class="container section">
-    <!-- <div style="display: flex; flex-direction: column;">
-        <ul style="list-style: none;">
-            {{ range .Paginator.Pages }}
-            {{ .Render "list"}}
-            {{end}}
-        </ul>
-        <div><h1 style="color: black;">FILTER</h1></div>
-    </div> -->
+<div class="container section" style="display: flex; flex-direction: column;">
     <div>
-        <!-- <h1 style="color: black;">Hello</h1> -->
-        <ul class="col-lg-8" style="list-style: none;">
-            {{ range .Paginator.Pages }}
-            {{ .Render "list"}}
-            {{end}}
+        <ul id ="blog-list-result" class="col-lg-8 blogpost-list">
+            <li id="my-blog-li" class="post"></li>
         </ul>
         <div class="col-lg-4" style="padding-left: 6rem;">
-            <!-- display: flex; justify-content: center; -->
             <h2 style="color: black;">Filter and Sort</h2>
             <ul style="list-style: none; padding-left: 0;">
                 <li>tag</li>
@@ -24,7 +12,13 @@
                 <li>quite lengthy tag</li>
             </ul>
         </div>
+
+
         
+    </div>
+    <div style="margin-left: auto; margin-right: auto;">
+        <!-- <gcds-button button-id="load-more-blog-btn">Load more</gcds-button> -->
+        <button id="load-more-blog-btn">Load More</button>
     </div>
     
 
