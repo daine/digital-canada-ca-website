@@ -56,7 +56,7 @@ jobs:
         uses: actions/cache@2b250bc32ad02700b996b496c14ac8c2840a2991 # v2.1.8
         with:
           path: |
-            ./cds-website-dist
+            ../digital-canada-ca-website
           key: ${{ runner.os }}-${{ github.sha }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
@@ -66,7 +66,7 @@ jobs:
         run: gem install html-proofer
       - name: test
         run: |
-          htmlproofer ./cds-website-dist/${{ matrix.lang }} --allow_hash_href --ignore_empty_alt --disable_external --ignore_files=/lib/,/admin/ --checks=favicon  
+          htmlproofer ../digital-canada-ca-website/${{ matrix.lang }} --allow_hash_href --ignore_empty_alt --disable_external --ignore_files=/lib/,/admin/ --checks=favicon  
       - name: Checkout
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
   deploy:
