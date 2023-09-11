@@ -67,11 +67,6 @@ jobs:
           htmlproofer ~/cds-website-dist/${{ matrix.lang }} --allow_hash_href --ignore_empty_alt --disable_external --ignore_files=/lib/,/admin/ --checks=favicon
       - name: Checkout
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
-      - name: npm init
-        run: npm init -y
-      - name: uuid-test
-        run: |
-          npm install --include=dev && npm run uuid
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs: test
