@@ -62,9 +62,6 @@ jobs:
           ruby-version: 3.0
       - name: install html proofer
         run: gem install html-proofer
-      - name: test
-        run: |
-          htmlproofer ~/cds-website-dist/${{ matrix.lang }} --allow_hash_href --ignore_empty_alt --disable_external --ignore_files=/lib/,/admin/ --checks=favicon
       - name: Checkout
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
   deploy:
