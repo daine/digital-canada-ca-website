@@ -41,3 +41,11 @@ module "log_bucket" {
 #   bucket = each.value.s3_bucket_id
 #   policy = data.aws_iam_policy_document.website_bucket_policy_doc[each.key].json
 # }
+
+resource "aws_s3_bucket_website_configuration" "bucket_config" {
+  bucket = "cds-website-english-s3-bucket"
+
+  index_document {
+    suffix = "index.html"
+  }
+}

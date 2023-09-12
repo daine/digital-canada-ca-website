@@ -3,11 +3,12 @@ resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
 }
 
 resource "aws_cloudfront_distribution" "distribution" {
-  for_each    = var.s3_bucket_regional_domain_name
-  enabled     = true
-  aliases     = [each.key]
-  price_class = "PriceClass_All"
-  web_acl_id  = aws_wafv2_web_acl.cds_website_waf.arn
+  for_each            = var.s3_bucket_regional_domain_name
+  default_root_object = "index.html"
+  enabled             = true
+  aliases             = [each.key]
+  price_class         = "PriceClass_All"
+  web_acl_id          = aws_wafv2_web_acl.cds_website_waf.arn
 
   default_cache_behavior {
     target_origin_id       = each.value
@@ -52,12 +53,4 @@ resource "aws_cloudfront_distribution" "distribution" {
     CostCentre = var.billing_code
     Terraform  = true
   }
-}
-
-resource "aws_cloudfront_function" "loadIndexFiles" {
-  name    = "loadIndexFiles"
-  runtime = "cloudfront-js-1.0"
-  comment = "my function"
-  publish = true
-  code    = file("${path.module}/function.js")
 }
