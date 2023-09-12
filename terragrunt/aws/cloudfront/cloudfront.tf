@@ -54,3 +54,11 @@ resource "aws_cloudfront_distribution" "distribution" {
     Terraform  = true
   }
 }
+
+resource "aws_cloudfront_function" "loadIndexFiles" {
+  name    = "loadIndexFiles"
+  runtime = "cloudfront-js-1.0"
+  comment = "my function"
+  publish = true
+  code    = file("${path.module}/function.js")
+}
