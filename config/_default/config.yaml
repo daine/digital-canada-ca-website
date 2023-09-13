@@ -2,6 +2,10 @@ DefaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 sitemap:
   filename: sitemap.xml
+markup:
+  goldmark:
+    renderer:
+      unsafe: true   
 languages:
   en:
     baseUrl: https://digital.canada.ca/

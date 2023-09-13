@@ -16,7 +16,7 @@ async function initBlogSearch() {
         return el.type == "blog"
     })
 
-    // console.log('blogResults is : ', blogResults)
+    console.log('blogResults is : ', blogResults)
     renderBlogResults(blogResults)
 }
 
@@ -49,27 +49,41 @@ function renderBlogResults(blogs) {
                     </div>
                     <div class="author">${paginatedBlogs[i].author}</div>
                     <div class="summary">${paginatedBlogs[i].description}</div>
+                    <gcds-button button-id="read-full-post-btn" type="link" href='${paginatedBlogs[i].href}'>${readFullPostTranslation()}<gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
                 </div>
         </li>`
     }
     blogListResults.innerHTML = blogResultList
+    // <div class="author">${paginatedBlogs[i].imageAlt["image-alt"]}</div>
     
 }
 
 loadMoreBlogButton.addEventListener("click", () => {
-    // blogRows += 6
-    // renderBlogResults(blogResults)
-    console.log('Test!')
+    blogRows += 6
+    renderBlogResults(blogResults)
 })
 
 function dateFormat(date) {
-    // console.log(document.documentElement.lang)
     let formattedDate;
     const blogDate = new Date(date)
     if (document.documentElement.lang == 'en') {
         const options = {year: 'numeric', month: 'short', day: 'numeric'}
         formattedDate = blogDate.toLocaleDateString('en-us', options)
+    } else if (document.documentElement.lang == 'fr') {
+        const options = {year: 'numeric', month: 'long', day: 'numeric'}
+        formattedDate = blogDate.toLocaleDateString('fr-ca', options)
     }
     
     return formattedDate;
+}
+
+function readFullPostTranslation() {
+    let readFullPost;
+
+    if (document.documentElement.lang == 'en') {
+        return 'Read full post '
+    }
+    else if (document.documentElement.lang == 'fr') {
+        return 'FR Read full post '
+    }
 }
