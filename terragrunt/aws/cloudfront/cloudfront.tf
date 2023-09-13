@@ -22,6 +22,11 @@ resource "aws_cloudfront_distribution" "distribution" {
     cache_policy_id            = local.cloudfront_cache_policy_optimized
     origin_request_policy_id   = local.cloudfront_origin_request_policy_cors_s3origin
     response_headers_policy_id = local.cloudfront_response_headers_policy_cors_preflight
+
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.loadIndexFiles.arn
+    }
   }
   origin {
     domain_name = each.value
