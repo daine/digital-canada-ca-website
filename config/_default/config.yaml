@@ -9,6 +9,8 @@ markup:
 languages:
   en:
     baseUrl: https://digital.canada.ca/
+    params:
+      home: "content/en/products/_index.html"
     contentDir: content/en
     lang: en
     languageName: English
@@ -24,7 +26,7 @@ languages:
       main:
         - identifier: products
           name: Products
-          url: /products/
+          url: /
           weight: 1
         - identifier: about-cds
           name: About CDS

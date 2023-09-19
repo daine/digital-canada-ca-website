@@ -1,130 +1,27 @@
-{{ define "title" }}
-{{ partial "menu.html" . }}
-{{ end }}
 
-{{ define "index" }}
+
+{{ define "main" }}
 
                     
      
 
-<div class="container homepage--how-we-can-help">
-
-  <section class="section">
-    <div class="row">
-      <h2>{{ i18n "how-we-can-help" }}</h2>
-
-      <div>
-        <div class="row">
-          <div class="col-md-6" >
-            <h3>{{ i18n "product-title" }}</h3>
-            <p>{{ i18n "product-homepage-description" }}</p>
-          </div>
-          <div class="col-md-6 div-img">
-            <img src="/img/cds/product.svg" alt="{{i18n "product-image-alt"}}"/>
-          </div>
-        </div>
-        <!-- <div class="cta-wrapper" style="margin-top: auto;">
-          <div class="cta cta--resources-green">
-            <div class="cta__link">
-              <a href="/product/" id="{{ i18n "product-tag" }}">{{ i18n "product-button-text" }}
-                <svg width="16" height="16"
-                  viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 9H0V7H8V0L16 8L8 16V9Z" />
-                </svg></a>
-            </div>
-          </div>
-        </div> -->
-        <gcds-button>
-          Button Label
-        </gcds-button>
-      </div>
-
+<section class="page container homepage--how-we-can-help">
+  <div style="display: flex;">
+  
+    {{ range $prod_index, $prod := where .Site.Pages "Section" "==" "products"}}
+    {{ if ne .Params.description nil}}
+    <div style="margin: 2rem; flex: 1; padding: 1em;">
+      <gcds-card card-title="{{ .Params.title }}" href="{{ .Params.link }}" tag="Tag" description="{{ .Params.description }}" img-src="https://de2an9clyit2x.cloudfront.net/small_banner_security_snack_time_a5cd2fbf11.jpg"></gcds-card>
     </div>
+    {{end}}
+    
+  {{end}}
+  
 
-    <section class="section">
-      <div class="cta-wrapper" style="margin: 1rem 0 1rem 0;">
-        <div class="cta cta--grey-bg cta--dark-career-brown col-sm-12">
-          <div class="cta__content">
-            <h2 class="cta__content-title">{{ i18n "join-our-team" }}</h2>
-            <p style="width: 70%;"> {{ i18n "join-our-team-description" }}</p>
-          </div>
-          <div class="cta__link">
-            <a href="/careers/" id="{{i18n "careers-tag" }}">{{ i18n "job-postings" }}<svg width="16" height="16" viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 9H0V7H8V0L16 8L8 16V9Z" />
-              </svg></a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-</div>
-<div class="container homepage--blog-posts">
-  {{ $p := where .Site.Pages "Section" "==" "blog" }}
-  {{ $posts := where $p ".Params.author" "!=" nil }}
-  {{$first := index $posts 0 }}
-  <section class="section">
-    <div class="row">
-      <div class="blog">
-        {{range first 1 $posts}}
-        <div class="posts">
-          <a href="{{.RelPermalink}}">
-            <img src="{{.Params.thumb}}" alt='{{ index .Params "image-alt" }}'/>
-          </a>
-          
-          <h2><a style="font-size: 4rem;" href="{{.RelPermalink}}">{{.Params.title}}</a></h2>
-          
-          <div style="width: 90%; margin-bottom: 1rem;">{{.Params.description}}</div>
-
-          <div class="date">
-            {{ if eq .Lang "en"}}
-            {{ .Date.Format "Jan 2, 2006" }}
-            {{end}}
-            {{ if eq .Lang "fr" }}
-            {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
-            {{ end }}
-          </div>
-        </div>
-        {{end}}
-        <div class="range-posts">
-          {{range first 4 (after 1 $posts) }}
-          <div style="border-bottom: 1px solid #D2D3D4; display: flex ;">
-            <a href="{{.RelPermalink}}">
-              <img src="{{.Params.thumb}}" alt='{{ index .Params "image-alt" }}'/>
-            </a>
-            
-            <span ><a style="font-size: 1.6rem; margin-top: 0;" href="{{.RelPermalink}}">{{.Params.title}}</a>
-              <div class="blog-date">
-                {{ if eq .Lang "en"}}
-                {{ .Date.Format "Jan 2, 2006" }}
-                {{end}}
-                {{ if eq .Lang "fr" }}
-                {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                {{ end }}
-              </div>
-            </span>
-          </div>
-          {{end}}
-        </div>
-      </div>
-    </div>
-
-    <div class="cta-wrapper">
-      <div class="cta cta--light-blog-pink">
-        <div class="cta__link">
-          <a href="/blog/" style="color: black !important;" id="{{i18n "read-our-blog-tag" }}">{{ i18n "read-our-blog-posts" }}<svg style="fill: black;" width="16" height="16" viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 9H0V7H8V0L16 8L8 16V9Z" />
-            </svg></a>
-        </div>
-      </div>
-    </div>
-
-  </section>
-</div>
-
-
-<section class="section section--mailing-list">
-  {{ partial "mailing-list.html" }}
+  </div>
+  <div class="container">
+    <h2>Built by government for government</h2>
+  </div>
 </section>
+
 {{ end }}
