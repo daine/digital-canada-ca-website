@@ -9,7 +9,7 @@
   {{ $home_products := where .Site.Pages "Section" "==" "products"}}
   <div class="container">
     <div class="row equal">
-      {{ range $prod_index, $prod := $home_products}}
+      {{ range $prod_index, $prod := after 1 $home_products}}
       {{ if and (ne $prod_index 0) (eq (mod $prod_index 2) 0) (ne .Params.description nil)}}
     </div>
     <div class="row equal">
