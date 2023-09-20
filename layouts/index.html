@@ -16,17 +16,42 @@
       {{ end }}
       
         <div class="col-md-6 col-xs-12">
-          <gcds-card card-title="{{ .Params.title }}" href="{{ .Params.link }}" tag="{{$prod_index}}" description="{{ .Params.description }}" img-src="https://de2an9clyit2x.cloudfront.net/small_banner_security_snack_time_a5cd2fbf11.jpg"></gcds-card>
+          <gcds-card card-title="{{ .Params.title }}" href="{{ .Params.link }}" tag="Tag" description="{{ .Params.description }}" img-src="https://de2an9clyit2x.cloudfront.net/small_banner_security_snack_time_a5cd2fbf11.jpg"></gcds-card>
         </div>
         
       {{end}}  
     </div>
+    <div class="container">
+      <h2>Built by government for government</h2>
+      <ul>
+        <li>Secure</li>
+        <li>Accessible</li>
+        <li>Bilingual</li>
+        <li>Free to use</li>
+        <li>Simple to integrate</li>
+        <li>Supported by our in house team</li>
+      </ul>
+      <h2>Used by hundreds of public servants, including those from:</h2>
+      <ul style="list-style: none; padding: 0;">
+        <li>Immigration, Refugees and Citizenship Canada</li>
+        <li>Employment and Social Development Canada</li>
+        <li>Treasury Board of Canada Secretariat</li>
+        <li>Royal Canadian Mounted Police</li>
+        <li>Health Canada</li>
+      </ul>
+    </div>
+
 
   </div>
+  <div style="background-color: #425A76; padding: 3rem 0">
+    <div class="container">
+      <h2 style="color: white; font-weight: 600;">Contact CDS</h2>
+      <div><p style="color: white;">Reach out to learn if these products are right for you</p></div>
+      <gcds-button>Contact CDS <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
+    </div>
+  </div>
 
-  <!-- <div class=“container”>
-    <h2>Built by government for government</h2>
-  </div> -->
+
 </section>
 
 {{ end }}
