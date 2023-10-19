@@ -1,7 +1,7 @@
 ---
 title: 'GC Forms'
 description: Create accessible online forms
-image: '../../../../static/img/cds/product-icon.svg'
+image: '/img/cds/gc-forms.svg'
 imageAlt: 'imageAlt'
 link: ''
 ---
