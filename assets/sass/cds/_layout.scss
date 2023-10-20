@@ -101,7 +101,8 @@
 }
 
 .page-banner {
-  background-color: #D6D9DD;
+  // background-color: #D6D9DD;
+  background-image: url("/img/cds/banner-background.svg");
   background-size: cover;
   background-position: center center;
 
@@ -143,7 +144,7 @@
   h1 {
     border-bottom: none;
     font-size : 4.6rem;
-    color: #333;
+    color: $white;
     font-weight: 100;
     margin: 1.5rem;
     padding: 0;
