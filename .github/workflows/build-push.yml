@@ -91,7 +91,7 @@ jobs:
       - name: configure aws credentials using OIDC              
         uses: aws-actions/configure-aws-credentials@04b98b3f9e85f563fb061be8751a0352327246b0 # v3.0.1
         with:
-          role-to-assume: arn:aws:iam::521732289257:role/digital-canada-ca-apply  # TF apply
+          role-to-assume: arn:aws:iam::521732289257:role/digital-canada-ca-website-apply  # use for TF apply or admin access (only works on `main` branch)
           role-session-name: cache
           aws-region: ca-central-1
       - name: Deploy and invalidate cache

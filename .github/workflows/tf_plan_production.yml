@@ -42,7 +42,7 @@ jobs:
     - name: configure aws credentials using OIDC
       uses: aws-actions/configure-aws-credentials@04b98b3f9e85f563fb061be8751a0352327246b0 # v3.0.1
       with:
-        role-to-assume: arn:aws:iam::521732289257:role/digital-canada-ca-plan   # TF plan
+        role-to-assume: arn:aws:iam::521732289257:role/digital-canada-ca-website-plan   # use for TF plan or when you only need read-only access (works on all branches)
         role-session-name: TFPlan
         aws-region: ${{ env.AWS_REGION }}
 
