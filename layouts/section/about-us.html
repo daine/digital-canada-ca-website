@@ -1,10 +1,13 @@
 {{ define "main" }}
 <section class="container">
     <div style="padding: 5rem 0;">
-        <p>The Canadian Digital Service (CDS) is part of <a href="">Employment and Social Development Canada (ESDC).</a></p>
+        <p>The Canadian Digital Service (CDS) is part of <a href="">Employment and Social Development Canada (ESDC).</a>
+        </p>
         <div style="padding-bottom: 2rem;">
             <h2>What we do</h2>
-            <p>We build digital products that solve common service problems for departments. We do this to advance the goals of the <a href="">Digital Ambition</a> and improve service experiences in the Government of Canada.</p>
+            <p>We build digital products that solve common service problems for departments. We do this to advance the
+                goals of the <a href="">Digital Ambition</a> and improve service experiences in the Government of
+                Canada.</p>
             <gcds-button>Our products <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
         </div>
         <div>
@@ -12,28 +15,40 @@
             <p>We're a team of over 100 people. We work across Canada, from coast to coast to coast.</p>
             <ul>
                 <li>We were <a href="">founded in 2017</a> in Treasury Board of Canada Secreteriat (TBS).</li>
-                <li><a href="">In budget 2021</a>, we received ongoing funding to become a permanent organization in the Government of Canada.</li>
-                <li><a href="">In 2023, we were moved from TBS to ESDC</a> to support the new Minister of Citizen Services.</li>
+                <li><a href="">In budget 2021</a>, we received ongoing funding to become a permanent organization in the
+                    Government of Canada.</li>
+                <li><a href="">In 2023, we were moved from TBS to ESDC</a> to support the new Minister of Citizen
+                    Services.</li>
             </ul>
         </div>
-        <div style="padding: 5rem 0">
-            <div>
-                <h2>Contact CDS</h2>
-                <gcds-input input-id="full-name-input" label="Full name" size="30"></gcds-input>
-                <gcds-input input-id="email-input" label="Email address" size="30"></gcds-input>
-                <gcds-input input-id="organization-name" label="What organization do you work for?" size="30"></gcds-input>
-                <gcds-input input-id="contact-message" label="Message" size="60"></gcds-input>
-                <gcds-button>Send <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
-            </div>
-            <div style="padding-top: 1rem;">
-                <h2>Stay in touch</h2>
-                <ul style="list-style: none; padding: 0;">
-                    <li><a href="">Newsletter</a></li>
-                    <li><a href="">Linkedin</a></li>
-                </ul>
-            </div>
-        </div>
+
     </div>
 </section>
+<div style="background-color: #D6D9DD;">
+    <div class="container" style="padding: 5rem 0">
+        <div>
+            <h2 style="padding-bottom: 2rem;"><strong>Contact CDS</strong></h2>
+            <gcds-input input-id="full-name-input" label="Full name" size="30"></gcds-input>
+            <gcds-input input-id="email-input" label="Email address" size="30"></gcds-input>
+            <gcds-input input-id="organization-name" label="What organization do you work for?"
+                size="30"></gcds-input>
+            <gcds-textarea textarea-id="contact-message" label="Message"></gcds-textarea>
+            <gcds-button>Send <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
+        </div>
+
+    </div>
+
+</div>
+<div style="background-color: #D7E5F5;">
+    <div class="container" style="padding: 2rem 0;">
+        <div>
+            <h2>Stay in touch</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 {{ end }}
