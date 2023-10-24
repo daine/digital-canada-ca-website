@@ -341,18 +341,14 @@
 // JOIN OUR TEAM
 //
 ////////////////////////////////////////////////////
-.joinus-section,
-.work-with-us--section,
-.work-with-us--process {
-  h3 {
-    @include h2styling;
-  }
 
-  .major {
-    @include major($career-brown);
-  }
+.our-hiring-process {
+  background-color: #D7E5F5;
+  background-image: url("/img/cds/our-hiring-process.svg");
+  background-size: 50%;
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
-
 .work-with-us--section {
   padding: 3rem 0 4rem 0;
 }
@@ -401,11 +397,15 @@
 
 .steps {
   list-style: none;
-  counter-reset: my-awesome-counter;
+  // counter-reset: my-awesome-counter;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+
+  h4 {
+    font-size: 1.5em;
+  }
 
   &__item {
     counter-increment: my-awesome-counter;
