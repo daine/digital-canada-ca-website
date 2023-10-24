@@ -102,14 +102,22 @@
 
       {{ block "title" . }}
       {{partial "menu.html" . }}
-      <div class="page-banner">
+      {{ if or (eq .Params.title "Error") (eq .Params.title "Erreur!") }}
+      <div class="page-banner error">
+      {{ else }}
+      <div class="page-banner standard">
+      {{ end }}  
         <div class="container">
           <div class="page-banner--title">
             {{ $title := i18n .Params.title }}
             {{ with $title }}
             <h1>{{ $title }}</h1>
             {{ else }}
+            
+            
+            
             <h1>{{ .Params.title }}</h1>
+            
             {{end}}
             {{ if .Params.subtitle }}
             <span class="page-title-sub">
@@ -135,12 +143,10 @@
     </main>
 
 
-    {{ block "footer" . }}
-    <!-- {{ partial "social-links.html" . }} -->
+    
+    
 
-    <footer role="contentinfo" class="footer">
-      {{ partial "footer.html" }}
-    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
       integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
       crossorigin="anonymous"></script>
@@ -153,8 +159,13 @@
 
 
     <!-- Google Analytics -->
-    
-    {{ end }}
+    {{ if or (eq .Params.translationKey "formError") (eq .Params.translationKey "thankYou") (eq .Params.translationKey "success") }}
+    <div role="contentinfo" class="footer bottom">
+    {{ else }}
+    <div role="contentinfo" class="footer">
+    {{ end }}  
+      {{ partial "footer.html" }}
+    </div>
   </body>
 
 </html>

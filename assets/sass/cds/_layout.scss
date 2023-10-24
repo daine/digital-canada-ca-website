@@ -101,10 +101,19 @@
 }
 
 .page-banner {
-  // background-color: #D6D9DD;
-  background-image: url("/img/cds/banner-background.svg");
+
+  // background-image: url("/img/cds/error-banner.svg");
   background-size: cover;
-  background-position: center center;
+  background-position: center center; 
+  &.standard {
+    background-image: url("/img/cds/banner-background.svg");
+  }
+  &.error {
+    background-image: url("/img/cds/error-banner.svg");
+  }
+
+
+
 
   // height: 12rem;
   position: relative;
