@@ -346,6 +346,27 @@
   }
 }
 
+.security-notice-banner {
+  display: inline-block;
+  background-color: #D7E5F5;
+  border-inline-start: 0.4rem solid #6584A6;
+  color: #333;
+  margin: 0 0 1.125rem;
+  padding: 0.75rem;
+  width: 100%;
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
 .job-postings-container {
 
   .padding {
