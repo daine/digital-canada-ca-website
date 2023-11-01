@@ -81,19 +81,16 @@ $(document).ready(function () {
     }
 
   })
-  document.getElementById("how-we-can").addEventListener('focus', function() {
-    document.getElementById("dropdwn-cnt").style.display = "block"
-    document.getElementById("coaching-and-advice-nav-tag").focus();
-  })
+
   document.addEventListener("keyup", function (e) {
     console.log(document.activeElement)
   })
 
 
-
   $("#js-mainNavButton").on("click touchup", function () {
     $("#js-mobileNav").addClass("active");
     $("#js-mobileNav--button").focus()
+    console.log('MAIN NAV BTN CLICKED')
 
 
     

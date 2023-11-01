@@ -4,6 +4,7 @@ let blogListResults = document.getElementById("blog-list-result")
 let myBlogLi = document.getElementById("my-blog-li")
 // let loadMoreBlogButton = document.getElementById("load-more-blog-btn")
 let loadMoreBlogButton = document.querySelector("#blog-btn")
+let jsMainNavButton = document.querySelector("#js-mainNavButton")
 async function initBlogSearch() {
     try {
         const response = await fetch ("/index.json")
@@ -62,6 +63,9 @@ loadMoreBlogButton.addEventListener("click", () => {
     blogRows += 6
     renderBlogResults(blogResults)
 })
+// jsMainNavButton.addEventListener("click", () => {
+//     console.log('hello, i have been clicked!')
+// })
 
 function dateFormat(date) {
     let formattedDate;

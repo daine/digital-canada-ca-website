@@ -2,13 +2,13 @@
   aria-label="{{ i18n "menu"}}">
   <div class="container topbar" id="site--topbar">
     <div class="row">
-      <div class="col-xs-4 col-sm-3">
+      <div class="col-xs-4 col-sm-3 col-md-8">
         <a href={{ .Site.BaseURL | absLangURL }} class="cds-logo {{.Site.Language.Lang}}" aria-label="{{ i18n "aria-cds-website" }}" id="cds-logo"></a>
         <!-- mobile screen wordless logo -->
         <a href={{ .Site.BaseURL | absLangURL }} class="cds-logo-mobile {{.Site.Language.Lang}}" aria-label="{{ i18n "aria-cds-website" }}"></a>
       </div>
 
-      <div class="nav-container">
+      <div class="nav-container col-md-4">
 
         <div id="js-mobileNav" >
           <div class="mobile-btns">
@@ -27,10 +27,9 @@
 
               {{ $title := .Params.title }}
               {{ range $menu := .Site.Menus.main }}
-              <a href="{{ .URL | relLangURL }}" id="{{.Identifier}}-nav-tag" class="{{ if eq $title .Identifier }} underline{{end}}">{{ .Name }}</a>
+              <a href="{{ .URL | relLangURL }}" id="{{.Identifier}}-nav-tag" class="{{ if eq $title .Identifier }} underline{{end}} menu-items-a">{{ .Name }}</a>
               {{ end }}
-              <button type="button" class="search-button" id="open" aria-label="{{ i18n "search" }}"><i
-                class="fa fa-search search-button-icon"></i></button>
+
             </div>
           </div>
         </div>
@@ -47,3 +46,27 @@
   </div>
 
 </nav>
+
+<!-- <nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="cds-menu" typeof="SiteNavigationElement"
+  aria-label="{{ i18n "menu"}}">
+  <div class="container topbar">
+    <div class="row">
+      <div class="col-md-8">
+        <a href={{ .Site.BaseURL | absLangURL }} class="cds-logo {{.Site.Language.Lang}}" aria-label="{{ i18n "aria-cds-website" }}" id="cds-logo"></a>
+        <a href={{ .Site.BaseURL | absLangURL }} class="cds-logo-mobile {{.Site.Language.Lang}}" aria-label="{{ i18n "aria-cds-website" }}"></a>
+      </div>
+      <div class="nav-container col-md-4">
+        <div id="js-mobileNav">
+          <div class="mobile-btns">
+            <div class="menu-items">
+              {{ $title := .Params.title }}
+              {{ range $menu := .Site.Menus.main }}
+              <a href="{{ .URL | relLangURL }}" id="{{.Identifier}}-nav-tag" class="{{ if eq $title .Identifier }} underline{{end}}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav> -->
