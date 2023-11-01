@@ -154,7 +154,7 @@
 
   .underline {
     @include tablet {
-      border-bottom: $primary-color 4px solid;
+      border-bottom: #425A76 4px solid;
     }
     
   }
@@ -211,6 +211,10 @@
     top: 0;
     left: 0;
     animation: fadeIn 0.3s ease-in-out forwards;
+
+    .menu-items-a {
+      color: white;
+    }
 
     #js-mobileNav--button {
       display: block;
@@ -315,7 +319,7 @@
   background: none;
   float: right;
   z-index: 1;
-  background-color: black;
+  background-color: #31455c;
 
   .fa-bars {
     margin: 0px;
