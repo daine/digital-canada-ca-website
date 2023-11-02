@@ -233,4 +233,55 @@ product-button-text:
 product-url:
   other: "/produits/"
 privacy-page-url:
-  other: "/transparence/confidentialite/"                             
+  other: "/transparence/confidentialite/"
+
+fip-header:
+  other: "FR The Canadian Digital service is a part of the Government of Canada. Here’s how you know"
+homepage-built-by-title:
+  other: "FR Built by government for government"
+homepage-built-by-list-one:
+  other: "FR Secure"              
+homepage-built-by-list-two:
+  other: "FR Accessible"
+homepage-built-by-list-three:
+  other: "FR Bilingual"
+homepage-built-by-list-four:
+  other: "FR Free to use"
+homepage-built-by-list-five:
+  other: "FR Simple to integrate"
+homepage-built-by-list-six:
+  other: "FR Supported by our in house team"
+homepage-used-by-hundred-title:
+  other: "FR Used by hundreds of public servants, including those from:"             
+homepage-used-by-hundred-list-one:
+  other: "FR Immigration, Refugees and Citizenship Canada"  
+homepage-used-by-hundred-list-two:
+  other: "FR Employment and Social Development Canada"
+homepage-used-by-hundred-list-three:
+  other: "FR Treasury Board of Canada Secretariat"
+homepage-used-by-hundred-list-four:
+  other: "FR Royal Canadian Mounted Police"
+homepage-used-by-hundred-list-five:
+  other: "FR Health Canada"
+contact-cds:
+  other: "FR Contact CDS"          
+email-us:
+  other: "FR You can contact us by emailing"
+stay-in-touch:
+  other: "FR Stay in touch"
+newsletter:
+  other: "FR Newsletter"
+linkedin:
+  other: "FR LinkedIn"
+footer-heading:
+  other: "FR Canadian Digital Service (CDS)"
+footer-jobs-at-cds:
+  other: "FR Jobs at CDS"
+footer-security:
+  other: "FR Security"              
+footer-privacy:
+  other: "FR Privacy"
+footer-terms:
+  other: "FR Terms and Conditions"
+footer-visit-canada-ca:
+  other: "FR Visit Canada.ca"      

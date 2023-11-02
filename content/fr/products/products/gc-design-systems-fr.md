@@ -1,7 +1,7 @@
 ---
 title: 'FR GC Design System'
-description: Reusable components and web standards
-image: '../../../../static/img/cds/product-icon.svg'
+description: FR Reusable components and web standards
+image: '/img/cds/gc-design-systems.svg'
 imageAlt: 'imageAlt'
-link: ''
+link: 'https://systeme-design.alpha.canada.ca/fr/'
 ---

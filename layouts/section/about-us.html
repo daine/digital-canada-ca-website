@@ -5,8 +5,8 @@
             <div class="container" style="padding-top: 2rem;">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-                        <h2 class="h2-header">Contact CDS</h2>
-                        <p>You can contact us by emailing <a href="mailto:cds-snc@tbs-sct.gc.ca">cds-snc@tbs-sct.gc.ca</a></p>
+                        <h2 class="h2-header">{{ i18n "contact-cds"}}</h2>
+                        <p>{{ i18n "email-us" }} <a href="mailto:cds-snc@tbs-sct.gc.ca">cds-snc@tbs-sct.gc.ca</a></p>
                     </div>
                     
                 </div>
@@ -17,13 +17,13 @@
         <div class="container" style="padding-top: 2rem;">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-                    <h2 class="h2-header">Stay in touch</h2>
+                    <h2 class="h2-header">{{ i18n "stay-in-touch" }}</h2>
                     <ul class="stay-in-touch">
                         <li>
-                            <a href="">Newsletter</a>
+                            <a href={{ i18n "all-newsletter-past" }}>{{ i18n "newsletter" }}</a>
                         </li>
                         <li>
-                            <a href="">LinkedIn</a>
+                            <a href="https://linkedin.com/company/{{$.Site.Data.contact.linkedin}}">LinkedIn</a>
                         </li>
                     </ul>
                 </div>

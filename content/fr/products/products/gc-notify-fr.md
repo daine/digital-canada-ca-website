@@ -1,7 +1,7 @@
 ---
 title: 'FR GC Notify'
-description: Send automated email and text notifications
-image: '../../../../static/img/cds/product-icon.svg'
+description: FR Send automated email and text notifications
+image: '/img/cds/gc-notify.svg'
 imageAlt: 'imageAlt'
-link: ''
+link: 'https://notification.canada.ca/accueil'
 ---
