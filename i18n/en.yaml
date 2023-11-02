@@ -229,4 +229,59 @@ product-button-text:
 product-url:
   other: "/product/"
 privacy-page-url:
-  other: "/legal/privacy"          
+  other: "/legal/privacy"
+
+fip-header:
+  other: "The Canadian Digital service is a part of the Government of Canada. Here’s how you know"
+homepage-built-by-title:
+  other: "Built by government for government"
+homepage-built-by-list-one:
+  other: "Secure"              
+homepage-built-by-list-two:
+  other: "Accessible"
+homepage-built-by-list-three:
+  other: "Bilingual"
+homepage-built-by-list-four:
+  other: "Free to use"
+homepage-built-by-list-five:
+  other: "Simple to integrate"
+homepage-built-by-list-six:
+  other: "Supported by our in house team"
+homepage-built-by-image-alt:
+  other: "A phone displaying various applications. A key lays by the phone and a lock hovers in front."  
+homepage-used-by-hundred-title:
+  other: "Used by hundreds of public servants, including those from:"             
+homepage-used-by-hundred-list-one:
+  other: "Immigration, Refugees and Citizenship Canada"  
+homepage-used-by-hundred-list-two:
+  other: "Employment and Social Development Canada"
+homepage-used-by-hundred-list-three:
+  other: "Treasury Board of Canada Secretariat"
+homepage-used-by-hundred-list-four:
+  other: "Royal Canadian Mounted Police"
+homepage-used-by-hundred-list-five:
+  other: "Health Canada"
+homepage-used-by-image-alt:
+  other: "A person standing in front of an image of earth. Around this person are portraits of people connected by a network of lines."  
+contact-cds:
+  other: "Contact CDS"          
+email-us:
+  other: "You can contact us by emailing"
+stay-in-touch:
+  other: "Stay in touch"
+newsletter:
+  other: "Newsletter"
+linkedin:
+  other: "LinkedIn"
+footer-heading:
+  other: "Canadian Digital Service (CDS)"
+footer-jobs-at-cds:
+  other: "Jobs at CDS"
+footer-security:
+  other: "Security"              
+footer-privacy:
+  other: "Privacy"
+footer-terms:
+  other: "Terms and Conditions"
+footer-visit-canada-ca:
+  other: "Visit Canada.ca"      
