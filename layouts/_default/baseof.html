@@ -143,7 +143,13 @@
     </main>
 
 
-    
+    {{ if or (eq .Params.translationKey "formError") (eq .Params.translationKey "thankYou") (eq .Params.translationKey "success") }}
+    <div role="contentinfo" class="footer bottom">
+    {{ else }}
+    <div role="contentinfo" class="footer">
+    {{ end }}  
+      {{ partial "footer.html" }}
+    </div>
     
 
 
@@ -159,13 +165,7 @@
 
 
     <!-- Google Analytics -->
-    {{ if or (eq .Params.translationKey "formError") (eq .Params.translationKey "thankYou") (eq .Params.translationKey "success") }}
-    <div role="contentinfo" class="footer bottom">
-    {{ else }}
-    <div role="contentinfo" class="footer">
-    {{ end }}  
-      {{ partial "footer.html" }}
-    </div>
+
   </body>
 
 </html>
