@@ -10,3 +10,6 @@ bitmaps_test/
 **/.terragrunt-cache
 # Specifically include these files
 !.devcontainer/Dockerfile
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
