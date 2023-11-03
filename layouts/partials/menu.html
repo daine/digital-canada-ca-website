@@ -27,7 +27,7 @@
 
               {{ $title := .Params.title }}
               {{ range $menu := .Site.Menus.main }}
-              <a href="{{ .URL | relLangURL }}" id="{{.Identifier}}-nav-tag" class="{{ if eq $title .Identifier }} underline{{end}} menu-items-a">{{ .Name }}</a>
+              <a href="{{ .URL | relLangURL }}" id="{{.Identifier}}-nav-tag" class="{{ if eq $title .Identifier }} underline{{end}} menu-items-a">{{ .Name }} </a>
               {{ end }}
 
             </div>
