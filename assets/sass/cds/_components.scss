@@ -1,57 +1,57 @@
-.mc-button {
-  position: relative;
-  display: inline-block;
-  font-weight: 400;
-  padding: 1rem 6.5rem;
-  border: $primary-color 2px solid;
-  background: #333;
-  transition: all 0.3s ease-in-out;
-  color: $primary-color;
-  margin: 2rem 0;
-  font-size: 1.75rem;
+// .mc-button {
+//   position: relative;
+//   display: inline-block;
+//   font-weight: 400;
+//   padding: 1rem 6.5rem;
+//   border: $primary-color 2px solid;
+//   background: #333;
+//   transition: all 0.3s ease-in-out;
+//   color: $primary-color;
+//   margin: 2rem 0;
+//   font-size: 1.75rem;
 
-  &:hover {
-    border-color: $secondary-color;
-    background: $secondary-color;
-    color: $primary-color;
-    border-radius: 0;
-  }
+//   &:hover {
+//     border-color: $secondary-color;
+//     background: $secondary-color;
+//     color: $primary-color;
+//     border-radius: 0;
+//   }
 
-  &.outline {
-    background: none;
-    color: $white;
-    border-color: $white;
+//   &.outline {
+//     background: none;
+//     color: $white;
+//     border-color: $white;
 
-    &:hover {
-      background: $primary-color;
-      color: $secondary-color;
-      border-color: $primary-color;
-    }
+//     &:hover {
+//       background: $primary-color;
+//       color: $secondary-color;
+//       border-color: $primary-color;
+//     }
 
-    &.dark {
-      color: $secondary-color !important;
-      border-color: $secondary-color;
+//     &.dark {
+//       color: $secondary-color !important;
+//       border-color: $secondary-color;
 
-      &:hover {
-        color: $primary-color !important;
-        background: $secondary-color;
-      }
-    }
-  }
+//       &:hover {
+//         color: $primary-color !important;
+//         background: $secondary-color;
+//       }
+//     }
+//   }
 
-  &.small {
-    margin: 1rem 0;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-  }
-}
+//   &.small {
+//     margin: 1rem 0;
+//     padding: 0.5rem;
+//     font-size: 1.2rem;
+//   }
+// }
 
 .our-team--listing {
   max-width: 100% !important;
 }
 .h2-header {
   font-weight: 600;
-  font-size: 3.75rem;
+  font-size: 2.35rem;
 }
 .contact-info {
   list-style: none;
@@ -95,18 +95,15 @@
   }
 }
 
-.contact-info-container {
-  max-width: 40rem;
-  margin: 0 auto;
-}
+
 
 // Adapted from WET's Bootstrap based alerts
 // https://wet-boew.github.io/v4.0-ci/demos/collapsible-alerts/collapsible-alerts-en.html
 .info-alert {
   background: #d7faff;
   border-left: 4px solid #269abc;
-  padding: 2.2rem 2.5rem;
-  margin-bottom: 2.75rem;
+  padding: 1.375rem 1.5625rem;
+  margin-bottom: 1.71875rem;
 
   p:last-child {
     margin-bottom: 0;
@@ -118,7 +115,7 @@
 }
 .job-posting-banner {
   background: #fdf3cd;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.625rem;
   color: black;
   
   a {
@@ -135,9 +132,9 @@
 
 ///// TEAM LISTING
 .heading {
-  padding: 2.5rem;
+  padding: 1.5625rem;
   background-color: $team-purple;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   color: white;
 }
 .team-listing {
@@ -145,14 +142,14 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 
   @include tablet {
   }
 
   &.exec {
-    padding-bottom: 5rem;
-    margin-bottom: 2rem;
+    padding-bottom: 3.125rem;
+    margin-bottom: 1.25rem;
   }
 
   .team-member {
@@ -160,29 +157,29 @@
     border-bottom: $team-purple 4px solid;
     box-shadow: rgb(225, 228, 231) 0px -1px 4px;
     background-color: $medium-grey;
-    padding: 2.5rem 0 0;
-    margin-bottom: 2rem;
+    padding: 1.5625rem 0 0;
+    margin-bottom: 1.25rem;
     @include desktop {
       height: 482px;
     }
 
     @include tablet {
-      padding: 3.5rem 0 0;
+      padding: 2.1875rem 0 0;
     }
   }
 
   .photo-container img {
     display: block;
-    margin: 0rem auto 1.5rem auto;
-    height: 15rem;
-    width: 15rem;
+    margin: 0rem auto 0.9375rem auto;
+    height: 9.375rem;
+    width: 9.375rem;
     border: $black 3px solid;
     background-size: cover;
     border-radius: 50%;
 
     @include tablet {
-      height: 15rem;
-      width: 15rem;
+      height: 9.375rem;
+      width: 9.375rem;
       border-width: 4px;
     }
   }
@@ -195,35 +192,35 @@
   }
 
   .contact-info-social {
-    padding-top: 1rem;
+    padding-top: 0.625rem;
   }
 
   .name {
-    font-size: 2.35rem;
+    font-size: 1.46875rem;
     font-weight: 600;
   }
 
   .title {
-    font-size: 1.7rem;
+    font-size: 1.0625rem;
     color: #4c4c4c;
   }
 
   .social-icons a {
     display: inline-flex;
     justify-content: center;
-    font-size: 2.2rem;
-    padding: 1.5rem 1.5rem;
+    font-size: 1.375rem;
+    padding: 0.9375rem 0.9375rem;
 
     @include mobile_only {
-      margin-bottom: 5rem;
+      margin-bottom: 3.125rem;
     }
 
     @include tablet {
-      margin-bottom: 5rem;
+      margin-bottom: 3.125rem;
     }
 
     @media (max-width: 1265px) {
-      padding: 1.45rem 1.45rem;
+      padding: 0.90625rem 0.90625rem;
     }
 
     &:hover {
@@ -235,10 +232,10 @@
 // Blogpost page
 .page-blogpost {
   h1 {
-    font-size: 4.6rem;
+    font-size: 2.875rem;
     font-weight: 100;
     margin-top: 0;
-    margin-top: 1.5rem;
+    margin-top: 0.9375rem;
     color: $black;
     margin-left: 0;
     margin-right: 0;
@@ -246,36 +243,36 @@
   }
 
   h2 {
-    font-size: 3rem;
-    line-height: 4.25rem;
+    font-size: 1.875rem;
+    line-height: 2.65rem;
   }
   h3 {
-    line-height: 3.25rem;
+    line-height: 2.03125rem;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 1.5625rem;
   }
 
   .header-translation {
-    font-size: 1.75rem;
+    font-size: 1.09375rem;
     font-weight: 100;
-    line-height: 2.25rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    line-height: 1.40625rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 
     @include desktop {
-      margin-top: -6rem;
-      padding-bottom: 6rem;
+      margin-top: -3.75rem;
+      padding-bottom: 3.75rem;
     }
   }
 
   .translation-caption {
-    font-size: 1.5rem;
+    font-size: 0.9375rem;
     clear: both;
-    line-height: 2.5rem;
+    line-height: 1.5625rem;
   }
 
   .blogpost-pretitle {
-    font-size: 2rem;
+    font-size: 1.25rem;
     position: relative;
 
     a {
@@ -286,23 +283,23 @@
   }
 
   .post-meta {
-    margin: 2.5rem 0;
+    margin: 1.5625rem 0;
     padding-bottom: 10px;
     position: relative;
     display: block;
   }
 
   time {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 100 !important;
   }
 
   p {
-    margin-bottom: 2.75rem;
+    margin-bottom: 1.71875rem;
     line-height: 1.6em;
 
     @include desktop {
-      font-size: 2.25rem;
+      font-size: 1.40625rem;
     }
   }
 
@@ -351,10 +348,10 @@
 .security-notice-banner {
   display: inline-block;
   background-color: #D7E5F5;
-  border-inline-start: 0.4rem solid #6584A6;
+  border-inline-start: 0.25rem solid #6584A6;
   color: #333;
-  margin: 0 0 1.125rem;
-  padding: 0.75rem;
+  margin: 0 0 0.703125rem;
+  padding: 0.46875rem;
   width: 100%;
 
   .no-gutters {
@@ -372,27 +369,27 @@
 .job-postings-container {
 
   .padding {
-    padding: 3rem 0;
+    padding: 1.875rem 0;
 
     @include mobile_only {
-      padding: 3rem 0;
+      padding: 1.875rem 0;
     }
   }
   h1,
   h2 {
     color: black;
-    margin-bottom: 3rem;
+    margin-bottom: 1.875rem;
   }
   a {
     color: $alpha-color;
   }
   .cds-title {
-    padding-top: 2rem;
+    padding-top: 1.25rem;
     color: #6b3c18;
-    font-size: 4.5rem;
+    font-size: 2.8125rem;
   }
   .content {
-    margin-top: 3rem;
+    margin-top: 1.875rem;
     // background-color: #D7E5F5;
     li::marker {
       color: $career-brown;
@@ -410,7 +407,7 @@
   background-color: $medium-grey;
 
   h2 {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
   }
 
   a {
@@ -506,7 +503,7 @@
     .sub-modal-div {
       display: flex;
       justify-content: space-between;
-      padding: 2rem 3rem 4rem 3rem;
+      padding: 1.25rem 1.875rem 2.5rem 1.875rem;
   
     }
   
@@ -517,12 +514,12 @@
 
       @include tablet {
         padding-left: 40px;
-        margin: 0 5rem 0 3rem;
+        margin: 0 3.125rem 0 1.875rem;
       }
       
       color: white !important;
       
-      margin: 0 2rem 0 1rem;
+      margin: 0 1.25rem 0 0.625rem;
       border-bottom: 2px solid $primary-color !important;
   
       &::placeholder {
@@ -572,7 +569,7 @@
   .content-types{
     display: flex;
     background-color: transparent;
-    margin: 1rem 0 1rem 0;
+    margin: 0.625rem 0 0.625rem 0;
     padding: 0;
     border: none;
     white-space: nowrap;
@@ -600,20 +597,20 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding: 0 2rem 0 2rem;
+    padding: 0 1.25rem 0 1.25rem;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
     max-width: 90%;
     @include tablet {
       max-width: 70%;
-      padding-left: 5rem;
+      padding-left: 3.125rem;
     }
     
   
   
     .render-list-title {
       text-decoration: none;
-      font-size: 2.6rem;
+      font-size: 1.625rem;
       font-weight: 600;
       
     }
@@ -628,9 +625,9 @@
   }
 
   .load-more-div {
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
     @include mobile_only {
-      padding-bottom: 5.5rem;
+      padding-bottom: 3.4375rem;
     }
     button:disabled,
     button[disabled] {
@@ -664,7 +661,7 @@
     display: inline;
     @include tablet {
       .div-margin {
-        margin-left: 3rem;
+        margin-left: 1.875rem;
       }
     }
 
@@ -673,7 +670,7 @@
 
   
   #filter-div{
-    padding: 0 4rem 0 2rem;
+    padding: 0 2.5rem 0 1.25rem;
     min-width: 210px;
 
     #filter-title{
@@ -686,7 +683,7 @@
 
       @include mobile_only {
         display: block;
-        margin-left: 1rem;
+        margin-left: 0.625rem;
 
         &.active {
           animation: fadeIn 0.5s ease-in forwards;
@@ -715,12 +712,12 @@
   }
   
   #results-number-div{
-    padding: 0 2rem 0 5rem;
+    padding: 0 1.25rem 0 3.125rem;
     display: flex;
     color: white;
     @include mobile_only {
-      margin-top: 3rem;
-      padding-left: 2rem;
+      margin-top: 1.875rem;
+      padding-left: 1.25rem;
       &.active {
         border-top: 1px solid #E1E4E7;
       }

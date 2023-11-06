@@ -6,11 +6,11 @@
 
 .topbar {
   z-index: 999;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.25rem;
 
   @include logo_break {
-    padding-top: 2.5rem;
+    padding-top: 1.5625rem;
   }
 
   .nav-container {
@@ -21,7 +21,7 @@
       padding-right: 0;
 
       .sticky & {
-        padding-right: 1.5rem;
+        padding-right: 0.9375rem;
       }
     }
   }
@@ -41,24 +41,24 @@
   
 
   @include mobile_only {
-    height: 5rem;
-    width: 20rem;
+    height: 3.125rem;
+    width: 12.5rem;
     display: none;
   }
 
   // added the below custom mixin to address menu content changes
   @include logo_break {
-    height: 5rem;
-    width: 22.5rem;
+    height: 3.125rem;
+    width: 14.0625rem;
     position: absolute;
     top: 0;
   }
 
   @include menu_break {
-    height: 5rem;
-    width: 25rem;
+    height: 3.125rem;
+    width: 15.625rem;
     position: absolute;
-    top: -2rem;
+    top: -1.25rem;
   }
 
   // BILINGUAL SPECIFIC CDS LOGO
@@ -77,8 +77,8 @@
     background-size: contain;
     display: none;
     z-index: 1;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 2.8125rem;
+    width: 2.8125rem;
     
     @include mobile_only {
       display: block;
@@ -115,15 +115,15 @@
   a {
     display: inline-block;
     position: relative;
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: black;
     @include mobile_only {
       display: block;
-      padding-bottom: 3rem;
+      padding-bottom: 1.875rem;
       
     }
     @include tablet {
-      margin-right: 2rem;
+      margin-right: 1.25rem;
     }
     text-decoration: none;
     
@@ -164,7 +164,7 @@
 .search-button {
   border: 2px solid white;
   background-color: transparent;
-  padding: 1rem 1rem;
+  padding: 0.625rem 0.625rem;
   .search-button-icon {
     color: white;
   }
@@ -245,14 +245,14 @@
     color: $white;
     border: 1.45px solid white;
     padding: 7.5px 12.5px;
-    top: 2rem;
+    top: 1.25rem;
     z-index: 1;
 
 
     .text {
       float: left;
       text-align: right;
-      font-size: 1.75rem;
+      font-size: 1.1rem;
       font-weight: 100;
       text-transform: capitalize;
       margin-right: 10px;
@@ -260,15 +260,15 @@
 
     .close-icon {
       float: right;
-      font-size: 2.25rem;
+      font-size: 1.40625rem;
     }
 
 
     @include mobile_only {
       display: block;
       position: fixed;
-      left: 5rem;
-      top: 2rem;
+      left: 3.125rem;
+      top: 1.25rem;
     }
   }
 
@@ -276,24 +276,24 @@
     display: block;
     text-align: right;
     color: $white;
-    padding-left: 2rem;
+    padding-left: 1.25rem;
 
 
     @include mobile_only {
       position: fixed;
-      top: 2.3rem;
-      right: 5rem;
+      top: 1.4375rem;
+      right: 3.125rem;
     }
 
     a {
       display: inline-block;
       color: $white;
-      font-size: 1.55rem;
+      font-size: 0.96875rem;
       font-weight: 400;
-      margin-top: 0.75rem;
+      margin-top: 0.46875rem;
       text-align: center;
       text-decoration: none;
-      padding-bottom: 1rem;
+      padding-bottom: 0.625rem;
       border-bottom: #000 1px solid;
       transition: all 0.3s ease-in-out;
 
@@ -346,7 +346,7 @@
 .main-nav-button--text {
   display: inline-block;
   font-weight: 100;
-  font-size: 1.75rem;
+  font-size: 1.09375rem;
   text-transform: capitalize;
   margin-right: 5.5px;
   color: $white;
@@ -397,7 +397,7 @@
   .topbar {
     // below used to be @include tablet
     @include menu_break {
-      padding: 0.5rem 1rem;
+      padding: 0.3125rem 0.625rem;
       margin: 0;
       width: 100%;
     }
@@ -405,19 +405,19 @@
 
   #js-mobileNav {
     @include desktop {
-      margin-top: 1rem;
+      margin-top: 0.625rem;
     }
   }
 
   // Adjust page banner margin to avoid page jumping
   & + .page-banner {
-    margin-top: 7rem;
+    margin-top: 4.375rem;
 
     @include tablet {
-      margin-top: 10rem;
+      margin-top: 6.25rem;
     }
     @include desktop {
-      margin-top: 11rem;
+      margin-top: 6.875rem;
     }
   }
 }
@@ -453,7 +453,7 @@
 
 @keyframes menuDown {
   0% {
-    top: -10rem;
+    top: -6.25rem;
   }
   100% {
     top: 0;
@@ -462,6 +462,6 @@
 
 .mobile-margin {
   @include mobile_only {
-    margin-top: 8.5rem;
+    margin-top: 5.3125rem;
   }
 }

@@ -7,21 +7,21 @@
 .accueil,
 .home {
   h2 {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.1875rem;
+    margin-bottom: 1.25rem;
     text-align: left;
   }
 
   @include mobile_only {
     .title-align {
       text-align: left;
-      margin-bottom: 1rem;
+      margin-bottom: 0.625rem;
     }
   }
   @include tablet {
     .title-align {
       text-align: left;
-      margin-bottom: 1rem;
+      margin-bottom: 0.625rem;
     }
   }
   @include desktop {
@@ -33,7 +33,7 @@
   .title-link {
     color: $dark-grey;
     text-align: right;
-    font-size: 2rem;
+    font-size: 1.25rem;
     text-decoration: underline;
 
     &:hover {
@@ -48,12 +48,12 @@
   border-top: 1px solid $black;
 
   h1 {
-    font-size: 4rem;
-    margin-top: 4rem;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
     // padding-right: 4rem;
 
     @include mobile_only {
-      font-size: 2.5rem;
+      font-size: 1.5625rem;
       width: 100%;
       margin-top: 0;
     }
@@ -69,7 +69,7 @@
       flex-direction: column;
 
       h1 {
-        font-size: 3.5rem;
+        font-size: 2.1875rem;
       }
       img {
         width: 90%;
@@ -79,103 +79,7 @@
   }
 }
 
-.homepage--how-we-can-help {
 
-  .visually-hidden {
-    color: transparent;
-    font-size: 0.01px;
-  }
-
-  img {
-    margin-bottom: 3rem;
-
-    @include mobile_only {
-      width: 90%;
-    }
-  }
-
-  .div-img {
-    @include desktop {
-      text-align: right; 
-      padding-right: 0;
-    }
-  }
-}
-
-.homepage--blog-posts {
-  a {
-    text-decoration: none;
-  }
-
-  .blog {
-    display: flex;
-
-    @include mobile_only {
-      display: block;
-    }
-  }
-
-  .posts {
-    h2 {
-      width: 95%;
-      margin-top: 2rem;
-    }
-    span {
-      margin-top: 2rem;
-      font-size: 3rem;
-    }
-    img {
-      width: 90%;
-    }
-    p{
-      width: 70%;
-    }
-
-    @include mobile_only {
-      h2, img, p {
-        width: 100%;
-      }
-
-      margin-bottom: 2rem;
-    }
-  }
-  .range-posts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    line-height: 2.4rem;
-    margin-bottom: 4rem;
-    
-    div {
-      margin-bottom: 2rem;
-      
-
-
-      img {
-        width: 15.6rem;
-        
-
-        @include mobile_only {
-          padding-bottom: 2rem;
-        }
-      }
-
-      span {
-        padding-left: 1.5rem;
-
-      }
-
-    
-    }
-
-    .blog-date {
-      font-size: 1.4rem;
-    }
-
-  }
-
-}
 
 
 .post-content {
@@ -197,144 +101,15 @@
 
 
 
-.work-in-progress--product-module {
-  background-color: $white;
-  margin-bottom: 2em;
-  box-shadow: 5px 8px 5px $medium-grey;
-  height: 100%;
-  padding: 10px 10px 20px 10px;
-
-  @include desktop {
-    padding-bottom: 0;
-  }
-
-  .title-link {
-    display: inline;
-  }
-
-  h3,
-  h4,
-  .title-link {
-    font-weight: 500;
-    margin: 12px 0;
-
-    @include mobile_only {
-      font-size: 2.4rem;
-    }
-
-    @include tablet {
-      font-size: 2.6rem;
-    }
-
-    @include desktop {
-      font-size: 3rem;
-      margin-top: 20px;
-    }
-  }
-
-  p,
-  a {
-    font-size: 1.85rem;
-    display: inline-block;
-  }
-
-  a {
-    text-decoration: underline;
-    color: $black;
-
-    &:hover {
-      color: $dark-grey;
-    }
-  }
 
 
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    color: #000000;
-  }
 
-  p {
-    margin-bottom: 0px;
-
-    &.leader {
-      font-weight: 100;
-
-      @include mobile_only {
-        margin-top: 5px;
-      }
-
-      @include tablet {
-        margin-top: 10px;
-      }
-
-      @include desktop {
-        margin-top: 20px;
-      }
-    }
-  }
-}
-
-.work-in-progress--platform-module {
-  padding: 10px;
-}
-
-.work-in-progress--product-summary {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-
-  p {
-    margin: 0px;
-    padding-top: 5px;
-  }
-}
 
 .title-container {
   display: flex;
 }
 
-.work-in-progress--links,
-.work-in-progress--partners,
-.work-in-progress--team {
-  padding-right: 15px;
-}
-
-.work-in-progress--partners-nolinks {
-  padding-right: 10%;
-  padding-bottom: 20px;
-}
-
-.work-in-progress--partners-long,
-.work-in-progress--links,
-.work-in-progress--partners,
-.work-in-progress--team {
-  h4 {
-    margin-bottom: 0;
-  }
-}
-
-.statusButton {
-  padding-top: 50px;
-}
-
-.seperator {
-  margin: 0px auto;
-
-  @include mobile_only {
-    width: 100%;
-  }
-
-  @include tablet {
-    width: 80%;
-  }
-
-  @include desktop {
-    width: 65%;
-  }
-}
 
 ////////////////////////////////////////////////////
 //
@@ -350,27 +125,10 @@
   background-repeat: no-repeat;
 }
 .work-with-us--section {
-  padding: 3rem 0 4rem 0;
+  padding: 1.875rem 0 2.5rem 0;
 }
 
-.work-with-us--list {
-  list-style: none;
-  padding: 0;
 
-  li {
-    display: flex;
-    align-items: center;
-  }
-
-  li::before {
-    content: ' ';
-    background: #A3442F;
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin-right: 10px;
-  }
-}
 
 
 ::-webkit-file-upload-button {
@@ -379,7 +137,7 @@
   padding: 7px;
   border-radius: 2px;
   height: 35px;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   width: 130px;
 }
 
@@ -404,13 +162,13 @@
   padding: 0;
 
   h4 {
-    font-size: 1.5em;
+    font-size: 0.9375rem;
   }
 
   &__item {
-    counter-increment: my-awesome-counter;
+    
     display: flex;
-    margin: 2.2rem 0;
+    margin: 1.375rem 0;
 
     p {
       margin-bottom: 0;
@@ -423,8 +181,8 @@
     color: $white;
     flex: 0 0 60px;
     height: 60px;
-    font-size: 3.2rem;
-    margin-right: 2.5rem;
+    font-size: 2rem;
+    margin-right: 1.5625rem;
     line-height: 1;
     line-height: 60px;
     text-align: center;
@@ -439,20 +197,20 @@
   // background-color: #d6d9dd;
   h2 {
     color: black;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
     font-weight: 600;
   }
   label {
     color: black;
-    font-size: 2.3rem;
+    font-size: 1.4375rem;
     font-weight: 600;
   }
   .alt-label {
     font-weight: 400;
   }
   .url {
-    font-size: 2.3rem;
+    font-size: 1.4375rem;
     
   }
   input {
@@ -462,15 +220,15 @@
   textarea {
     width: 100%;
     border: 2px black solid;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
   }
   .browse {
     cursor: pointer;
     padding: 2px;
     background-color: white;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    margin-top: 0.625rem;
     width: fit-content;
     border: 2px solid #26374A;
     border-radius: 5px;
@@ -478,8 +236,8 @@
     div {
       cursor: pointer;
       color: #26374A;
-      margin: 1rem;
-      font-size: 2.3rem;
+      margin: 0.625rem;
+      font-size: 1.4375rem;
       font-weight: 600;
     }
 
@@ -491,18 +249,18 @@
     position: absolute;
   }
   .no-file-chosen {
-    font-size: 2.2rem;
+    font-size: 1.375rem;
     font-weight: 100;
-    margin-left: 2rem;
+    margin-left: 1.25rem;
   }
   .help-text {
-    font-size: 2.3rem;
+    font-size: 1.4375rem;
   }
 
   .submit-button {
     position: relative;
     padding: 8px 16px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.9375rem;
     background-color: #000000;
     border: none;
     display: inline-block;
@@ -553,7 +311,7 @@
   }
 
   .privacy-link {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
     a {
       color: black;
       font-weight: 600;
@@ -577,10 +335,6 @@
     // flex-direction: column;
     // width: 80%;
     // margin: 0 auto 30px auto;
-  }
-
-  .post:first-child {
-    // padding-top: 0;
   }
 
   .post {
@@ -617,20 +371,20 @@
   }
 
   .date {
-    font-size: 1.5rem;
+    font-size: 0.9375rem;
     color: $section-bg-grey;
     padding: 5px 0;
 
     @include tablet {
-      font-size: 1.75rem;
+      font-size: 1.1rem;
       font-weight: 300;
     }
   }
 
   .author {
     font-weight: 500;
-    font-size: 2.25rem;
-    margin-bottom: 1.25rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.78125rem;
   }
 
   .photo-container {
@@ -657,7 +411,7 @@
 
   h2 {
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   a {
@@ -672,7 +426,7 @@
   }
 
   .author {
-    font-size: 1.4rem;
+    font-size: 0.875rem;
 
     @include tablet {
       // This rule will limit the number of lines to 3
@@ -686,7 +440,7 @@
 
   .summary {
     color: $icon-grey;
-    font-size: 1.85rem;
+    font-size: 1.15625rem;
 
     @include tablet {
       // This rule will limit the number of lines to 5
@@ -699,10 +453,10 @@
   }
 
   .readmore {
-    margin-top: 2rem;
+    margin-top: 1.25rem;
 
     a {
-      font-size: 1.8rem;
+      font-size: 1.125rem;
       display: inline-block;
       text-decoration: underline;
     }
@@ -764,14 +518,14 @@ article.post {
 
   a.large-link {
     @include tablet {
-      font-size: 2.25rem;
+      font-size: 1.40625rem;
     }
   }
 
   .post-header {
     font-weight: 600;
-    font-size: 1.5rem;
-    margin: 0rem 0 2rem 0;
+    font-size: 0.9375rem;
+    margin: 0rem 0 1.25rem 0;
 
     .post-title-container {
       // padding: 25px 0;
@@ -802,8 +556,8 @@ article.post {
 
 .section--mailing-list {
   background: $bg-grey;
-  padding-bottom: 8rem;
-  padding-top: 4rem;
+  padding-bottom: 5rem;
+  padding-top: 2.5rem;
 
   &.no-bg {
     background: none;
@@ -833,7 +587,7 @@ article.post {
 
     height: 48px;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.25rem;
     width: 100%;
 
     &:focus {
@@ -855,13 +609,13 @@ article.post {
 
   label[for="mce-EMAIL"] {
     display: block !important;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3125rem;
     margin: 0;
     color: $dark-grey;
     @include label;
 
     @include mobile_only {
-      font-size: 1.75rem;
+      font-size: 1.1rem;
     }
   }
 
@@ -872,14 +626,14 @@ article.post {
 
   .submit-button-container {
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 0.625rem;
     padding-left: 0;
     padding-right: 0;
     display: flex;
 
     @include mobile_only {
       width: 100%;
-      margin: 0 0 1rem 0;
+      margin: 0 0 0.625rem 0;
     }
   }
 
@@ -910,8 +664,8 @@ article.post {
     margin: 0;
     align-self: flex-end;
     height: 48px;
-    padding-left: 1rem;
-    padding-right: 2rem;
+    padding-left: 0.625rem;
+    padding-right: 1.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -927,7 +681,7 @@ article.post {
     @include label;
 
     svg {
-      margin-left: 1rem;
+      margin-left: 0.625rem;
     }
 
     &:hover {
@@ -938,7 +692,7 @@ article.post {
 }
 
 .newsletter-subscribe {
-  padding-bottom: 2rem;
+  padding-bottom: 1.25rem;
   background-color: $primary-color;
 
 
@@ -956,7 +710,7 @@ article.post {
   h2 {
     @include major;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
   }
 
   p {
@@ -1006,7 +760,7 @@ article.post {
 }
 
 .mfp-close {
-  font-size: 2rem;
+  font-size: 1.25rem;
   cursor: pointer;
   background: none;
   border: none;
@@ -1039,8 +793,8 @@ article.post {
     font-weight: 500;
 
     @include desktop {
-      font-size: 2.9rem;
-      margin: 1rem 0;
+      font-size: 1.8125rem;
+      margin: 0.625rem 0;
     }
   }
 
@@ -1048,8 +802,8 @@ article.post {
     font-weight: 500;
 
     @include desktop {
-      font-size: 2.45rem;
-      margin: 3rem 0 1.5rem 0;
+      font-size: 1.53125rem;
+      margin: 1.875rem 0 0.9375rem 0;
     }
   }
 
@@ -1067,24 +821,24 @@ article.post {
 .story-text {
   background-color: $black;
   color: $white;
-  padding-top: 3rem;
+  padding-top: 1.875rem;
 
   @include mobile_only {
     height: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 1.875rem;
 
     h2 {
-      font-size: 2.5rem;
-      margin-top: 3rem;
+      font-size: 1.5625rem;
+      margin-top: 1.875rem;
     }
   }
   @include tablet {
     height: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 3.125rem;
   }
 
   @include desktop {
-    height: 95rem;
+    height: 59.375rem;
   }
 
   .container {
@@ -1100,15 +854,15 @@ article.post {
     background-position: center center;
 
     @include tablet {
-      height: 50rem;
+      height: 31.25rem;
     }
 
     @include desktop {
-      height: 95rem;
+      height: 59.375rem;
     }
 
     @include mobile_only {
-      height: 40rem;
+      height: 25rem;
     }
   }
 }
@@ -1122,10 +876,10 @@ article.post {
 
 
 .partnership-products {
-  padding-top: 5rem;
+  padding-top: 3.125rem;
 
   h2 {
-    margin: 1rem 0 4rem 0;
+    margin: 0.625rem 0 2.5rem 0;
   }
 
   .first-list {
@@ -1155,11 +909,11 @@ article.post {
 ////////////////////////////////////////////////////
 .card-title {
   div {
-    padding: 2rem 0 2rem 0;
+    padding: 1.25rem 0 1.25rem 0;
   }
   h2 {
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 2.35rem;
   }
 
 }
@@ -1169,7 +923,7 @@ article.post {
     padding: 0; 
     list-style-type: none;
      li {
-       padding-bottom: 1rem;
+       padding-bottom: 0.625rem;
        i {
         color: #115740;
        }
@@ -1178,39 +932,9 @@ article.post {
   }
 }
 
-
-
-
-.product-resources-cards {
-  background-color: $white;
-  margin-bottom: 2em;
-  box-shadow: 5px 8px 5px $medium-grey;
-  height: 100%;
-
-  .positioned {
-    @include desktop {
-      position: absolute; 
-      bottom: 0; 
-      right: 0;
-    }
-  }
-  .guides-title {
-    font-weight: 400;
-    font-size: 3.75rem;
-  }
-  // padding: 10px 10px 20px 10px;
-}
-
-// .terms-and-conditions {
-//   h2 {
-//     font-weight: 600;
-//     font-size: 3.75rem;
-//   }
-// }
-
 .h2-style {
   h2 {
     font-weight: 600;
-    font-size: 3.75rem;
+    font-size: 2.35rem;
   }
 }
