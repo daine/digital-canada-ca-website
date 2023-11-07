@@ -42,7 +42,7 @@ function renderBlogResults(blogs) {
                 <div class="text-container">
                     <div>
                         <a href='${paginatedBlogs[i].href}' class="blog-title">
-                            <h2 style="font-size: 4rem; font-weight:600;">${paginatedBlogs[i].title}</h2>
+                            <h2 style="font-size: 2.5rem; font-weight:600;">${paginatedBlogs[i].title}</h2>
                         </a>
                     </div>
                     <div class="date">
@@ -50,12 +50,11 @@ function renderBlogResults(blogs) {
                     </div>
                     <div class="author">${paginatedBlogs[i].author}</div>
                     <div class="summary">${paginatedBlogs[i].description}</div>
-                    <gcds-button button-id="read-full-post-btn" type="link" href='${paginatedBlogs[i].href}'>${readFullPostTranslation()}<gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
+                    <gcds-button size="small" button-id="read-full-post-btn" type="link" href='${paginatedBlogs[i].href}'>${readFullPostTranslation()}<gcds-icon name="fa-solid fa-chevron-right" size="inherit"></gcds-icon></gcds-button>
                 </div>
         </li>`
     }
     blogListResults.innerHTML = blogResultList
-    // <div class="author">${paginatedBlogs[i].imageAlt["image-alt"]}</div>
     
 }
 
@@ -63,9 +62,6 @@ loadMoreBlogButton.addEventListener("click", () => {
     blogRows += 6
     renderBlogResults(blogResults)
 })
-// jsMainNavButton.addEventListener("click", () => {
-//     console.log('hello, i have been clicked!')
-// })
 
 function dateFormat(date) {
     let formattedDate;
