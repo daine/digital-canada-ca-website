@@ -56,7 +56,7 @@ a {
 	}
 
 	@include desktop{
-		font-size: 1.40625rem;
+		font-size: 1rem;
 	}
 
 	&:visited {
@@ -88,7 +88,7 @@ p, main ul, main ol {
 	}
 
 	@include desktop {
-		font-size 	: 1.40625rem;
+		font-size 	: 1rem;
 		line-height: 2.1875rem;
 		margin-bottom: 1.71875rem;
 	}
@@ -196,7 +196,8 @@ html .container {
 		display: block;
 		position: absolute;
 		height: 3px;
-		background: $primary-color;
+		background: #425A76;
+		//425A76
 		bottom: -0.9375rem;
 		width: 3.125rem;
 		left: 50%;
