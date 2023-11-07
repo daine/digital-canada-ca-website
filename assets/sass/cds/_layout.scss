@@ -175,25 +175,7 @@ hr {
   margin: 30px 0;
 }
 
-// Research page styles
-.research-page-contact {
-  margin-bottom: 23px;
 
-  p {
-    margin: 0;
-  }
-}
-
-// Exposure Notification privacy policy styles
-.en-privacy-policy {
-  .section--title {
-    text-align: left;
-  }
-
-  .section--title::after {
-    content: none;
-  }
-}
 
 // Universal style for tables
 table,
@@ -395,123 +377,6 @@ td {
   nav { padding: 0.3125remrem 0 0 0 !important; }
 }
 
-
-.goc-footer--links {
-  ul {
-    margin: 0;
-    padding-left: 0px;
-    text-align: center;
-
-    @include tablet { text-align : left; }
-  }
-
-  li {
-    list-style: none;
-    display: inline-block;
-    padding: 0.7em 2em 0.7em 0em;
-  }
-
-  a { color: $white; }
-}
-
 #wb-info a:hover {
   text-decoration: underline;
-}
-
-.goc-footer--logo {
-  text-align: center;
-  margin-top: 5px;
-  padding-right: 60px;
-
-
-  @include tablet { text-align: right; }
-
-  .logo { height: 40px; }
-}
-
-.social-links-footer {
-  padding-top: 3.5rem;
-  padding-bottom: 8.5rem;
-  background-color: #232323;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-
-  #contact-us-links {
-    color: $white;
-    font-size: 2.1rem;
-  }
-  a {color: $white;}
-  li {list-style: none;}
-
-  .nopadding {
-    padding: 0 !important; 
-  }
-
-  .brown-padding {
-    @media screen and (max-width: 991px) {
-      padding: 0 !important; 
-      
-    }
-  }
-}
-
-.social-links-footer ul {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0;
-}
-
-.ul-margin {
-  margin-top: 2rem;
-}
-.social-links-footer a {
-  color: $white;
-}
-
-.border-white {
-  border-top: 4px solid white;
-  margin-bottom: 3rem;
-}
-.border-brown {
-  border-top: 4px solid #AF7D57;
-  @media (max-width: 990px) {
-    margin-top: 30px;
-  }
-}
-.border-yellow {
-  border-top: 4px solid #FFCC33;
-  @media (max-width: 990px) {
-    margin-top: 30px;
-  }
-}
-.border-gray {
-  border-top: 4px solid #848C8D;
-  @media (max-width: 990px) {
-    margin-top: 30px;
-  }
-}
-.social-links-footer .div-margin{
-  margin-left: 20px;
-}
-.social-links-footer .inline-block {
-  display: inline-block;
-}
-
-.social-links-footer li:first-child { margin-left:0; }
-
-.social-links-footer .contact-info li {
-  margin-bottom: 1rem;
-
-  @include mobile_only {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-}
-
-.social-links-footer span {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0.5rem;
 }
