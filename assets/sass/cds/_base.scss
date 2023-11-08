@@ -88,7 +88,7 @@ p, main ul, main ol {
 	}
 
 	@include desktop {
-		font-size 	: 1rem;
+		font-size 	: 1.25rem;
 		line-height: 2.1875rem;
 		margin-bottom: 1.71875rem;
 	}
@@ -166,7 +166,7 @@ html .container {
 }
 
 .section {
-	padding: 3.75rem 0;
+	padding: 1.5rem 0;
 	position: relative;
 	z-index: 0;
 	margin: 0 auto;

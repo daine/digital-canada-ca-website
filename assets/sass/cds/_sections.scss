@@ -60,8 +60,8 @@
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     a:visited {
       color: $white;
     }
@@ -874,17 +874,20 @@ article.post {
 ////////////////////////////////////////////////////
 
 
-
+// .justify-content-center {
+//   justify-content: center!important;
+//   -webkit-box-pack: center!important;
+// }
 .partnership-products {
   padding-top: 3.125rem;
 
   h2 {
-    margin: 0.625rem 0 2.5rem 0;
+    font-weight: 600;
+    font-size: 2.35rem;
   }
 
   .first-list {
-    // display: flex;
-    // justify-content: space-between;
+    padding: 3.5rem 0 3.5rem 0;
     background-color: #D7E5F5;
     ul {
       list-style: none;
@@ -893,6 +896,9 @@ article.post {
     ul li:before {
       content: '✓';
     }
+  }
+  .second-list {
+    padding: 3.5rem 0 3.5rem 0;
   }
 }
 
