@@ -1,7 +1,7 @@
 ---
-title: 'FR GC Notify'
-description: FR Send automated email and text notifications
+title: 'Notification GC'
+description: Envoyez des courriels et des messages texte automatisés.
 image: '/img/cds/gc-notify.svg'
-imageAlt: 'imageAlt'
+imageAlt: 'Capture d’écran de Notification GC.'
 link: 'https://notification.canada.ca/accueil'
 ---
