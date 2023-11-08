@@ -51,9 +51,9 @@ languages:
       work-with-us: /:title
     menu:
       main:
-        - identifier: produits
+        - identifier: Produits
           name: Produits
-          url: /produits/
+          url: /
           weight: 1
         - identifier: about-us-fr
           name: À propos du SNC
