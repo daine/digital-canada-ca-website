@@ -1,25 +1,26 @@
 {{ define "main" }}
-<div class="container section" style="display: flex; flex-direction: column;">
-    <div>
-        <ul id ="blog-list-result" class="blogpost-list">
-            <li id="my-blog-li" class="post"></li>
-        </ul>
-        <!-- <div class="col-lg-4" style="padding-left: 6rem;">
-            <h2 style="color: black;">Filter and Sort</h2>
-            <ul style="list-style: none; padding-left: 0;">
-                <li>tag</li>
-                <li>medium tag</li>
-                <li>quite lengthy tag</li>
-            </ul>
-        </div> -->
+<section>
+    <div class="container">
+        <div class="row">
+            <!-- col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 -->
+            <div class="col-sm-9 col-xs-12">
+                <ul id ="blog-list-result" class="blogpost-list">
+                    <li id="my-blog-li" class="post"></li>
+                </ul>
 
 
-        
+            </div>
+
+        </div>
+
+
+
     </div>
-    <div style="margin-left: auto; margin-right: auto;">
-        <gcds-button id="blog-btn" button-id="load-more-blog-btn">Load more <gcds-icon name="fa-solid fa-chevron-right fa-rotate-90"></gcds-icon></gcds-button>
+    <div class="container" style="display: flex; flex-direction: column;">
+        <div style="margin-left: auto; margin-right: auto; margin-bottom: 2rem;">
+            <gcds-button id="blog-btn" button-id="load-more-blog-btn">Load more <gcds-icon
+                    name="fa-solid fa-chevron-right fa-rotate-90"></gcds-icon></gcds-button>
+        </div>
     </div>
-    
-
-</div>
-{{ end }} 
+</section>
+{{ end }}

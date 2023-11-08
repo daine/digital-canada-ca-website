@@ -38,7 +38,7 @@ function renderBlogResults(blogs) {
     for (let i = 0; i < paginatedBlogs.length; i++) {
         blogResultList += `
         <li class="post">
-            <div class="row post-container">
+            <div class="post-container">
                 <div class="text-container">
                     <div>
                         <a href='${paginatedBlogs[i].href}' class="blog-title">
