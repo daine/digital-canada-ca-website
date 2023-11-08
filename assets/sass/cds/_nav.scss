@@ -6,11 +6,11 @@
 
 .topbar {
   z-index: 999;
-  padding-top: 2.5rem;
-  padding-bottom: 1.25rem;
+  padding-top: 2.22rem;
+  padding-bottom: 1.11rem;
 
   @include logo_break {
-    padding-top: 1.5625rem;
+    padding-top: 1.38rem;
   }
 
   .nav-container {
@@ -21,7 +21,7 @@
       padding-right: 0;
 
       .sticky & {
-        padding-right: 0.9375rem;
+        padding-right: 0.84rem;
       }
     }
   }
@@ -41,24 +41,24 @@
   
 
   @include mobile_only {
-    height: 3.125rem;
-    width: 12.5rem;
+    height: 2.78rem;
+    width: 11.11rem;
     display: none;
   }
 
   // added the below custom mixin to address menu content changes
   @include logo_break {
-    height: 3.125rem;
-    width: 14.0625rem;
+    height: 2.78rem;
+    width: 12.5rem;
     position: absolute;
     top: 0;
   }
 
   @include menu_break {
-    height: 3.125rem;
-    width: 15.625rem;
+    height: 2.78rem;
+    width: 13.88rem;
     position: absolute;
-    top: -1.25rem;
+    top: -1.11rem;
   }
 
   // BILINGUAL SPECIFIC CDS LOGO
@@ -77,8 +77,8 @@
     background-size: contain;
     display: none;
     z-index: 1;
-    height: 2.8125rem;
-    width: 2.8125rem;
+    height: 2.5rem;
+    width: 2.5rem;
     
     @include mobile_only {
       display: block;
@@ -115,15 +115,15 @@
   a {
     display: inline-block;
     position: relative;
-    font-size: 1.25rem;
+    font-size: 1.11rem;
     color: black;
     @include mobile_only {
       display: block;
-      padding-bottom: 1.875rem;
+      padding-bottom: 1.67rem;
       
     }
     @include tablet {
-      margin-right: 1.25rem;
+      margin-right: 1.11rem;
     }
     text-decoration: none;
     
@@ -136,7 +136,7 @@
       border: #425A76 0px solid;
       width: 0%;
       height: 4px;
-      bottom: -0.5rem;
+      bottom: -0.45rem;
       transition: all 0.45s ease-in-out;
       left: 50%;
       transform: translateX(-50%);
@@ -236,14 +236,14 @@
     color: $white;
     border: 1.45px solid white;
     padding: 7.5px 12.5px;
-    top: 1.25rem;
+    top: 1.11rem;
     z-index: 1;
 
 
     .text {
       float: left;
       text-align: right;
-      font-size: 1.1rem;
+      font-size: 0.98rem;
       font-weight: 100;
       text-transform: capitalize;
       margin-right: 10px;
@@ -251,15 +251,15 @@
 
     .close-icon {
       float: right;
-      font-size: 1.40625rem;
+      font-size: 1.25rem;
     }
 
 
     @include mobile_only {
       display: block;
       position: fixed;
-      left: 3.125rem;
-      top: 1.25rem;
+      left: 2.78rem;
+      top: 1.11rem;
     }
   }
 
@@ -267,24 +267,24 @@
     display: block;
     text-align: right;
     color: $white;
-    padding-left: 1.25rem;
+    padding-left: 1.11rem;
 
 
     @include mobile_only {
       position: fixed;
-      top: 1.4375rem;
-      right: 3.125rem;
+      top: 1.28rem;
+      right: 2.78rem;
     }
 
     a {
       display: inline-block;
       color: $white;
-      font-size: 0.96875rem;
+      font-size: 0.86rem;
       font-weight: 400;
-      margin-top: 0.46875rem;
+      margin-top: 0.42rem;
       text-align: center;
       text-decoration: none;
-      padding-bottom: 0.625rem;
+      padding-bottom: 0.55rem;
       border-bottom: #000 1px solid;
       transition: all 0.3s ease-in-out;
 
@@ -337,7 +337,7 @@
 .main-nav-button--text {
   display: inline-block;
   font-weight: 100;
-  font-size: 1.09375rem;
+  font-size: 0.97rem;
   text-transform: capitalize;
   margin-right: 5.5px;
   color: $white;
@@ -388,7 +388,7 @@
   .topbar {
     // below used to be @include tablet
     @include menu_break {
-      padding: 0.3125rem 0.625rem;
+      padding: 0.28rem 0.55rem;
       margin: 0;
       width: 100%;
     }
@@ -396,19 +396,19 @@
 
   #js-mobileNav {
     @include desktop {
-      margin-top: 0.625rem;
+      margin-top: 0.55rem;
     }
   }
 
   // Adjust page banner margin to avoid page jumping
   & + .page-banner {
-    margin-top: 4.375rem;
+    margin-top: 3.88rem;
 
     @include tablet {
-      margin-top: 6.25rem;
+      margin-top: 5.55rem;
     }
     @include desktop {
-      margin-top: 6.875rem;
+      margin-top: 6.11rem;
     }
   }
 }
@@ -444,7 +444,7 @@
 
 @keyframes menuDown {
   0% {
-    top: -6.25rem;
+    top: -5.55rem;
   }
   100% {
     top: 0;
@@ -453,6 +453,6 @@
 
 .mobile-margin {
   @include mobile_only {
-    margin-top: 5.3125rem;
+    margin-top: 4.72rem;
   }
 }

@@ -1,6 +1,6 @@
 .h2-header {
   font-weight: 600;
-  font-size: 2.35rem;
+  font-size: 2.1rem;
 }
 
 // Adapted from WET's Bootstrap based alerts
@@ -8,7 +8,7 @@
 
 .job-posting-banner {
   background: #fdf3cd;
-  padding: 0.625rem;
+  padding: 0.55rem;
   color: black;
   
   a {
@@ -28,10 +28,10 @@
 // Blogpost page
 .page-blogpost {
   h1 {
-    font-size: 2.875rem;
+    font-size: 2.55rem;
     font-weight: 100;
     margin-top: 0;
-    margin-top: 0.9375rem;
+    margin-top: 0.83rem;
     color: $black;
     margin-left: 0;
     margin-right: 0;
@@ -39,36 +39,36 @@
   }
 
   h2 {
-    font-size: 1.875rem;
-    line-height: 2.65rem;
+    font-size: 1.67rem;
+    line-height: 2.35rem;
   }
   h3 {
-    line-height: 2.03125rem;
+    line-height: 1.8rem;
     font-weight: 400;
-    font-size: 1.5625rem;
+    font-size: 1.38rem;
   }
 
   .header-translation {
-    font-size: 1.09375rem;
+    font-size: 0.97rem;
     font-weight: 100;
-    line-height: 1.40625rem;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    line-height: 1.25rem;
+    padding-top: 1.11rem;
+    padding-bottom: 1.11rem;
 
     @include desktop {
-      margin-top: -3.75rem;
-      padding-bottom: 3.75rem;
+      margin-top: -3.33rem;
+      padding-bottom: 3.33rem;
     }
   }
 
   .translation-caption {
-    font-size: 0.9375rem;
+    font-size: 0.83rem;
     clear: both;
-    line-height: 1.5625rem;
+    line-height: 1.38rem;
   }
 
   .blogpost-pretitle {
-    font-size: 1.25rem;
+    font-size: 1.11rem;
     position: relative;
 
     a {
@@ -79,23 +79,23 @@
   }
 
   .post-meta {
-    margin: 1.5625rem 0;
+    margin: 1.38rem 0;
     padding-bottom: 10px;
     position: relative;
     display: block;
   }
 
   time {
-    font-size: 1.25rem;
+    font-size: 1.11rem;
     font-weight: 100 !important;
   }
 
   p {
-    margin-bottom: 1.71875rem;
+    margin-bottom: 1.53rem;
     line-height: 1.6em;
 
     @include desktop {
-      font-size: 1.40625rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -133,10 +133,10 @@
 .security-notice-banner {
   display: inline-block;
   background-color: #D7E5F5;
-  border-inline-start: 0.25rem solid #6584A6;
+  border-inline-start: 0.22rem solid #6584A6;
   color: #333;
-  margin: 0 0 0.703125rem;
-  padding: 0.46875rem;
+  margin: 0 0 0.625rem;
+  padding: 0.42rem;
   width: 100%;
 
   .no-gutters {
@@ -154,27 +154,27 @@
 .job-postings-container {
 
   .padding {
-    padding: 1.875rem 0;
+    padding: 1.67rem 0;
 
     @include mobile_only {
-      padding: 1.875rem 0;
+      padding: 1.67rem 0;
     }
   }
   h1,
   h2 {
     color: black;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.67rem;
   }
   a {
     color: $alpha-color;
   }
   .cds-title {
-    padding-top: 1.25rem;
+    padding-top: 1.11rem;
     color: #6b3c18;
-    font-size: 2.8125rem;
+    font-size: 2.5rem;
   }
   .content {
-    margin-top: 1.875rem;
+    margin-top: 1.67rem;
     // background-color: #D7E5F5;
     li::marker {
       color: $career-brown;

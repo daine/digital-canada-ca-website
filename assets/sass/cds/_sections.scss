@@ -7,21 +7,21 @@
 .accueil,
 .home {
   h2 {
-    font-size: 2.1875rem;
-    margin-bottom: 1.25rem;
+    font-size: 1.95rem;
+    margin-bottom: 1.11rem;
     text-align: left;
   }
 
   @include mobile_only {
     .title-align {
       text-align: left;
-      margin-bottom: 0.625rem;
+      margin-bottom: 0.55rem;
     }
   }
   @include tablet {
     .title-align {
       text-align: left;
-      margin-bottom: 0.625rem;
+      margin-bottom: 0.55rem;
     }
   }
   @include desktop {
@@ -33,7 +33,7 @@
   .title-link {
     color: $dark-grey;
     text-align: right;
-    font-size: 1.25rem;
+    font-size: 1.11rem;
     text-decoration: underline;
 
     &:hover {
@@ -48,12 +48,12 @@
   border-top: 1px solid $black;
 
   h1 {
-    font-size: 2.5rem;
-    margin-top: 2.5rem;
+    font-size: 2.22rem;
+    margin-top: 2.22rem;
     // padding-right: 4rem;
 
     @include mobile_only {
-      font-size: 1.5625rem;
+      font-size: 1.38rem;
       width: 100%;
       margin-top: 0;
     }
@@ -69,7 +69,7 @@
       flex-direction: column;
 
       h1 {
-        font-size: 2.1875rem;
+        font-size: 1.95rem;
       }
       img {
         width: 90%;
@@ -125,7 +125,7 @@
   background-repeat: no-repeat;
 }
 .work-with-us--section {
-  padding: 1.875rem 0 2.5rem 0;
+  padding: 1.67rem 0 2.22rem 0;
 }
 
 
@@ -137,7 +137,7 @@
   padding: 7px;
   border-radius: 2px;
   height: 35px;
-  font-size: 0.9375rem;
+  font-size: 0.84rem;
   width: 130px;
 }
 
@@ -162,13 +162,13 @@
   padding: 0;
 
   h4 {
-    font-size: 0.9375rem;
+    font-size: 0.84rem;
   }
 
   &__item {
     
     display: flex;
-    margin: 1.375rem 0;
+    margin: 1.22rem 0;
 
     p {
       margin-bottom: 0;
@@ -181,8 +181,8 @@
     color: $white;
     flex: 0 0 60px;
     height: 60px;
-    font-size: 2rem;
-    margin-right: 1.5625rem;
+    font-size: 1.78rem;
+    margin-right: 1.38rem;
     line-height: 1;
     line-height: 60px;
     text-align: center;
@@ -197,20 +197,20 @@
   // background-color: #d6d9dd;
   h2 {
     color: black;
-    margin-bottom: 1.875rem;
-    margin-top: 1.875rem;
+    margin-bottom: 1.67rem;
+    margin-top: 1.67rem;
     font-weight: 600;
   }
   label {
     color: black;
-    font-size: 1.4375rem;
+    font-size: 1.28rem;
     font-weight: 600;
   }
   .alt-label {
     font-weight: 400;
   }
   .url {
-    font-size: 1.4375rem;
+    font-size: 1.28rem;
     
   }
   input {
@@ -220,15 +220,15 @@
   textarea {
     width: 100%;
     border: 2px black solid;
-    margin-top: 0.625rem;
-    margin-bottom: 0.625rem;
+    margin-top: 0.55rem;
+    margin-bottom: 0.55rem;
   }
   .browse {
     cursor: pointer;
     padding: 2px;
     background-color: white;
-    margin-bottom: 1.25rem;
-    margin-top: 0.625rem;
+    margin-bottom: 1.11rem;
+    margin-top: 0.55rem;
     width: fit-content;
     border: 2px solid #26374A;
     border-radius: 5px;
@@ -236,8 +236,8 @@
     div {
       cursor: pointer;
       color: #26374A;
-      margin: 0.625rem;
-      font-size: 1.4375rem;
+      margin: 0.55rem;
+      font-size: 1.28rem;
       font-weight: 600;
     }
 
@@ -249,18 +249,18 @@
     position: absolute;
   }
   .no-file-chosen {
-    font-size: 1.375rem;
+    font-size: 1.22rem;
     font-weight: 100;
-    margin-left: 1.25rem;
+    margin-left: 1.11rem;
   }
   .help-text {
-    font-size: 1.4375rem;
+    font-size: 1.28rem;
   }
 
   .submit-button {
     position: relative;
     padding: 8px 16px;
-    margin-bottom: 0.9375rem;
+    margin-bottom: 0.84rem;
     background-color: #000000;
     border: none;
     display: inline-block;
@@ -311,7 +311,7 @@
   }
 
   .privacy-link {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.22rem;
     a {
       color: black;
       font-weight: 600;
@@ -371,20 +371,20 @@
   }
 
   .date {
-    font-size: 0.9375rem;
+    font-size: 0.84rem;
     color: $section-bg-grey;
     padding: 5px 0;
 
     @include tablet {
-      font-size: 1.1rem;
+      font-size: 0.98rem;
       font-weight: 300;
     }
   }
 
   .author {
     font-weight: 500;
-    font-size: 1.4rem;
-    margin-bottom: 0.78125rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.7rem;
   }
 
   .photo-container {
@@ -411,7 +411,7 @@
 
   h2 {
     margin-top: 0;
-    font-size: 1.25rem;
+    font-size: 1.11rem;
   }
 
   a {
@@ -426,7 +426,7 @@
   }
 
   .author {
-    font-size: 0.875rem;
+    font-size: 0.78rem;
 
     @include tablet {
       // This rule will limit the number of lines to 3
@@ -440,7 +440,7 @@
 
   .summary {
     color: $icon-grey;
-    font-size: 1.15625rem;
+    font-size: 1rem;
 
     @include tablet {
       // This rule will limit the number of lines to 5
@@ -453,10 +453,10 @@
   }
 
   .readmore {
-    margin-top: 1.25rem;
+    margin-top: 1.11rem;
 
     a {
-      font-size: 1.125rem;
+      font-size: 1rem;
       display: inline-block;
       text-decoration: underline;
     }
@@ -518,14 +518,14 @@ article.post {
 
   a.large-link {
     @include tablet {
-      font-size: 1.40625rem;
+      font-size: 1.25rem;
     }
   }
 
   .post-header {
     font-weight: 600;
-    font-size: 0.9375rem;
-    margin: 0rem 0 1.25rem 0;
+    font-size: 0.84rem;
+    margin: 0rem 0 1.11rem 0;
 
     .post-title-container {
       // padding: 25px 0;
@@ -554,182 +554,10 @@ article.post {
   background: white;
 }
 
-.section--mailing-list {
-  background: $bg-grey;
-  padding-bottom: 5rem;
-  padding-top: 2.5rem;
-
-  &.no-bg {
-    background: none;
-    border-top: $medium-grey 4px solid;
-  }
-}
-
-.mc-field-group {
-  padding-left: 0;
-  padding-bottom: 0;
-}
-
-#mc_embed_signup {
-  .email {
-    border-radius: 0;
-    border-top: 2px solid $dark-grey;
-    border-right: 1px solid $dark-grey;
-    border-bottom: 2px solid $dark-grey;
-    border-left: 2px solid $dark-grey;
-
-    @include mobile_only {
-      border-top: 2px solid $dark-grey;
-      border-right: 2px solid $dark-grey;
-      border-bottom: 1px solid $dark-grey;
-      border-left: 2px solid $dark-grey;
-    }
-
-    height: 48px;
-    font-weight: 100;
-    font-size: 1.25rem;
-    width: 100%;
-
-    &:focus {
-      outline: none;
-      box-shadow: none;
-    }
-  }
-
-  #mc_embed_signup_scroll {
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
-
-    @include mobile_only {
-      display: block;
-    }
-  }
-
-  label[for="mce-EMAIL"] {
-    display: block !important;
-    padding-bottom: 0.3125rem;
-    margin: 0;
-    color: $dark-grey;
-    @include label;
-
-    @include mobile_only {
-      font-size: 1.1rem;
-    }
-  }
-
-  .mc-field-group {
-    padding-right: 0;
-    margin-bottom: 0;
-  }
-
-  .submit-button-container {
-    text-align: left;
-    margin-top: 0.625rem;
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-
-    @include mobile_only {
-      width: 100%;
-      margin: 0 0 0.625rem 0;
-    }
-  }
-
-  .mce-privacy {
-    margin-top: 0;
-    padding-left: 0;
-
-    a {
-      @include label;
-      &:first-child {
-        margin-right: 23px;
-      }
-    }
-  }
 
 
-  #mc-embedded-subscribe {
-    @include mobile_only {
-      width: 100%;
-    }
-    background-color: transparent;
-    color: $dark-grey;
-    border-radius: 0;
-    border-top: 2px solid $dark-grey;
-    border-right: 2px solid $dark-grey;
-    border-bottom: 2px solid $dark-grey;
-    border-left: 1px solid $dark-grey;
-    margin: 0;
-    align-self: flex-end;
-    height: 48px;
-    padding-left: 0.625rem;
-    padding-right: 1.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    @include mobile_only {
-      border-top: 1px solid $dark-grey;
-      border-right: 2px solid $dark-grey;
-      border-bottom: 2px solid $dark-grey;
-      border-left: 2px solid $dark-grey;
-    }
-    
-    
-    @include label;
-
-    svg {
-      margin-left: 0.625rem;
-    }
-
-    &:hover {
-      border: 2px solid $black;
-      background-color: darken($primary-color, 20);
-    }
-  }
-}
-
-.newsletter-subscribe {
-  padding-bottom: 1.25rem;
-  background-color: $primary-color;
 
 
-  .newsletter-container {
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    @media screen and (min-width: 1355px) {
-      justify-content: space-between;
-    }
-  }
-
-  h2 {
-    @include major;
-    text-align: left;
-    margin-bottom: 1.25rem;
-  }
-
-  p {
-    @include paragraph;
-  }
-
-  a {
-    color: $black;
-    text-decoration: underline;
-
-    &:visited {
-      color: $black;
-      text-decoration: underline;
-    }
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
 
 // Privacy modal styles
 #privacy-notice-modal {
@@ -760,7 +588,7 @@ article.post {
 }
 
 .mfp-close {
-  font-size: 1.25rem;
+  font-size: 1.11rem;
   cursor: pointer;
   background: none;
   border: none;
@@ -793,8 +621,8 @@ article.post {
     font-weight: 500;
 
     @include desktop {
-      font-size: 1.8125rem;
-      margin: 0.625rem 0;
+      font-size: 1.6rem;
+      margin: 0.55rem 0;
     }
   }
 
@@ -802,8 +630,8 @@ article.post {
     font-weight: 500;
 
     @include desktop {
-      font-size: 1.53125rem;
-      margin: 1.875rem 0 0.9375rem 0;
+      font-size: 1.36rem;
+      margin: 1.67rem 0 0.84rem 0;
     }
   }
 
@@ -821,24 +649,24 @@ article.post {
 .story-text {
   background-color: $black;
   color: $white;
-  padding-top: 1.875rem;
+  padding-top: 1.67rem;
 
   @include mobile_only {
     height: auto;
-    padding-bottom: 1.875rem;
+    padding-bottom: 1.67rem;
 
     h2 {
-      font-size: 1.5625rem;
-      margin-top: 1.875rem;
+      font-size: 1.38rem;
+      margin-top: 1.67rem;
     }
   }
   @include tablet {
     height: auto;
-    padding-bottom: 3.125rem;
+    padding-bottom: 2.78rem;
   }
 
   @include desktop {
-    height: 59.375rem;
+    height: 52rem;
   }
 
   .container {
@@ -854,15 +682,15 @@ article.post {
     background-position: center center;
 
     @include tablet {
-      height: 31.25rem;
+      height: 27.75rem;
     }
 
     @include desktop {
-      height: 59.375rem;
+      height: 52rem;
     }
 
     @include mobile_only {
-      height: 25rem;
+      height: 22.25rem;
     }
   }
 }
@@ -876,10 +704,10 @@ article.post {
 
 
 .partnership-products {
-  padding-top: 3.125rem;
+  padding-top: 2.78rem;
 
   h2 {
-    margin: 0.625rem 0 2.5rem 0;
+    margin: 0.55rem 0 2.22rem 0;
   }
 
   .first-list {
@@ -909,11 +737,11 @@ article.post {
 ////////////////////////////////////////////////////
 .card-title {
   div {
-    padding: 1.25rem 0 1.25rem 0;
+    padding: 1.11rem 0 1.11rem 0;
   }
   h2 {
     font-weight: 400;
-    font-size: 2.35rem;
+    font-size: 2.11rem;
   }
 
 }
@@ -923,7 +751,7 @@ article.post {
     padding: 0; 
     list-style-type: none;
      li {
-       padding-bottom: 0.625rem;
+       padding-bottom: 0.55rem;
        i {
         color: #115740;
        }
@@ -935,6 +763,6 @@ article.post {
 .h2-style {
   h2 {
     font-weight: 600;
-    font-size: 2.35rem;
+    font-size: 2.11rem;
   }
 }

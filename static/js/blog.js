@@ -42,7 +42,7 @@ function renderBlogResults(blogs) {
                 <div class="text-container">
                     <div>
                         <a href='${paginatedBlogs[i].href}' class="blog-title">
-                            <h2 style="font-size: 2.5rem; font-weight:600;">${paginatedBlogs[i].title}</h2>
+                            <h2 style="font-size: 2.2rem; font-weight:600;">${paginatedBlogs[i].title}</h2>
                         </a>
                     </div>
                     <div class="date">
