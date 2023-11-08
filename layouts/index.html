@@ -16,9 +16,9 @@
     </div>
     <div class="row equal">
       {{ end }}
-
-      <div class="col-md-6 col-xs-12">
-        <gcds-card card-title="{{ .Params.title }}" href="{{ .Params.link }}" tag="Tag"
+      <!-- style="width: 45%; padding: 0 15px 0 15px;" -->
+      <div class="col-md-5 col-xs-12">
+        <gcds-card card-title="{{ .Params.title }}" href="{{ .Params.link }}"
           description="{{ .Params.description }}" img-src="{{ .Params.image }}"></gcds-card>
       </div>
 
@@ -28,7 +28,7 @@
 
   </div>
   <div>
-    <div class="first-list" style="padding: 5rem 0 5rem 0;">
+    <div class="first-list">
       <div class="container" style="display: flex; justify-content: space-between;">
         <img src="/img/cds/homepage-built-by-gov.svg" alt="{{ i18n "homepage-built-by-image-alt" }}" />
         <div style="margin: auto; width: 50%;">
@@ -44,9 +44,10 @@
         </div>
       </div>
     </div>
-    <div style="padding: 5rem 0 5rem 0;">
-      <div class="container" style="display: flex; justify-content: space-between;">
-        <div style="margin: auto; width: 50%;">
+    <div class="second-list">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center">
+
+        <div style="width: 60%;">
           <h2>{{ i18n "homepage-used-by-hundred-title" }}</h2>
           <ul>
             <li>{{ i18n "homepage-used-by-hundred-list-one" }}</li>

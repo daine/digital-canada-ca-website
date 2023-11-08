@@ -6,11 +6,11 @@
 
 #fip {
   background-color: #33465c;
-  padding: 0.72rem;
+  padding: 0.64rem;
   // line-height: 0;
 
   @include tablet {
-    padding: 0.94rem 1.25rem;
+    padding: 0.84rem 1.11rem;
   }
 
   .logo {
@@ -18,7 +18,7 @@
     background-size: contain;
     display: block;
     z-index: 1;
-    height : 0.94rem;
+    height : 0.84rem;
 
     // BILINGUAL SPECIFIC CDS LOGO
     &.en {
@@ -29,7 +29,7 @@
     }
 
     @include tablet {
-      height: 1.25rem;
+      height: 1.11rem;
     }
   }
 
@@ -61,12 +61,12 @@
       display: inline-block;
       color: $white;
       display: inline-block;
-      font-size: 0.78125rem;
+      font-size: 0.7rem;
       font-weight: 400;
-      margin-top: 0.46875rem;
+      margin-top: 0.42rem;
       text-align: center;
       text-decoration: none;
-      padding-bottom: 0.625rem;
+      padding-bottom: 0.55rem;
       border-bottom: #425A76 1px solid;
       transition: all 0.3s ease-in-out;
       
@@ -77,11 +77,11 @@
 
       @include desktop {
         font-weight: 200;
-        font-size: 1.25rem;
+        font-size: 1.11rem;
       }
 
       @include tablet {
-        font-size: 0.9375rem;
+        font-size: 0.84rem;
       }
     }
   }
@@ -123,14 +123,14 @@
   }
 
   .page-blogpost & {
-    height: 15.625rem;
+    height: 13.88rem;
 
     @include tablet {
-      height: 18.75rem;
+      height: 16.66rem;
     }
 
     @include desktop {
-      height: 25rem;
+      height: 22.22rem;
     }
   }
 }
@@ -152,10 +152,10 @@
 
   h1 {
     border-bottom: none;
-    font-size : 2.875rem;
+    font-size : 2.55rem;
     color: $white;
     font-weight: 100;
-    margin: 0.9375rem;
+    margin: 0.84rem;
     padding: 0;
   }
 }
@@ -209,16 +209,16 @@ td {
 th,
 td {
   // same base styles as p, main ul, main ol
-  font-size: 1.1rem;
+  font-size: 0.97rem;
 
 	@include tablet {
-		font-size: 0.78125rem;
+		font-size: 0.7rem;
 	}
 
 	@include desktop {
-		font-size: 1.40625rem;
-		line-height: 2.1875rem;
-		margin-bottom: 1.71875rem;
+		font-size: 1.25rem;
+		line-height: 1.95rem;
+		margin-bottom: 1.53rem;
 	}
 }
 
@@ -274,8 +274,8 @@ td {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
-  height: 2.8125rem;
-  width: 2.8125rem;
+  height: 2.5rem;
+  width: 2.5rem;
   margin-right: 10px;
  }
 
@@ -304,7 +304,7 @@ td {
   padding-bottom: 0;
 
   h3 {
-    font-size: 1.15625rem;
+    font-size: 1.02rem;
   }
  }
 
@@ -361,20 +361,20 @@ td {
 
 // Style for circle arrow icon turning right (featured beside links in different sections of the homepage)
 .fa-arrow-circle-right {
-  margin-left: 0.3125rem;
+  margin-left: 0.27rem;
 }
 
 
 // Canada Footer
 #goc-footer{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 1.11rem;
+  padding-bottom: 1.11rem;
   background-color: #262A2D;
   // position: absolute;
   // bottom: 0;
   // width: 100%;
 
-  nav { padding: 0.3125remrem 0 0 0 !important; }
+  nav { padding: 0.27rem 0 0 0 !important; }
 }
 
 #wb-info a:hover {
