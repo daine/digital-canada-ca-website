@@ -51,13 +51,13 @@ languages:
       work-with-us: /:title
     menu:
       main:
-        - identifier: produits
+        - identifier: Produits
           name: Produits
-          url: /produits/
+          url: /
           weight: 1
-        - identifier: about-us-fr
-          name: About CDS FR
-          url: /about-us-fr/
+        - identifier: À propos du SNC
+          name: À propos du SNC
+          url: /a-propos-du-snc/
           weight: 2  
         - identifier: blogue
           name: Blogue

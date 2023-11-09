@@ -1,7 +1,7 @@
 ---
-title: 'FR GC Forms'
-description: FR Create accessible online forms
+title: 'Formulaires GC'
+description: Créez des formulaires en ligne accessibles.
 image: '/img/cds/gc-forms.svg'
-imageAlt: 'imageAlt'
+imageAlt: 'Capture d’écran de Formulaires GC.'
 link: 'https://articles.alpha.canada.ca/forms-formulaires/fr/'
 ---

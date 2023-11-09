@@ -84,6 +84,6 @@ function readFullPostTranslation() {
         return 'Read full post '
     }
     else if (document.documentElement.lang == 'fr') {
-        return 'FR Read full post '
+        return 'Lire l’intégralité du billet '
     }
 }

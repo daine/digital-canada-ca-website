@@ -13,9 +13,7 @@
           </div>
 
           {{ end }} -->
-        <p>At CDS, our mandate is to help government improve the way it designs and delivers services to people in
-          Canada. We believe that public services should be easy to use, secure, reliable, accessible and inclusive for
-          everyone – and we want your help!</p>
+        <p>Au Service numérique canadien (SNC), nous aidons le gouvernement à améliorer la façon dont il conçoit et fournit ses services au Canada. Nous sommes de l’avis que les services publics doivent être conviviaux, sécurisés, fiables, accessibles et inclusifs. C’est pourquoi nous sollicitons votre aide!</p>
         <p>{{.Params.description}}</p>
       </div>
     </div>
@@ -41,7 +39,7 @@
   <div id="apply-now" class="row work-with-us--apply-now container">
     {{ if or (eq .Params.archived false) (eq .Params.translationKey "evergreen-job-posting") }}
     <div class="col-sm-10 col-sm-offset-1 col-xs-12" style="padding-bottom: 3rem;">
-      <h2>Postulez maintenant</h2>
+      <h2>Postuler</h2>
       <form enctype="multipart/form-data" class="text-left" id="contactForm">
         <input type="hidden" id="jobId" name="jobId" value="{{.Params.leverId}}" />
         <!-- Full Name -->
@@ -54,7 +52,7 @@
         </div>
         <!-- Email -->
         <div class="form-group">
-          <label for="email">Courriel</label>
+          <label for="email">Adresse courriel</label>
           <input style="width: 50%;" type="email" name="email" class="form-control validate-required validate-email" id="email"
             aria-required="true" aria-describedby="email-required" />
             <span id="name-required" class="error-message validate-required-message" style="display: none;">Ce champ est
@@ -63,13 +61,13 @@
   
         <!-- Resume -->
         <div class="form-group">
-          <label for="resume">Upload your resume
+          <label for="resume">Téléversez votre CV
             <div style="margin: 1rem 0;">
-              <span style="font-weight: normal;" class="url">PDF format preferred</span>
+              <span style="font-weight: normal;" class="url">Veuillez privilégier le format PDF.</span>
     
             </div>
             <div class="browse">
-              <div><span style="padding-right: 0.5rem;">Upload a file</span> <i class="fa-solid fa-upload fa-sm"></i>
+              <div><span style="padding-right: 0.5rem;">Téléverser un fichier</span> <i class="fa-solid fa-upload fa-sm"></i>
                 <input class="resume" type="file" id="resume" name="resume"
                   accept="application/msword, application/pdf, text/plain" required />
               </div>
@@ -82,9 +80,9 @@
   
         <!-- Samples of your work -->
         <div class="form-group">
-          <label for="samples">Échantillons de votre travail (Facultatif)</label>
+          <label for="samples">Exemples de travaux (URL)</label>
           <div style="margin: 1rem 0;">
-            <span class="url">Share with us any relevant URLs showcasing your work</span>
+            <span class="url">Indiquez toute URL pertinente présentant votre travail.</span>
   
           </div>
           <input style="width: 50%;" type="text" class="form-control" id="samples" name="samples" />
@@ -92,7 +90,7 @@
   
         <!-- How did you hear about this job-->
         <div class="form-group">
-          <label style="margin-bottom: 1rem;" for="talent_tracking">Comment avez-vous entendu parler de ce poste?</label>
+          <label style="margin-bottom: 1rem;" for="talent_tracking">Comment avez-vous entendu parler de cette offre d’emploi?</label>
           <textarea style="width: 75%;" class="form-control" id="talent_tracking" name="talent_tracking" rows="5"></textarea>
   
           <span id="name-required" class="error-message validate-required-message" style="display: none;">Ce champ est
@@ -102,15 +100,15 @@
         <!-- Body -->
   
         <div class="form-group">
-          <label for="body">Do you need accommodation during the hiring process?</label>
+          <label for="body">Aurez-vous besoin de mesures d’adaptation durant le processus de recrutement?</label>
           <div style="margin: 1rem 0;">
-            <span class="url">If yes, please specify</span>
+            <span class="url">Si oui, veuillez préciser lesquelles.</span>
   
           </div>
           <textarea style="width: 75%;" class="form-control validate-required validate-maxwords" id="body" name="body" rows="3"
             aria-required="true" aria-describedby="body-required word-count-message"></textarea>
-          <span id="body-required" class="error-message validate-required-message" style="display: none;">This field
-            is required<br />
+          <span id="body-required" class="error-message validate-required-message" style="display: none;">Ce champ est
+            obligatoire<br />
           </span>
   
         </div>
@@ -118,7 +116,7 @@
   
         <!-- Submit-->
         <div>
-          <gcds-button type="submit" button-id="submit-btn"><span style="font-size: 15px; font-weight: 500;">Soumettre <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></span></gcds-button>
+          <gcds-button type="submit" button-id="submit-btn">Soumettre votre candidature <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
         </div>
   
   

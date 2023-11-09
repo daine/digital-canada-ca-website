@@ -10,8 +10,8 @@ aria-canada-website:
   other: "Gouvernement du Canada"
 aria-cds-website:
   other: "Accéder à la page d'accueil"  
-blog:
-  other: "Lire notre blogue"
+blogue:
+  other: "Blogue"
 canada-ca-link:
   other: "https://www.canada.ca/fr.html"
 canada-ca:
@@ -179,7 +179,7 @@ search:
 enter-search:
   other: "Que recherchez-vous?"   
 load-more:
-  other: "Afficher plus de résultats" 
+  other: "Afficher plus" 
 close:
   other: "Fermer"
 results:
@@ -236,52 +236,66 @@ privacy-page-url:
   other: "/transparence/confidentialite/"
 
 fip-header:
-  other: "FR The Canadian Digital service is a part of the Government of Canada. Here’s how you know"
+  other: "Le Service numérique canadien fait partie du gouvernement du Canada. En voici la preuve  "
 homepage-built-by-title:
-  other: "FR Built by government for government"
+  other: "Des outils créés par le gouvernement, pour le gouvernement."
 homepage-built-by-list-one:
-  other: "FR Secure"              
+  other: "Sécurité"              
 homepage-built-by-list-two:
-  other: "FR Accessible"
+  other: "Accessibilité"
 homepage-built-by-list-three:
-  other: "FR Bilingual"
+  other: "Bilinguisme"
 homepage-built-by-list-four:
-  other: "FR Free to use"
+  other: "Gratuité"
 homepage-built-by-list-five:
-  other: "FR Simple to integrate"
+  other: "Simplicité d’intégration"
 homepage-built-by-list-six:
-  other: "FR Supported by our in house team"
+  other: "Maintenance par nos équipes internes"
+homepage-built-by-image-alt:
+  other: "Un téléphone affichant diverses applications. Une clé est posée devant le téléphone et un cadenas flotte devant l’écran."   
 homepage-used-by-hundred-title:
-  other: "FR Used by hundreds of public servants, including those from:"             
+  other: "Des outils utilisés par des centaines de fonctionnaires, notamment dans les entités suivantes : "             
 homepage-used-by-hundred-list-one:
-  other: "FR Immigration, Refugees and Citizenship Canada"  
+  other: "Immigration, Réfugiés et Citoyenneté Canada"  
 homepage-used-by-hundred-list-two:
-  other: "FR Employment and Social Development Canada"
+  other: "Emploi et développement social Canada"
 homepage-used-by-hundred-list-three:
-  other: "FR Treasury Board of Canada Secretariat"
+  other: "Secrétariat du Conseil du Trésor du Canada"
 homepage-used-by-hundred-list-four:
-  other: "FR Royal Canadian Mounted Police"
+  other: "Gendarmerie royale du Canada"
 homepage-used-by-hundred-list-five:
-  other: "FR Health Canada"
+  other: "Santé Canada"
+homepage-used-by-image-alt:
+  other: "Une personne debout devant une image de la Terre. Autour d’elle se trouvent des portraits de gens connectés par un réseau de lignes."   
 contact-cds:
-  other: "FR Contact CDS"          
+  other: "Contactez le SNC"          
 email-us:
-  other: "FR You can contact us by emailing"
+  other: "Vous pouvez nous contacter par courriel à l’adresse"
 stay-in-touch:
-  other: "FR Stay in touch"
+  other: "Gardons contact"
 newsletter:
-  other: "FR Newsletter"
+  other: "Infolettre"
 linkedin:
   other: "FR LinkedIn"
 footer-heading:
-  other: "FR Canadian Digital Service (CDS)"
-footer-jobs-at-cds:
-  other: "FR Jobs at CDS"
+  other: "Service numérique canadien (SNC)"
+footer-jobs:
+  other: "Emplois"
 footer-security:
-  other: "FR Security"              
+  other: "Sécurité"              
 footer-privacy:
-  other: "FR Privacy"
+  other: "Confidentialité"
 footer-terms:
-  other: "FR Terms and Conditions"
+  other: "Avis"
 footer-visit-canada-ca:
-  other: "FR Visit Canada.ca"      
+  other: "Visitez Canada.ca"
+footer-jobs-link:
+  other: ""
+footer-security-link:
+  other: ""
+footer-privacy-link:
+  other: ""
+footer-terms-link:
+  other: ""
+footer-visit-canada-ca-link:
+  other: ""                        
