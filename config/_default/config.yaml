@@ -55,9 +55,9 @@ languages:
           name: Produits
           url: /
           weight: 1
-        - identifier: about-us-fr
+        - identifier: À propos du SNC
           name: À propos du SNC
-          url: /about-us-fr/
+          url: /a-propos-du-snc/
           weight: 2  
         - identifier: blogue
           name: Blogue
