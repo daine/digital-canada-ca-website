@@ -10,8 +10,8 @@ aria-canada-website:
   other: "Gouvernement du Canada"
 aria-cds-website:
   other: "Accéder à la page d'accueil"  
-blog:
-  other: "Lire notre blogue"
+blogue:
+  other: "Blogue"
 canada-ca-link:
   other: "https://www.canada.ca/fr.html"
 canada-ca:
@@ -179,7 +179,7 @@ search:
 enter-search:
   other: "Que recherchez-vous?"   
 load-more:
-  other: "Afficher plus de résultats" 
+  other: "Afficher plus" 
 close:
   other: "Fermer"
 results:
