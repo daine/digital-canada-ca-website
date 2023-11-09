@@ -278,14 +278,14 @@ newsletter:
 linkedin:
   other: "FR LinkedIn"
 footer-heading:
-  other: "FR Canadian Digital Service (CDS)"
-footer-jobs-at-cds:
-  other: "FR Jobs at CDS"
+  other: "Service numérique canadien (SNC)"
+footer-jobs:
+  other: "Emplois"
 footer-security:
-  other: "FR Security"              
+  other: "Sécurité"              
 footer-privacy:
-  other: "FR Privacy"
+  other: "Confidentialité"
 footer-terms:
-  other: "FR Terms and Conditions"
+  other: "Avis"
 footer-visit-canada-ca:
-  other: "FR Visit Canada.ca"      
+  other: "Visitez Canada.ca"      
