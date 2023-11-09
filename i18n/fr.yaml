@@ -288,4 +288,14 @@ footer-privacy:
 footer-terms:
   other: "Avis"
 footer-visit-canada-ca:
-  other: "Visitez Canada.ca"      
+  other: "Visitez Canada.ca"
+footer-jobs-link:
+  other: ""
+footer-security-link:
+  other: ""
+footer-privacy-link:
+  other: ""
+footer-terms-link:
+  other: ""
+footer-visit-canada-ca-link:
+  other: ""                        

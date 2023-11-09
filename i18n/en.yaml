@@ -276,7 +276,7 @@ linkedin:
 footer-heading:
   other: "Canadian Digital Service (CDS)"
 footer-jobs:
-  other: "Jobs"
+  other: "Jobs"  
 footer-security:
   other: "Security"              
 footer-privacy:
@@ -284,4 +284,14 @@ footer-privacy:
 footer-terms:
   other: "Terms and Conditions"
 footer-visit-canada-ca:
-  other: "Visit Canada.ca"      
+  other: "Visit Canada.ca"
+footer-jobs-link:
+  other: ""
+footer-security-link:
+  other: ""
+footer-privacy-link:
+  other: ""
+footer-terms-link:
+  other: ""
+footer-visit-canada-ca-link:
+  other: ""                
