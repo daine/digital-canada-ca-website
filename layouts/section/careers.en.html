@@ -3,15 +3,13 @@
 <section class="work-with-us--section joinus-section work-with-us--intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-                <h2 style="font-size: 2em; font-weight: 600;">Work anywhere in Canada. Make government services better.
+            <div class="col-md-10">
+                <h2 class="h2-header">Work anywhere in Canada. Make government services better.
                 </h2>
 
-                <p>When you join CDS, you can work from anywhere in Canada, with flexible hours to enable a strong
-                    work-life balance. We have people working from coast to coast to coast.</p>
+                <p>When you join the Canadian Digital Service (CDS),  you will be part of a team that does meaningful work on services that help people. </p>
+                <p>You can work from anywhere in Canada, with flexible hours to enable a strong work-life balance. We have people working from coast to coast to coast. </p>
                 <p>We provide the latest tools and technologies to help you do great work.</p>
-                <p>You will be part of a team that does meaningful work on services that help people, alongside
-                    wonderful, highly-skilled people.</p>
 
             </div>
         </div>
@@ -24,7 +22,7 @@
     <div class="container">
         <div class="row">
             <!-- class="col-lg-8 col-xs-12" -->
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+            <div class="col-md-10">
                 <div>
                     {{ if gt (len (where .Pages ".Params.archived" "==" false)) 0 }}
                     <h3 style="font-size: 2em;">What we’re looking for</h3>
@@ -43,15 +41,15 @@
 
                     </div>
                     {{ else }}
-                    <h3 style="margin-bottom: 3rem; font-size: 2em;"> Current openings </h3>
+                    <h2 class="h2-header"> Current postings </h2>
                     <div>
-                        <p style="margin-bottom: 4rem;">There are no job openings at this time. Please check back later.
+                        <p style="margin-bottom: 2rem;">There are no job openings at this time. Please check back later.
                         </p>
                     </div>
                     {{end}}
                     <!-- Evergreen Job Posting -->
                     <div>
-                        <h4 style="font-size: 1.5em;"><strong>Be considered for future opportunities</strong></h4>
+                        <h2 class="h2-header">Be considered for future opportunities</h2>
                         <p>You can share your resume with us if there are no openings that are a fit. As positions
                             become available, applicants who meet qualifications will be contacted.</p>
                         {{ $c := (where .Site.Pages "Section" "==" "careers") }}
@@ -70,9 +68,9 @@
 <section class="work-with-us--section">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+            <div class="col-md-10">
                 <div>
-                    <h3 style="font-size: 2em;">At CDS, we welcome and invite difference.</h3>
+                    <h2 class="h2-header">At CDS, we welcome and invite difference.</h2>
                 </div>
                 <div>
                     <p>We proudly, passionately, and actively strive to make CDS more reflective of the society that we
@@ -97,11 +95,11 @@
         <div class="row" style="display: flex; justify-content: space-between;">
             <img style="align-self: flex-start;" src="/img/cds/jobs-hiring-process.svg" alt="A person looking through a telescope at different online profiles of potential job candidates." />
             <div style="margin-left: 3rem;">
-                <h3 style="font-size: 2em;">Our hiring process</h3>
+                <h2 class="h2-header" style="margin-top: 1rem;">Our hiring process</h2>
                 <p>Our goal is to find the right fit for both you and CDS. When you apply, here’s what you can generally
                     expect:</p>
 
-                <div class="row">
+                <div>
                     <ol class="steps">
                         <li>
                             <h4>1. Confirmation</h4>
@@ -133,7 +131,7 @@
                     </ol>
                 </div>
 
-                <p class="mrgn-tp-md">If you <strong>don’t</strong> get offered a job, we’d be happy to discuss your
+                <p>If you <strong>don’t</strong> get offered a job, we’d be happy to discuss your
                     application and explore future opportunities. In some cases, we’ll request to hold onto your
                     application for future reference, as there may be a fit down the road.</p>
             </div>
