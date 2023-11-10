@@ -244,6 +244,17 @@ input.error {
 	border: 2px solid red;
 }
 
+.form-group {
+	margin-top: 1.5rem;
+
+	input {
+		width: 50% !important;
+	}
+	textarea {
+		width: 75% !important;
+	}
+}
+
 .form-group.error {
 	padding-left: 10px;
 	border-left: 4px solid red;
