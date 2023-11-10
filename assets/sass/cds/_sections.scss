@@ -358,7 +358,7 @@
   .post-container {
     // background-color: #ffffff;
     // box-shadow: 5px 8px 5px #e1e4e7;
-    border-bottom: 2px solid #D6D9DD;
+    border-bottom: 2px solid $background-grey;
     // margin: 0 auto;
 
     @include tablet {
@@ -718,6 +718,7 @@ article.post {
   }
 
   .second-list {
+    background-color: $background-grey;
     padding: 3rem 0 3rem 0;
   }
 }
@@ -762,5 +763,13 @@ article.post {
   h2 {
     font-weight: 600;
     font-size: 2.11rem;
+  }
+}
+
+.card-style {
+  @media (min-width: 992px) {
+    width: 45%;
+    // height: 100%;
+    padding: 0 15px 0 15px;
   }
 }
