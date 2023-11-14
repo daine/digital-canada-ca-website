@@ -43,9 +43,9 @@
     line-height: 2.35rem;
   }
   h3 {
-    line-height: 1.8rem;
+    line-height: 1.5rem;
     font-weight: 400;
-    font-size: 1.38rem;
+    font-size: 1.25rem;
   }
 
   .header-translation {
@@ -131,13 +131,12 @@
 
 
 .security-notice-banner {
-  display: inline-block;
+  display: flex;
   background-color: #D7E5F5;
-  border-inline-start: 0.22rem solid #6584A6;
+  border-inline-start: 0.25rem solid #6584A6;
   color: #333;
   margin: 0 0 0.625rem;
   padding: 0.42rem;
-  width: 100%;
 
   .no-gutters {
     margin-right: 0;
@@ -154,7 +153,7 @@
 .job-postings-container {
 
   .padding {
-    padding: 1.67rem 0;
+    padding: 1.25rem 0;
 
     @include mobile_only {
       padding: 1.67rem 0;

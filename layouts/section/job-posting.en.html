@@ -43,13 +43,13 @@
   <div id="apply-now" class="row work-with-us--apply-now container">
     {{ if or (eq .Params.archived false) (eq .Params.translationKey "evergreen-job-posting") }}
     <div class="col-sm-10 col-sm-offset-1 col-xs-12" style="padding-bottom: 3rem;">
-      <h2>Apply</h2>
+      <h2 class="h2-header">Apply</h2>
       <form enctype="multipart/form-data" class="text-left" id="contactForm">
         <input type="hidden" id="jobId" name="jobId" value="{{.Params.leverId}}" />
         <!-- Full Name -->
         <div class="form-group">
           <label for="name">Full Name</label>
-          <input style="width: 50%;" type="text" class="form-control validate-required" id="name" name="name" aria-required="true"
+          <input type="text" class="form-control validate-required" id="name" name="name" aria-required="true"
             aria-describedby="name-required" />
           <span id="name-required" class="error-message validate-required-message" style="display: none;">This field
             is required</span>
@@ -57,7 +57,7 @@
         <!-- Email -->
         <div class="form-group">
           <label for="email">Email address</label>
-          <input style="width: 50%;" type="email" name="email" class="form-control validate-required validate-email" id="email"
+          <input type="email" name="email" class="form-control validate-required validate-email" id="email"
             aria-required="true" aria-describedby="email-required" />
           <span id="email-required" class="error-message validate-required-message" style="display: none;">This field
             is required</span>
@@ -66,7 +66,7 @@
         <!-- Resume -->
         <div class="form-group">
           <label for="resume">Upload your resume
-            <div style="margin: 1rem 0;">
+            <div style="margin: 0.5rem 0 1rem 0;">
               <span style="font-weight: normal;" class="url">PDF format preferred</span>
     
             </div>
@@ -85,17 +85,17 @@
         <!-- Samples of your work -->
         <div class="form-group">
           <label for="samples">Samples of your work (URL)</label>
-          <div style="margin: 1rem 0;">
+          <div style="margin: 0.5rem 0;">
             <span class="url">Share with us any relevant URLs showcasing your work</span>
   
           </div>
-          <input style="width: 50%;" type="text" class="form-control" id="samples" name="samples" />
+          <input type="text" class="form-control" id="samples" name="samples" />
         </div>
   
         <!-- How did you hear about this job-->
         <div class="form-group">
-          <label style="margin-bottom: 1rem;" for="talent_tracking">How did you hear about this job posting?</label>
-          <textarea style="width: 75%;" class="form-control" id="talent_tracking" name="talent_tracking" rows="5"></textarea>
+          <label for="talent_tracking">How did you hear about this job posting?</label>
+          <textarea class="form-control" id="talent_tracking" name="talent_tracking" rows="5"></textarea>
   
           <span id="talent-tracking-required" class="error-message validate-required-message" style="display: none;">This
             field
@@ -106,11 +106,11 @@
   
         <div class="form-group">
           <label for="body">Do you need accommodation during the hiring process?</label>
-          <div style="margin: 1rem 0;">
+          <div style="margin: 0.5rem 0;">
             <span class="url">If yes, please specify</span>
   
           </div>
-          <textarea style="width: 75%;" class="form-control validate-required validate-maxwords" id="body" name="body" rows="3"
+          <textarea class="form-control validate-required validate-maxwords" id="body" name="body" rows="3"
             aria-required="true" aria-describedby="body-required word-count-message"></textarea>
           <span id="body-required" class="error-message validate-required-message" style="display: none;">This field
             is required<br />
@@ -121,7 +121,7 @@
   
         <!-- Submit-->
         <div>
-          <gcds-button type="submit" button-id="submit-btn"><span style="font-size: 15px; font-weight: 500;">Submit application <gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></span></gcds-button>
+          <gcds-button type="submit" button-id="submit-btn"> Submit application<gcds-icon name="fa-solid fa-chevron-right"></gcds-icon></gcds-button>
         </div>
   
   

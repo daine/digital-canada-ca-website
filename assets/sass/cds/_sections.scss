@@ -162,7 +162,7 @@
   padding: 0;
 
   h4 {
-    font-size: 0.84rem;
+    font-size: 1.75rem;
   }
 
   &__item {
@@ -176,7 +176,6 @@
   }
 
   &__item::before {
-    content: counter(my-awesome-counter);
     background-color: $career-brown;
     color: $white;
     flex: 0 0 60px;
@@ -358,7 +357,7 @@
   .post-container {
     // background-color: #ffffff;
     // box-shadow: 5px 8px 5px #e1e4e7;
-    border-bottom: 2px solid #D6D9DD;
+    border-bottom: 2px solid $background-grey;
     // margin: 0 auto;
 
     @include tablet {
@@ -610,25 +609,22 @@ article.post {
 // and create specialized H3's etc. where needed.
 .page-legal {
   h2 {
-    font-weight: 500;
-
-    @include desktop {
-      font-size: 1.6rem;
-      margin: 0.55rem 0;
-    }
+    font-weight: 600;
+    font-size: 2.1rem;
   }
 
   h3 {
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 0.75rem;
 
     @include desktop {
-      font-size: 1.36rem;
-      margin: 1.67rem 0 0.84rem 0;
+      font-size: 1.35rem;
+      // margin: 1.5rem 0 0.5rem 0;
     }
   }
 
   p + ul {
-    margin-top: 0.5em;
+    // margin-top: 0.5em;
   }
 }
 
@@ -718,6 +714,7 @@ article.post {
   }
 
   .second-list {
+    background-color: $background-grey;
     padding: 3rem 0 3rem 0;
   }
 }
@@ -762,5 +759,13 @@ article.post {
   h2 {
     font-weight: 600;
     font-size: 2.11rem;
+  }
+}
+
+.card-style {
+  @media (min-width: 992px) {
+    width: 45%;
+    // height: 100%;
+    padding: 0 15px 0 15px;
   }
 }

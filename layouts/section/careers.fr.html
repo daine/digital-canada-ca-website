@@ -3,13 +3,17 @@
 <section class="work-with-us--section joinus-section work-with-us--intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-                <h2 style="font-size: 2em; font-weight: 600;">Travaillez de n’importe où au Canada. Améliorez les services gouvernementaux.
+            <div class="col-md-10">
+                <h2 class="h2-header">Travaillez de n’importe où au Canada. Améliorez les services gouvernementaux.
                 </h2>
 
-                <p>Au SNC, vous ferez partie d'une équipe qui travaille à la prestation de services importants qui aident les gens.</p>
-                <p>Vous pouvez travailler de n'importe où au Canada, selon un horaire flexible qui vous permettra de maintenir un bon équilibre entre la vie professionnelle et privée. Nos employés se trouvent partout au pays, d'un océan à l'autre.</p>
-                <p>Nous mettons à votre disposition des outils et technologies de fine pointe pour vous aider à faire un excellent travail.</p>
+                <p>Au SNC, vous ferez partie d'une équipe qui travaille à la prestation de services importants qui
+                    aident les gens.</p>
+                <p>Vous pouvez travailler de n'importe où au Canada, selon un horaire flexible qui vous permettra de
+                    maintenir un bon équilibre entre la vie professionnelle et privée. Nos employés se trouvent partout
+                    au pays, d'un océan à l'autre.</p>
+                <p>Nous mettons à votre disposition des outils et technologies de fine pointe pour vous aider à faire un
+                    excellent travail.</p>
 
             </div>
         </div>
@@ -22,7 +26,7 @@
     <div class="container">
         <div class="row">
             <!-- class="col-lg-8 col-xs-12" -->
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+            <div class="col-md-10">
                 <div>
                     {{ if gt (len (where .Pages ".Params.archived" "==" false)) 0 }}
                     <h3 style="font-size: 2em;">What we’re looking for</h3>
@@ -41,16 +45,19 @@
 
                     </div>
                     {{ else }}
-                    <h2 style="font-size: 2em; font-weight: 600;">Postes à pourvoir</h2>
+                    <h2 class="h2-header">Postes à pourvoir</h2>
                     <div>
-                        <p style="margin-bottom: 1rem;">Il n’y a aucun poste disponible à l’heure actuelle. Veuillez revenir plus tard.
+                        <p style="margin-bottom: 2rem;">Il n’y a aucun poste disponible à l’heure actuelle. Veuillez
+                            revenir plus tard.
                         </p>
                     </div>
                     {{end}}
                     <!-- Evergreen Job Posting -->
                     <div>
-                        <h2 style="font-size: 2rem;">Laissez-nous votre CV pour d’éventuels futurs postes.</h2>
-                        <p>Si aucune offre d’emploi ne correspond à votre profil, vous pouvez nous fournir votre CV. Lorsque d’autres postes deviendront disponibles, nous contacterons les candidat·e·s présentant un profil adapté.</p>
+                        <h2 class="h2-header">Laissez-nous votre CV pour d’éventuels futurs postes.</h2>
+                        <p>Si aucune offre d’emploi ne correspond à votre profil, vous pouvez nous fournir votre CV.
+                            Lorsque d’autres postes deviendront disponibles, nous contacterons les candidat·e·s
+                            présentant un profil adapté.</p>
                         {{ $c := (where .Site.Pages "Section" "==" "careers") }}
                         {{ $positions := (where $c ".Params.translationkey" "==" "evergreen-job-posting") }}
                         {{ range $positions }}
@@ -67,14 +74,22 @@
 <section class="work-with-us--section">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+            <div class="col-md-10">
                 <div>
-                    <h2 style="font-size: 2rem; font-weight: 600;">Au SNC, nous accueillons et invitons la différence.</h2>
+                    <h2 class="h2-header">Au SNC, nous accueillons et invitons la différence.</h2>
                 </div>
                 <div>
-                    <p>C’est avec fierté et passion que nous nous efforçons de rendre le SNC plus représentatif du public que nous servons. C’est en tirant parti de diverses perspectives, expériences et compétences que nous pourrons offrir des services publics de meilleure qualité, plus accessibles et plus inclusifs. Nous travaillons fort pour créer un environnement où différentes perspectives et expériences sont valorisées, Nous nous engageons à aider les talents de tout type à s’épanouir.</p>
+                    <p>C’est avec fierté et passion que nous nous efforçons de rendre le SNC plus représentatif du
+                        public que nous servons. C’est en tirant parti de diverses perspectives, expériences et
+                        compétences que nous pourrons offrir des services publics de meilleure qualité, plus accessibles
+                        et plus inclusifs. Nous travaillons fort pour créer un environnement où différentes perspectives
+                        et expériences sont valorisées, Nous nous engageons à aider les talents de tout type à
+                        s’épanouir.</p>
 
-                    <p>Le SNC accueille tous les candidats, peu importe leur race, ethnicité, religion, orientation sexuelle, identité et expression de genre, origine nationale, handicap, âge et taille corporelle, y compris les vétérans et les personnes qui ont des engagements familiaux divers.</p>
+                    <p class="mrgn-bttm-0">Le SNC accueille tous les candidats, peu importe leur race, ethnicité, religion, orientation
+                        sexuelle, identité et expression de genre, origine nationale, handicap, âge et taille
+                        corporelle, y compris les vétérans et les personnes qui ont des engagements familiaux divers.
+                    </p>
                 </div>
             </div>
 
@@ -85,20 +100,23 @@
 <section class="our-hiring-process">
     <div class="container">
         <div class="row" style="display: flex; justify-content: space-between;">
-            <img style="align-self: flex-start;" src="/img/cds/jobs-hiring-process.svg" alt="Une personne observant à travers un télescope différents profils en ligne de candidats et candidates à un poste." />
+            <img style="align-self: flex-start;" src="/img/cds/jobs-hiring-process.svg"
+                alt="Une personne observant à travers un télescope différents profils en ligne de candidats et candidates à un poste." />
             <div style="margin-left: 3rem;">
-                <h3 style="font-size: 2em;">Notre processus d’embauche</h3>
-                <p>Notre objectif est de trouver la solution idéale pour vous et le SNC. Voici ce à quoi vous pouvez généralement vous attendre en postulant :</p>
+                <h3 class="h2-header" style="margin-top: 1rem;">Notre processus d’embauche</h3>
+                <p>Notre objectif est de trouver la solution idéale pour vous et le SNC. Voici ce à quoi vous pouvez
+                    généralement vous attendre en postulant :</p>
 
                 <div class="row">
                     <ol class="steps">
                         <li>
-                            <h3>1. Confirmation</h3>
+                            <h4>1. Confirmation</h4>
                             <p>Vous recevrez un courriel vous informant que nous avons reçu votre candidature.</p>
                         </li>
                         <li>
                             <h4>2. Appel d’introduction</h4>
-                            <p>Si votre profil correspond à ce que nous recherchons, nous prévoirons une brève discussion avec vous pour vous poser quelques questions.</p>
+                            <p>Si votre profil correspond à ce que nous recherchons, nous prévoirons une brève
+                                discussion avec vous pour vous poser quelques questions.</p>
                         </li>
                         <li>
                             <h4>3. Entrevues</h4>
@@ -112,16 +130,20 @@
                         </li>
                         <li>
                             <h4>4. Vérification des références</h4>
-                            <p>Nous communiquerons avec vos références par téléphone pour en savoir plus sur vos expériences professionnelles.</p>
+                            <p>Nous communiquerons avec vos références par téléphone pour en savoir plus sur vos
+                                expériences professionnelles.</p>
                         </li>
                         <li>
                             <h4>5. Offre d’emploi!</h4>
-                            <p>Nous vous transmettrons une offre formelle et déterminerons la date de votre première journée de travail.</p>
+                            <p>Nous vous transmettrons une offre formelle et déterminerons la date de votre première
+                                journée de travail.</p>
                         </li>
                     </ol>
                 </div>
 
-                <p class="mrgn-tp-md">Si nous ne vous transmettons pas d’offre, nous serons heureux de discuter de votre candidature avec vous et d'explorer les possibilités futures. Dans certains cas, nous pourrions demander de conserver votre demande afin de combler de futurs besoins.</p>
+                <p>Si nous ne vous transmettons pas d’offre, nous serons heureux de discuter de votre
+                    candidature avec vous et d'explorer les possibilités futures. Dans certains cas, nous pourrions
+                    demander de conserver votre demande afin de combler de futurs besoins.</p>
             </div>
         </div>
     </div>
