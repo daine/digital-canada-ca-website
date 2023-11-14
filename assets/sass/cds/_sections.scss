@@ -609,25 +609,22 @@ article.post {
 // and create specialized H3's etc. where needed.
 .page-legal {
   h2 {
-    font-weight: 500;
-
-    @include desktop {
-      font-size: 1.6rem;
-      margin: 0.55rem 0;
-    }
+    font-weight: 600;
+    font-size: 2.1rem;
   }
 
   h3 {
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 0.75rem;
 
     @include desktop {
-      font-size: 1.36rem;
-      margin: 1.5rem 0 0.5rem 0;
+      font-size: 1.35rem;
+      // margin: 1.5rem 0 0.5rem 0;
     }
   }
 
   p + ul {
-    margin-top: 0.5em;
+    // margin-top: 0.5em;
   }
 }
 

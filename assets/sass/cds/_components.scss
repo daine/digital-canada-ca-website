@@ -131,13 +131,12 @@
 
 
 .security-notice-banner {
-  display: inline-block;
+  display: flex;
   background-color: #D7E5F5;
-  border-inline-start: 0.22rem solid #6584A6;
+  border-inline-start: 0.25rem solid #6584A6;
   color: #333;
   margin: 0 0 0.625rem;
   padding: 0.42rem;
-  width: 100%;
 
   .no-gutters {
     margin-right: 0;
