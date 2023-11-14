@@ -137,7 +137,7 @@ $(document).ready(function () {
    */
   $("#contactForm #resume").on("change", function (event) {
     var file = $("#contactForm #resume")[0].files[0].name;
-    $("#contactForm #no-file-chosen-text").html(file);
+    $("#contactForm #pdf-format-preferred").html(file);
   });
 
   /**
