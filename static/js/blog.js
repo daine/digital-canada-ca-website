@@ -34,6 +34,7 @@ function renderBlogResults(blogs) {
     
     let paginatedBlogs = blogs.slice(start, end);
     var blogResultList = ""
+    console.log(paginatedBlogs)
 
     for (let i = 0; i < paginatedBlogs.length; i++) {
         blogResultList += `
