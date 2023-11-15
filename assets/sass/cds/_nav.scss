@@ -193,6 +193,9 @@
   }
 
   &.active {
+    .mobile-btns {
+      padding: 2rem;
+    }
     display: block;
     position: fixed;
     background: rgba(0, 0, 0, 0.988);
