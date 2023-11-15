@@ -29,10 +29,6 @@
             <div class="col-md-10">
                 <div>
                     {{ if gt (len (where .Pages ".Params.archived" "==" false)) 0 }}
-                    <h3 style="font-size: 2em;">What we’re looking for</h3>
-                    <p>You're passionate about people's experiences and want to make people’s lives better. You're
-                        curious, and your humility helps you learn and grow. You love to collaborate across roles and
-                        organizations. You create structure out of ambiguity and forge a path in new environments.</p>
 
                     <div class="row">
 
@@ -45,7 +41,7 @@
 
                     </div>
                     {{ else }}
-                    <h2>Postes à pourvoir</h2>
+                    <h3>Postes à pourvoir</h3>
                     <div>
                         <p style="margin-bottom: 2rem;">Il n’y a aucun poste disponible à l’heure actuelle. Veuillez
                             revenir plus tard.
@@ -54,7 +50,7 @@
                     {{end}}
                     <!-- Evergreen Job Posting -->
                     <div>
-                        <h2>Laissez-nous votre CV pour d’éventuels futurs postes.</h2>
+                        <h3>Laissez-nous votre CV pour d’éventuels futurs postes.</h3>
                         <p>Si aucune offre d’emploi ne correspond à votre profil, vous pouvez nous fournir votre CV.
                             Lorsque d’autres postes deviendront disponibles, nous contacterons les candidat·e·s
                             présentant un profil adapté.</p>

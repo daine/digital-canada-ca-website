@@ -25,10 +25,6 @@
             <div class="col-md-10">
                 <div>
                     {{ if gt (len (where .Pages ".Params.archived" "==" false)) 0 }}
-                    <h3 style="font-size: 2em;">What we’re looking for</h3>
-                    <p>You're passionate about people's experiences and want to make people’s lives better. You're
-                        curious, and your humility helps you learn and grow. You love to collaborate across roles and
-                        organizations. You create structure out of ambiguity and forge a path in new environments.</p>
 
                     <div class="row">
 
@@ -41,7 +37,7 @@
 
                     </div>
                     {{ else }}
-                    <h2> Current postings </h2>
+                    <h3> Current postings </h3>
                     <div>
                         <p style="margin-bottom: 2rem;">There are no job openings at this time. Please check back later.
                         </p>
@@ -49,7 +45,7 @@
                     {{end}}
                     <!-- Evergreen Job Posting -->
                     <div>
-                        <h2>Be considered for future opportunities</h2>
+                        <h3>Be considered for future opportunities</h3>
                         <p>You can share your resume with us if there are no openings that are a fit. As positions
                             become available, applicants who meet qualifications will be contacted.</p>
                         {{ $c := (where .Site.Pages "Section" "==" "careers") }}
