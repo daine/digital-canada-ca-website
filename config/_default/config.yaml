@@ -28,8 +28,8 @@ languages:
           name: Products
           url: /
           weight: 1
-        - identifier: About Us
-          name: About Us
+        - identifier: About CDS
+          name: About CDS
           url: /about-us/  
           weight: 2
         - identifier: blog
