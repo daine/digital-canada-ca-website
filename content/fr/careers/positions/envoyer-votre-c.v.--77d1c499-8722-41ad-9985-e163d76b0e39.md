@@ -1,7 +1,7 @@
 ---
 layout: job-posting
 type: section
-title: 'Envoyer votre c.v.'
+title: 'Laissez-nous votre CV pour d’éventuels futurs postes'
 description: >-
   Si aucun des postes ne vous convient actuellement, vous pouvez soumettre votre candidature afin qu’elle soit prise en compte pour de futures offres d’emploi. 
 archived: true
@@ -16,4 +16,4 @@ Si aucun des postes ne vous convient actuellement, vous pouvez soumettre votre c
 
 **Vous ne postulez à aucun poste en particulier.** Lorsque de nouvelles offres seront publiées, les personnes ayant soumis leur candidature et répondant aux différents critères de sélection seront contactées en vue d’une évaluation.
 
-**Vous pourrez tout de même postuler à d’autres offres à l’avenir.** Nous vous encourageons à consulter régulièrement la page « Carrières »!
+**Vous pourrez tout de même postuler à d’autres offres à l’avenir.** Nous vous encourageons à consulter régulièrement la page « [Carrières](/carrieres/) »!
