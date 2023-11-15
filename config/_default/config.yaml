@@ -28,8 +28,8 @@ languages:
           name: Products
           url: /
           weight: 1
-        - identifier: About CDS
-          name: About CDS
+        - identifier: About
+          name: About
           url: /about-us/  
           weight: 2
         - identifier: blog
@@ -55,8 +55,8 @@ languages:
           name: Produits
           url: /
           weight: 1
-        - identifier: À propos du SNC
-          name: À propos du SNC
+        - identifier: À propos
+          name: À propos
           url: /a-propos-du-snc/
           weight: 2  
         - identifier: blogue

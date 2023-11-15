@@ -62,7 +62,7 @@
   .header {
     display: flex;
     justify-content: space-between;
-    a:visited {
+    a {
       color: $white;
     }
     @include mobile_only {
