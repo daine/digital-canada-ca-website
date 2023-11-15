@@ -327,9 +327,6 @@
   padding: 0;
   list-style: none;
   margin-top: 1rem;
-  // display: flex;
-  // flex-direction: row;
-  // flex-wrap: wrap;
 
   @include sm_desktop_screen {
     // flex-direction: column;
@@ -414,7 +411,7 @@
   }
 
   .text-container {
-    padding: 15px 0 15px 0;
+    padding: 0.85rem 0 1.5rem 0;
   }
   .blog-title {
     text-decoration: none;
@@ -716,7 +713,7 @@ article.post {
 
   .second-list {
     background-color: $background-grey;
-    padding: 3rem 0 3rem 0;
+    padding: 3rem 0 1rem 0;
   }
 }
 

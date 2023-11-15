@@ -40,7 +40,7 @@ function renderBlogResults(blogs) {
         <li class="post">
             <div class="post-container">
                 <div class="text-container">
-                    <div>
+                    <div style="margin-top: 1rem">
                         <a href='${paginatedBlogs[i].href}' class="blog-title">
                             <h2 style="font-size: 2.2rem; font-weight:600;">${paginatedBlogs[i].title}</h2>
                         </a>
