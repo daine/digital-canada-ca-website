@@ -4,7 +4,7 @@ type: section
 title: 'Administrative Officer - Internal Operations '
 description: >-
   We're looking for an administrative officer to work alongside members of our internal operations team.
-archived: true
+archived: false
 translationKey: 2023-Jan-AdministrativeOfficer
 leverId: 878766da-0bed-4884-b61b-994597a90f0f
 ---
