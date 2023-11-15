@@ -762,9 +762,13 @@ article.post {
 }
 
 .card-style {
-  @media (min-width: 992px) {
-    width: 45%;
-    // height: 100%;
-    padding: 0 15px 0 15px;
-  }
+  // @media (min-width: 992px) {
+  //   width: 45%;
+  //   // height: 100%;
+  //   padding: 0 15px 0 15px;
+  // }
+
+  // @include mobile_only {
+  //   margin-top: 1rem;
+  // }
 }

@@ -18,9 +18,9 @@
       {{ end }}
       <!-- style="width: 45%; padding: 0 15px 0 15px;" -->
       <!-- card-style -->
-      <div class="col-md-6 col-xs-12">
+      <div class="col-md-6 col-xs-12" style="margin-top: 1rem;">
         <gcds-card card-title="{{ .Params.title }}" href="{{ .Params.link }}"
-          description="{{ .Params.description }}" img-src="{{ .Params.image }}"></gcds-card>
+          description="{{ .Params.description }}" img-src="{{ .Params.image }}" imgAlt="{{ .Params.imageAlt }}"></gcds-card>
       </div>
 
       {{end}}
