@@ -48,7 +48,7 @@
                         <h3>Be considered for future opportunities</h3>
                         <p>You can share your resume with us if there are no openings that are a fit. As positions
                             become available, applicants who meet qualifications will be contacted.</p>
-                        {{ $c := (where .Site.Pages "Section" "==" "careers") }}
+                        {{ $c := (where .Site.Pages "Section" "==" "jobs") }}
                         {{ $positions := (where $c ".Params.translationkey" "==" "evergreen-job-posting") }}
                         {{ range $positions }}
                         <h4><a class="job-posting-link" href={{ .RelPermalink }}>{{ .Params.Title }}</a></h4>
