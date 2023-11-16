@@ -29,10 +29,12 @@ dependency "hosted_zone" {
 
 inputs = {
     s3_bucket_regional_domain_name = dependency.s3.outputs.s3_bucket_regional_domain_name
-    hosted_zone_id_en = dependency.hosted_zone.outputs.hosted_zone_id_en
-    hosted_zone_id_fr = dependency.hosted_zone.outputs.hosted_zone_id_fr
-    hosted_zone_id_list = [dependency.hosted_zone.outputs.hosted_zone_id_en, dependency.hosted_zone.outputs.hosted_zone_id_fr]
-    s3_buckets = dependency.s3.outputs.s3_buckets
+    hosted_zone_id_en              = dependency.hosted_zone.outputs.hosted_zone_id_en
+    hosted_zone_id_fr              = dependency.hosted_zone.outputs.hosted_zone_id_fr
+    hosted_zone_id_list            = [dependency.hosted_zone.outputs.hosted_zone_id_en, dependency.hosted_zone.outputs.hosted_zone_id_fr]
+    s3_buckets                     = dependency.s3.outputs.s3_buckets
+    website_domains                = ["digital.cdssandbox.xyz", "numerique.cdssandbox.xyz"]
+    website_domains_canada_ca      = ["digital.canada.ca", "numerique.canada.ca"]
 }
 
 include {
