@@ -122,9 +122,9 @@
   // height: 12rem;
   position: relative;
 
-  @include mobile_only {
-    border-top: 15px solid $black;
-  }
+  // @include mobile_only {
+  //   border-top: 15px solid $black;
+  // }
 
   .page-blogpost & {
     height: 13.88rem;
