@@ -8,19 +8,19 @@ archived: false
 translationKey: 2023-Jan-AdministrativeOfficer
 leverId: 878766da-0bed-4884-b61b-994597a90f0f
 ---
-# Classification
+## Classification
 AS-02
 
-# Compensation
+## Compensation
 $66,995 - $72,183
 
-# Term
+## Term
 Indeterminate
 
-# Language Requirements
+## Language Requirements
 English essential
 
-# Responsibilities
+## Responsibilities
 - Provide support to a variety of administrative services in CDS, including financial management, travel, procurement and contracting, hospitality, training, and ATIP
 - Process training requests for all CDS employees; this includes obtaining proper expenditure approvals, as well as the registration and payment. 
 - Coordinates & purchases office supplies for all CDS employees
@@ -32,7 +32,7 @@ English essential
 - Helps to create guidelines and other how-to documents related to internal operations
 - Track the process for the compensation of participants in our research sessions
 
-# Skills
+## Skills
 - English essential 
 - Experienced and knowledgeable at government financial processes
 - Responsive to the ever-changing needs of a fast-growing technology team.

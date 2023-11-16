@@ -29,10 +29,6 @@
             <div class="col-md-10">
                 <div>
                     {{ if gt (len (where .Pages ".Params.archived" "==" false)) 0 }}
-                    <h3 style="font-size: 2em;">What we’re looking for</h3>
-                    <p>You're passionate about people's experiences and want to make people’s lives better. You're
-                        curious, and your humility helps you learn and grow. You love to collaborate across roles and
-                        organizations. You create structure out of ambiguity and forge a path in new environments.</p>
 
                     <div class="row">
 
@@ -45,7 +41,7 @@
 
                     </div>
                     {{ else }}
-                    <h2>Postes à pourvoir</h2>
+                    <h3>Postes à pourvoir</h3>
                     <div>
                         <p style="margin-bottom: 2rem;">Il n’y a aucun poste disponible à l’heure actuelle. Veuillez
                             revenir plus tard.
@@ -54,7 +50,7 @@
                     {{end}}
                     <!-- Evergreen Job Posting -->
                     <div>
-                        <h2>Laissez-nous votre CV pour d’éventuels futurs postes.</h2>
+                        <h3>Laissez-nous votre CV pour d’éventuels futurs postes.</h3>
                         <p>Si aucune offre d’emploi ne correspond à votre profil, vous pouvez nous fournir votre CV.
                             Lorsque d’autres postes deviendront disponibles, nous contacterons les candidat·e·s
                             présentant un profil adapté.</p>
@@ -99,27 +95,29 @@
 
 <section class="our-hiring-process">
     <div class="container">
-        <div class="row" style="display: flex; justify-content: space-between;">
-            <img style="align-self: flex-start;" src="/img/cds/jobs-hiring-process.svg"
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <img src="/img/cds/jobs-hiring-process.svg"
                 alt="Une personne observant à travers un télescope différents profils en ligne de candidats et candidates à un poste." />
-            <div style="margin-left: 3rem;">
-                <h3 style="margin-top: 1rem;">Notre processus d’embauche</h3>
+            </div>
+            <div class="col-md-6 col-lg-8">
+                <h2 style="margin-top: 1rem;">Notre processus d’embauche</h2>
                 <p>Notre objectif est de trouver la solution idéale pour vous et le SNC. Voici ce à quoi vous pouvez
                     généralement vous attendre en postulant :</p>
 
                 <div class="row">
                     <ol class="steps">
                         <li>
-                            <h4>1. Confirmation</h4>
+                            <h3>1. Confirmation</h3>
                             <p>Vous recevrez un courriel vous informant que nous avons reçu votre candidature.</p>
                         </li>
                         <li>
-                            <h4>2. Appel d’introduction</h4>
+                            <h3>2. Appel d’introduction</h3>
                             <p>Si votre profil correspond à ce que nous recherchons, nous prévoirons une brève
                                 discussion avec vous pour vous poser quelques questions.</p>
                         </li>
                         <li>
-                            <h4>3. Entrevues</h4>
+                            <h3>3. Entrevues</h3>
                             <span>Nous vous inviterons à plusieurs entrevues par visioconférence : </span>
                             <ul>
                                 <li>Discussion avec le ou la gestionnaire d’embauche</li>
@@ -129,12 +127,12 @@
                             <br>
                         </li>
                         <li>
-                            <h4>4. Vérification des références</h4>
+                            <h3>4. Vérification des références</h3>
                             <p>Nous communiquerons avec vos références par téléphone pour en savoir plus sur vos
                                 expériences professionnelles.</p>
                         </li>
                         <li>
-                            <h4>5. Offre d’emploi!</h4>
+                            <h3>5. Offre d’emploi!</h3>
                             <p>Nous vous transmettrons une offre formelle et déterminerons la date de votre première
                                 journée de travail.</p>
                         </li>

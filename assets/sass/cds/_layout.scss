@@ -104,11 +104,15 @@
 
   // background-image: url("/img/cds/error-banner.svg");
   background-size: cover;
-  background-position: center center; 
+  background-position: center center;
   &.standard {
     background-image: url("/img/cds/banner-background.svg");
   }
   &.error {
+    background-image: url("/img/cds/error-banner.svg");
+  }
+
+  &.sorry-error {
     background-image: url("/img/cds/error-banner.svg");
   }
 

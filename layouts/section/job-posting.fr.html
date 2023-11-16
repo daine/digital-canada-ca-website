@@ -1,20 +1,10 @@
 {{ define "main" }}
-<div class="container job-postings-container">
+<div class="container" style="margin-top: 1.25rem;">
 
   <section class="padding">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 col-xs-12">
-        <!-- {{ if or (eq .Params.archived false) (eq .Params.translationKey "evergreen-job-posting") }}
-          <a href="#apply-now">Postulez maintenant</a>
-          {{ else }}
-          
-          <div class="job-posting-banner">
-              <p>Nous n’acceptons plus de candidatures pour ce poste. Pour consulter une liste des postes actifs, veuillez vous rendre sur notre <a href="/carrieres/" style="color: black;">page carrières</a>.</p>
-          </div>
-
-          {{ end }} -->
         <p>Au Service numérique canadien (SNC), nous aidons le gouvernement à améliorer la façon dont il conçoit et fournit ses services au Canada. Nous sommes de l’avis que les services publics doivent être conviviaux, sécurisés, fiables, accessibles et inclusifs. C’est pourquoi nous sollicitons votre aide!</p>
-        <p>{{.Params.description}}</p>
       </div>
     </div>
   </section>

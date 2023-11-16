@@ -25,10 +25,6 @@
             <div class="col-md-10">
                 <div>
                     {{ if gt (len (where .Pages ".Params.archived" "==" false)) 0 }}
-                    <h3 style="font-size: 2em;">What we’re looking for</h3>
-                    <p>You're passionate about people's experiences and want to make people’s lives better. You're
-                        curious, and your humility helps you learn and grow. You love to collaborate across roles and
-                        organizations. You create structure out of ambiguity and forge a path in new environments.</p>
 
                     <div class="row">
 
@@ -41,7 +37,7 @@
 
                     </div>
                     {{ else }}
-                    <h2> Current postings </h2>
+                    <h3> Current postings </h3>
                     <div>
                         <p style="margin-bottom: 2rem;">There are no job openings at this time. Please check back later.
                         </p>
@@ -49,7 +45,7 @@
                     {{end}}
                     <!-- Evergreen Job Posting -->
                     <div>
-                        <h2>Be considered for future opportunities</h2>
+                        <h3>Be considered for future opportunities</h3>
                         <p>You can share your resume with us if there are no openings that are a fit. As positions
                             become available, applicants who meet qualifications will be contacted.</p>
                         {{ $c := (where .Site.Pages "Section" "==" "careers") }}
@@ -92,9 +88,11 @@
 
 <section class="our-hiring-process">
     <div class="container">
-        <div class="row" style="display: flex; justify-content: space-between;">
-            <img style="align-self: flex-start;" src="/img/cds/jobs-hiring-process.svg" alt="A person looking through a telescope at different online profiles of potential job candidates." />
-            <div style="margin-left: 3rem;">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <img src="/img/cds/jobs-hiring-process.svg" alt="A person looking through a telescope at different online profiles of potential job candidates." />
+            </div>
+            <div class="col-md-6 col-lg-8">
                 <h2 style="margin-top: 1rem;">Our hiring process</h2>
                 <p>Our goal is to find the right fit for both you and CDS. When you apply, here’s what you can generally
                     expect:</p>
@@ -102,16 +100,16 @@
                 <div>
                     <ol class="steps">
                         <li>
-                            <h4>1. Confirmation</h4>
+                            <h3>1. Confirmation</h3>
                             <p>After you apply, you’ll get an email to let you know we’ve received your application.</p>
                         </li>
                         <li>
-                            <h4>2. Introductory call</h4>
+                            <h3>2. Introductory call</h3>
                             <p>If we’d like to get to know you better, we’ll set up a brief chat to get further
                                 information.</p>
                         </li>
                         <li>
-                            <h4>3. Interviews</h4>
+                            <h3>3. Interviews</h3>
                             <span>You’ll be invited to a few video interviews: </span>
                             <ul>
                                 <li>Discussion with the hiring manager</li>
@@ -121,11 +119,11 @@
                             <br>
                         </li>
                         <li>
-                            <h4>4. Reference checks</h4>
+                            <h3>4. Reference checks</h3>
                             <p>We’ll call your references to learn more about your professional experiences.</p>
                         </li>
                         <li>
-                            <h4>5. Job offer!</h4>
+                            <h3>5. Job offer!</h3>
                             <p>We’ll make the formal offer and figure out when you can start.</p>
                         </li>
                     </ol>
