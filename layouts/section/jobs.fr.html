@@ -32,7 +32,7 @@
 
                     <div class="row">
 
-                        <h3>Postes à pourvoir</h3>
+                        <h2>Postes à pourvoir</h2>
                         {{ range $p := (where .Pages ".Params.archived" "==" false) }}
 
                         <h4><a class="job-posting-link" href={{ .RelPermalink }}>{{ .Title }}</a></h4>

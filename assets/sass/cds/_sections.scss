@@ -62,18 +62,32 @@
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     a {
       color: $white;
     }
+    @include tablet {
+      h1 {
+        width: 70%;
+      }
+      p {
+        margin-top: 1rem;
+      }
+    }
     @include mobile_only {
       flex-direction: column;
+      align-items: center;
 
       h1 {
+        width: 100%;
         font-size: 1.95rem;
       }
       img {
         width: 100%;
         // align-self: center;
+      }
+      p {
+        padding-left: 0.85rem;
       }
     }
   }
@@ -422,6 +436,7 @@
 
   .author {
     font-size: 1rem;
+    font-weight: 600;
 
     @include tablet {
       // This rule will limit the number of lines to 3
@@ -712,11 +727,26 @@ article.post {
     ul li:before {
       content: '✓';
     }
+
+
   }
 
   .second-list {
     background-color: $background-grey;
     padding: 3rem 0 1rem 0;
+  }
+
+  .built-by {
+    @include desktop {
+      display: flex; 
+      align-items: center
+    }
+  }
+
+  @include mobile_only {
+    img {
+      width: 90%;
+    }
   }
 }
 
