@@ -48,3 +48,21 @@ resource "aws_acm_certificate_validation" "cds_website_validation_certificate" {
   certificate_arn         = each.value.arn
   validation_record_fqdns = [for record in aws_route53_record.cds_website_dns_validation : record.fqdn]
 }
+
+resource "aws_acm_certificate" "cds_website_certificate" {
+  for_each = toset(var.website_domains_canada_ca)
+
+  provider                  = aws.us-east-1
+  domain_name               = each.key
+  subject_alternative_names = ["*.${each.key}"]
+  validation_method         = "DNS"
+
+  tags = {
+    CostCentre = var.billing_code
+    Terraform  = true
+  }
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
