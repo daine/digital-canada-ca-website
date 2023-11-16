@@ -30,7 +30,7 @@ languages:
           weight: 1
         - identifier: About
           name: About
-          url: /about-us/  
+          url: /about/  
           weight: 2
         - identifier: blog
           name: Blog
@@ -57,7 +57,7 @@ languages:
           weight: 1
         - identifier: À propos
           name: À propos
-          url: /a-propos-du-snc/
+          url: /a-propos/
           weight: 2  
         - identifier: blogue
           name: Blogue
