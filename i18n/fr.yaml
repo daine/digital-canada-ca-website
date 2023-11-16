@@ -235,6 +235,8 @@ product-url:
 privacy-page-url:
   other: "/transparence/confidentialite/"
 
+fip-logo-alt:
+  other: "Symbole du gouvernement du Canada"
 fip-header:
   other: "Le Service numérique canadien fait partie du gouvernement du Canada."
 homepage-built-by-title:

@@ -28,7 +28,7 @@
 
                     <div class="row">
 
-                        <h3>Current openings</h3>
+                        <h2>Current openings</h2>
                         {{ range $p := (where .Pages ".Params.archived" "==" false) }}
 
                         <h4><a class="job-posting-link" href={{ .RelPermalink }}>{{ .Title }}</a></h4>

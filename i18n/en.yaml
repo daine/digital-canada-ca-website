@@ -231,6 +231,8 @@ product-url:
 privacy-page-url:
   other: "/legal/privacy"
 
+fip-logo-alt:
+  other: "Government of Canada logo"
 fip-header:
   other: "The Canadian Digital Service is a part of the Government of Canada."
 homepage-built-by-title:
