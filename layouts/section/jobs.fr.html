@@ -54,7 +54,7 @@
                         <p>Si aucune offre d’emploi ne correspond à votre profil, vous pouvez nous fournir votre CV.
                             Lorsque d’autres postes deviendront disponibles, nous contacterons les candidat·e·s
                             présentant un profil adapté.</p>
-                        {{ $c := (where .Site.Pages "Section" "==" "careers") }}
+                        {{ $c := (where .Site.Pages "Section" "==" "jobs") }}
                         {{ $positions := (where $c ".Params.translationkey" "==" "evergreen-job-posting") }}
                         {{ range $positions }}
                         <h4><a class="job-posting-link" href={{ .RelPermalink }}>{{ .Params.Title }}</a></h4>
