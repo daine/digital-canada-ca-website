@@ -65,15 +65,27 @@
     a {
       color: $white;
     }
+    @include tablet {
+      h1 {
+        width: 70%;
+      }
+      p {
+        margin-top: 1rem;
+      }
+    }
     @include mobile_only {
       flex-direction: column;
 
       h1 {
+        width: 100%;
         font-size: 1.95rem;
       }
       img {
         width: 100%;
         // align-self: center;
+      }
+      P {
+        padding-left: 0.85rem;
       }
     }
   }
