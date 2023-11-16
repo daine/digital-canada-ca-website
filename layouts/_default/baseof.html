@@ -142,7 +142,7 @@
     </main>
 
 
-    {{ if or (eq .Params.translationKey "formError") (eq .Params.translationKey "thankYou") (eq .Params.translationKey "success") }}
+    {{ if or (eq .Params.translationKey "formError") (eq .Params.translationKey "thankYou") (eq .Params.translationKey "success") (eq .RelPermalink "/404.html") }}
     <div role="contentinfo" class="footer bottom">
     {{ else }}
     <div role="contentinfo" class="footer">
