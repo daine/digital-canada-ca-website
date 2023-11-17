@@ -4,10 +4,10 @@ title: 'How we’re planning more useful and equitable meetings'
 description: >-
   How action-oriented principles are helping public servants plan more useful and equitable meetings. It saves time and increases capacity to deliver.
 author: 'Sam Burton, Rashi Khilnani, and Melissa Toutloff (Senior Policy Advisors at CDS)'
-date: '2023-09-14T09:46:24'
-image: https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP_Blog_Post.png
-image-alt: Calendar with icons to represent meeting planning: sending emails with important context, scheduling and keeping on time, and working together.
-thumb: https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP_Blog_Post.png
+date: '2023-09-14T13:25:54'
+image: https://articles.alpha.canada.ca/uploads/sites/25/2023/09/equitable-meetings-en.png
+image-alt: Calendar with icons to represent meeting planning such as sending emails with important context, scheduling and keeping on time, and working together
+thumb: https://articles.alpha.canada.ca/uploads/sites/25/2023/09/equitable-meetings-en.png
 translationKey: blog-meetings-principles
 ---
 
@@ -264,7 +264,7 @@ translationKey: blog-meetings-principles
 <p>A: Sam Burton</p>
 
 
-<img decoding="async" loading="lazy" src="https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-1024x444.png" alt="" class="wp-image-1292" style="width: 840px;height: auto;max-width: 100%;" width="840" height="364" srcset="https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-1024x444.png 1024w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-300x130.png 300w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-768x333.png 768w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-1536x666.png 1536w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-2048x888.png 2048w" sizes="(max-width: 840px) 100vw, 840px" />
+<img loading="lazy" decoding="async" src="https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-1024x444.png" alt="" class="wp-image-1292" style="width: 840px;height: auto;max-width: 100%;" width="840" height="364" srcset="https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-1024x444.png 1024w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-300x130.png 300w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-768x333.png 768w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-1536x666.png 1536w, https://articles.alpha.canada.ca/uploads/sites/25/2023/08/PlanningUsefulEquitableMeetings_FIP2-2048x888.png 2048w" sizes="(max-width: 840px) 100vw, 840px" />
 
 
 <p style="font-size:12px">Image caption: To start the process, the facilitator gathers feedback from the team on the current state of meetings (via a retro session and an online survey). Then, the team aligns on what their common goals are for improved meetings (by meeting to analyze the feedback). Using the goals, the facilitator then drafts and iterates on the meeting principles in a shared doc with the team, so they can share feedback asynchronously. Once the principles are agreed on by the team and management, the team can start using them! The process then repeats by the facilitator checking back in for feedback.</p>
@@ -286,7 +286,7 @@ translationKey: blog-meetings-principles
 
 
 <ul>
-<li><strong>“We need more guidance in some areas, like keeping time zones in mind and separating the notetaker and facilitator roles.”</strong>
+<li><strong>“We need more guidance in some areas, like keeping time zones in mind and separating the notetaker and facilitator roles.”</strong> 
 <ul>
 <li>We got more specific about things like scheduling and time management in the principles.</li>
 </ul>
