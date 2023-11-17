@@ -2,7 +2,6 @@ let blogIndex, blogResults;
 let blogRows = 6;
 let blogListResults = document.getElementById("blog-list-result")
 let myBlogLi = document.getElementById("my-blog-li")
-// let loadMoreBlogButton = document.getElementById("load-more-blog-btn")
 let loadMoreBlogButton = document.querySelector("#blog-btn")
 let jsMainNavButton = document.querySelector("#js-mainNavButton")
 async function initBlogSearch() {

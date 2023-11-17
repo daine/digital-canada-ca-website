@@ -87,6 +87,9 @@ $(document).ready(function () {
   })
 
 
+
+
+
   $("#js-mainNavButton").on("click touchup", function () {
     $("#js-mobileNav").addClass("active");
     $("#js-mobileNav--button").focus()
@@ -211,6 +214,7 @@ $(document).ready(function () {
     $("#submit-btn").toggleClass("loading");
     $("#submit-btn").toggleClass("inactive");
     $("#submit-btn").attr("disabled", true);
+    $("#job-submit-btn").attr("disabled", true);
 
     /**
      * Collect data for submitting

@@ -159,20 +159,11 @@
 }
 
 
-.work-with-us--image {
-  background: linear-gradient(180deg, rgba($medium-grey,1) 50%, rgb(255, 255, 255) 50%);
 
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-    -webkit-clip-path: polygon(0 8%, 0 100%, 100% 91%, 100% 0);
-    clip-path: polygon(0 8%, 0 100%, 100% 91%, 100% 0);
-  }
-}
 
 .steps {
   list-style: none;
-  // counter-reset: my-awesome-counter;
+  
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -210,12 +201,12 @@
 }
 
 .work-with-us--apply-now {
-  // background-color: #d6d9dd;
+  
   h2 {
-    color: black;
-    margin-bottom: 1.67rem;
-    margin-top: 1.67rem;
-    font-weight: 600;
+    
+    margin-bottom: 1.65rem;
+    margin-top: 1.65rem;
+    
   }
   label {
     color: black;

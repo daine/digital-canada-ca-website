@@ -1,27 +1,6 @@
-.h2-header {
-  font-weight: 600;
-  font-size: 2.1rem;
-}
-
 // Adapted from WET's Bootstrap based alerts
 // https://wet-boew.github.io/v4.0-ci/demos/collapsible-alerts/collapsible-alerts-en.html
 
-.job-posting-banner {
-  background: #fdf3cd;
-  padding: 0.55rem;
-  color: black;
-  
-  a {
-    font-weight: bold;
-    
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  p {
-    margin-bottom: 0;
-  }
-}
 
 
 
@@ -67,16 +46,6 @@
     line-height: 1.38rem;
   }
 
-  .blogpost-pretitle {
-    font-size: 1.11rem;
-    position: relative;
-
-    a {
-      text-decoration: none;
-      color: $black;
-      font-weight: 100;
-    }
-  }
 
   .post-meta {
     margin: 1.38rem 0;
@@ -97,35 +66,6 @@
     @include desktop {
       font-size: 1.25rem;
     }
-  }
-
-  // Single blog page navigation
-  .previous-next-nav {
-    background: $primary-color;
-    padding: 35px 0;
-
-    .fa-arrow-circle-left {
-      margin-right: 10px;
-    }
-
-    .fa-arrow-circle-right {
-      margin-left: 10px;
-    }
-  }
-
-  .nav-post-title {
-    font-weight: 100;
-    text-decoration: none;
-    margin-top: 0;
-    max-width: 500px;
-  }
-
-  .nav-post-title-left {
-    margin-left: 35px;
-  }
-
-  .nav-post-title-right {
-    margin-right: 35px;
   }
 }
 
