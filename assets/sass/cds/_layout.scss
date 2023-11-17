@@ -127,15 +127,15 @@
   // }
 
   .page-blogpost & {
-    height: 13.88rem;
+    // height: 13.88rem;
 
-    @include tablet {
-      height: 16.66rem;
-    }
+    // @include tablet {
+    //   height: 16.66rem;
+    // }
 
-    @include desktop {
-      height: 22.22rem;
-    }
+    // @include desktop {
+    //   height: 22.22rem;
+    // }
   }
 }
 

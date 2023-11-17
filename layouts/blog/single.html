@@ -1,10 +1,12 @@
 {{define "title"}}
 {{partial "menu.html" . }}
-{{ with .Params.imagealt }}
-<!-- <div class="page-banner" role="img" aria-label="{{ .Params.imagealt }}" style="background-image: url('{{ .Params.image }}')"></div> -->
-{{ else }}
-<!-- <div class="page-banner" style="background-image:url('{{ .Params.image }}')"></div> -->
-{{ end }}
+<div class="page-banner standard">
+  <div class="container">
+    <div class="page-banner--title">
+      <h1 style="color: white;">Blog</h1>
+    </div>
+  </div>
+</div>
 {{end}}
 
 {{define "main"}}
