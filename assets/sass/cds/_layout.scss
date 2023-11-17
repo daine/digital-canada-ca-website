@@ -6,12 +6,11 @@
 
 #fip {
   background-color: #33465c;
-  padding: 0.64rem;
-  // line-height: 0;
+  padding: 0.44rem;
 
-  @include tablet {
-    padding: 0.84rem 1.11rem;
-  }
+  // @include tablet {
+  //   padding: 0.84rem 1.11rem;
+  // }
 
   .logo {
     background-repeat: no-repeat;
@@ -83,6 +82,18 @@
       @include tablet {
         font-size: 0.84rem;
       }
+    }
+  }
+}
+
+.fip__content {
+  display: flex;
+  align-items: center;
+
+  img {
+    max-width: 52px;
+    @include desktop {
+      max-width: 58px;
     }
   }
 }
