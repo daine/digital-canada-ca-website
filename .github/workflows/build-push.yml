@@ -76,10 +76,10 @@ jobs:
       matrix:
         include:
           - lang: "fr"
-            dist-id: "E3UMHCPY78GF2K" 
+            dist-id: "E27JWYHQ4915HY" 
             bucket: "cds-website-french-s3-bucket"
           - lang: "en"
-            dist-id: "E1A1TVRQ8Y67DB"
+            dist-id: "E3KGR0ME3JJZ19"
             bucket: "cds-website-english-s3-bucket"
     steps:
       - name: Retrieve Cache
