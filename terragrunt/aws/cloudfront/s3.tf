@@ -14,7 +14,6 @@ data "aws_iam_policy_document" "website_bucket_policy_doc" {
     }
     actions = [
       "s3:GetObject"
-
     ]
     resources = [
       "${each.value.s3_bucket_arn}/*"
@@ -34,7 +33,6 @@ data "aws_iam_policy_document" "website_bucket_policy_doc" {
       "${each.value.s3_bucket_arn}"
     ]
   }
-
 }
 
 resource "aws_s3_bucket_policy" "website_bucket_policy" {
