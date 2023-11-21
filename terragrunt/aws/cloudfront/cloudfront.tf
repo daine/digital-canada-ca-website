@@ -30,8 +30,10 @@ resource "aws_cloudfront_distribution" "distribution" {
   }
 
   custom_error_response {
-    error_code         = 404
-    response_page_path = "/404.html"
+    error_caching_min_ttl = 3600
+    response_code         = 404
+    error_code            = 404
+    response_page_path    = "/404.html"
   }
   origin {
     domain_name = each.value
