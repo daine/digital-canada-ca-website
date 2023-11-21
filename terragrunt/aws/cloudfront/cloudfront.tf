@@ -28,6 +28,11 @@ resource "aws_cloudfront_distribution" "distribution" {
       function_arn = aws_cloudfront_function.loadIndexFiles.arn
     }
   }
+
+  custom_error_response {
+    error_code = 404
+    response_page_path = "/404.html"
+  }
   origin {
     domain_name = each.value
     origin_id   = each.value
