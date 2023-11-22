@@ -38,7 +38,10 @@ body {
 	width: 100%;
 	// bottom: 0;
 	&.bottom {
-		bottom: 0;
+		@include desktop {
+			bottom: 0;
+		}
+		
 	}
 }
 
