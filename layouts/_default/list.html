@@ -1,10 +1,9 @@
 {{ define "title"}}
-    {{ partial "menu" }}
-    <div class="page-banner" style="background-image:url('https://de2an9clyit2x.cloudfront.net/our_team_d8881d183f.jpg')">
-        <div class="page-banner--scrim"></div>
+    {{ partial "menu.html" . }}
+    <div class="page-banner sorry-error">
         <div class="container">
             <div class="page-banner--title">
-                <h1>{{ i18n "404"}}</h1>
+                <h1>{{ i18n "not-found" }}</h1>
             </div>
         </div>
     </div>
@@ -12,7 +11,7 @@
 
 {{ define "main"}}
     <div class="container">
-        <div class="content">
+        <div class="col-md-10 form-sub-section">
             {{ $path := printf "%s%s%s" "404." (string ($.Site.Language)) ".html" }}
             {{ partial  $path }}
         </div>
