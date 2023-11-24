@@ -99,3 +99,24 @@ data "aws_iam_policy_document" "ecr_image_manage" {
     resources = ["*"]
   }
 }
+
+data "aws_iam_policy_document" "pr_review_env_policy_document" {
+  statement {
+    effect = "Allow"
+
+    actions = [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+    ]
+
+    resources = [
+      "arn:aws:lambda:${var.region}:${var.account_id}:function:pr-review-env-*"
+    ]
+  }
+}
+
+resource "aws_iam_role" "pr-review-env-lambda" {
+  name               = "pr-review-env"
+  assume_role_policy = data.aws_iam_policy_document.pr_review_env_policy_document.json
+}
