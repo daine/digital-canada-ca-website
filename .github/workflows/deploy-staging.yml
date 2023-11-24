@@ -6,9 +6,15 @@ on:
 env:
   FUNCTION_NAME: "website-staging"
   GITHUB_SHA: ${{ github.sha }}
-  IMAGE: website-staging
+  IMAGE: website-staging-container
   REGISTRY: 521732289257.dkr.ecr.ca-central-1.amazonaws.com
-  ROLE_ARN: arn:aws:iam::521732289257:role/website-staging-execution-role
+  ROLE_ARN: arn:aws:iam::521732289257:role/pr-review-env-manage
+
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: write  
 
 jobs:
   build-and-push-staging-container:
@@ -18,23 +24,22 @@ jobs:
         run: echo "PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")" >> $GITHUB_ENV
 
       - name: Checkout
-        uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Build container
         run: |
           docker build -t $REGISTRY/$IMAGE:$PR_NUMBER .
 
       - name: Configure AWS credentials using OIDC
-        id: aws-creds
-        uses: aws-actions/configure-aws-credentials@50ac8dd1e1b10d09dac7b8727528b91bed831ac0 # v3.0.2
+        uses: aws-actions/configure-aws-credentials@010d0da01d0b5a38af31e9c3470dbfdabdecca3a # v4.0.1
         with:
-          aws-access-key-id: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          role-to-assume: arn:aws:iam::521732289257:role/pr-review-env-manage
+          role-session-name: PRReviewEnv
           aws-region: ca-central-1
 
       - name: Login to ECR
         id: login-ecr
-        uses: aws-actions/amazon-ecr-login@2fc7aceee09e9e4a7105c0d060c656fad0b4f63d # v1.7.0
+        uses: aws-actions/amazon-ecr-login@062b18b96a7aff071d4dc91bc00c4c1a7945b076 # v2.0.1
 
       - name: Push containers to ECR
         run: |
@@ -58,12 +63,11 @@ jobs:
       - name: Set envs
         run: echo "PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")" >> $GITHUB_ENV
 
-      - name: Configure AWS credentials
-        id: aws-creds
-        uses: aws-actions/configure-aws-credentials@50ac8dd1e1b10d09dac7b8727528b91bed831ac0 # v3.0.2
+      - name: Configure AWS credentials using OIDC
+        uses: aws-actions/configure-aws-credentials@010d0da01d0b5a38af31e9c3470dbfdabdecca3a # v4.0.1
         with:
-          aws-access-key-id: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          role-to-assume: arn:aws:iam::521732289257:role/pr-review-env-manage
+          role-session-name: PRReviewEnv
           aws-region: ca-central-1
 
       - name: Create/Update lambda function
@@ -88,7 +92,7 @@ jobs:
 
       - name: Update PR
         if: env.URL != ''
-        uses: actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410 # v6.4.1
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
