@@ -140,6 +140,6 @@ data "aws_iam_policy_document" "pr-review-env-lambda-execution" {
   }
 }
 resource "aws_iam_role" "pr-review-env-lambda" {
-  name               = "pr-review-env"
+  name               = "pr-review-env-lambda"
   assume_role_policy = data.aws_iam_policy_document.pr-review-env-lambda-execution.json
 }  
