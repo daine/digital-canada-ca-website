@@ -118,7 +118,7 @@ data "aws_iam_policy_document" "pr_review_env_policy_document" {
 
 resource "aws_iam_role_policy_attachment" "pr-review-env-lambda" {
   role       = aws_iam_role.pr-review-env-lambda.name
-  policy_arn = aws_iam_policy.pr_review_env.arn
+  policy_arn = aws_iam_policy.pr-review-env-lambda.arn
 }
 
 resource "aws_iam_policy" "pr-review-env-lambda" {
