@@ -4,7 +4,7 @@ on:
   - pull_request
 
 env:
-  FUNCTION_NAME: "website-staging"
+  FUNCTION_NAME: "pr-review-env-*"
   GITHUB_SHA: ${{ github.sha }}
   IMAGE: website-staging-container
   REGISTRY: 521732289257.dkr.ecr.ca-central-1.amazonaws.com
