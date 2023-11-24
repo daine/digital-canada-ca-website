@@ -99,3 +99,47 @@ data "aws_iam_policy_document" "ecr_image_manage" {
     resources = ["*"]
   }
 }
+
+data "aws_iam_policy_document" "pr_review_env_policy_document" {
+  statement {
+    effect = "Allow"
+
+    actions = [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+    ]
+
+    resources = [
+      "arn:aws:logs:${var.region}:${var.account_id}:*"
+    ]
+  }
+}
+
+resource "aws_iam_role_policy_attachment" "pr-review-env-lambda" {
+  role       = aws_iam_role.pr-review-env-lambda.name
+  policy_arn = aws_iam_policy.pr-review-env-lambda.arn
+}
+
+resource "aws_iam_policy" "pr-review-env-lambda" {
+  name   = "pr-review-env-lambda"
+  path   = "/"
+  policy = data.aws_iam_policy_document.pr_review_env_policy_document.json
+}
+
+data "aws_iam_policy_document" "pr-review-env-lambda-execution" {
+  statement {
+    effect = "Allow"
+
+    actions = ["sts:AssumeRole"]
+
+    principals {
+      type        = "Service"
+      identifiers = ["lambda.amazonaws.com"]
+    }
+  }
+}
+resource "aws_iam_role" "pr-review-env-lambda" {
+  name               = "pr-review-env-lambda"
+  assume_role_policy = data.aws_iam_policy_document.pr-review-env-lambda-execution.json
+}  
