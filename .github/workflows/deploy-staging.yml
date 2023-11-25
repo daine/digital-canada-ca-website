@@ -9,7 +9,7 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   IMAGE: website-staging-container
   REGISTRY: 521732289257.dkr.ecr.ca-central-1.amazonaws.com
-  ROLE_ARN: arn:aws:iam::521732289257:role/pr-review-env-manage
+  ROLE_ARN: arn:aws:iam::521732289257:role/pr-review-env-lambda
 
 
 permissions:
