@@ -10,6 +10,7 @@ env:
   IMAGE: website-staging-container
   REGISTRY: 521732289257.dkr.ecr.ca-central-1.amazonaws.com
   ROLE_ARN: arn:aws:iam::521732289257:role/pr-review-env-lambda
+  REGION: ca-central-1
 
 
 permissions:
@@ -36,7 +37,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::521732289257:role/pr-review-env-manage
           role-session-name: PRReviewEnv
-          aws-region: ca-central-1
+          aws-region: ${{ env.REGION }}
 
       - name: Login to ECR
         id: login-ecr
@@ -48,8 +49,8 @@ jobs:
 
       - name: Delete old images
         run: |
-          IMAGES_TO_DELETE=$( aws ecr list-images --region ca-central-1 --repository-name $IMAGE --filter "tagStatus=UNTAGGED" --query 'imageIds[*]' --output json )
-          aws ecr batch-delete-image --region ca-central-1 --repository-name $IMAGE --image-ids "$IMAGES_TO_DELETE" || true
+          IMAGES_TO_DELETE=$( aws ecr list-images --region ${{ env.REGION }} --repository-name $IMAGE --filter "tagStatus=UNTAGGED" --query 'imageIds[*]' --output json )
+          aws ecr batch-delete-image --region ${{ env.REGION }} --repository-name $IMAGE --image-ids "$IMAGES_TO_DELETE" || true
 
       - name: Logout of Amazon ECR
         run: docker logout $REGISTRY
@@ -69,7 +70,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::521732289257:role/pr-review-env-manage
           role-session-name: PRReviewEnv
-          aws-region: ca-central-1
+          aws-region: ${{ env.REGION }}
 
       - name: Create/Update lambda function
         run: |

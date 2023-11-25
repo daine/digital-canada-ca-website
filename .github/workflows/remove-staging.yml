@@ -9,7 +9,7 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   IMAGE: website-staging-container
   REGISTRY: 521732289257.dkr.ecr.ca-central-1.amazonaws.com
-  ROLE_ARN: arn:aws:iam::521732289257:role/pr-review-env-manage
+  REGION: ca-central-1
 
 jobs:
   remove-staging-containers:
@@ -26,7 +26,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::521732289257:role/pr-review-env-manage
           role-session-name: PRReviewEnv
-          aws-region: ca-central-1
+          aws-region: ${{ env.REGION }}
 
       - name: Delete lambda function
         run: |
@@ -46,8 +46,8 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::521732289257:role/pr-review-env-manage
           role-session-name: PRReviewEnv
-          aws-region: ca-central-1
+          aws-region: ${{ env.REGION }}
 
       - name: Delete old images
         run: |
-          aws ecr batch-delete-image --region ca-central-1 --repository-name $IMAGE --image-ids imageTag=$PR_NUMBER
+          aws ecr batch-delete-image --region ${{ env.REGION }} --repository-name $IMAGE --image-ids imageTag=$PR_NUMBER
