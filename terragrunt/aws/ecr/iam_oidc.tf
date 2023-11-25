@@ -39,6 +39,7 @@ data "aws_iam_policy_document" "lambda_function_manage" {
   statement {
     effect = "Allow"
     actions = [
+      "lambda:AddPermission",
       "lambda:CreateFunction",
       "lambda:CreateFunctionUrlConfig",
       "lambda:DeleteFunction",
