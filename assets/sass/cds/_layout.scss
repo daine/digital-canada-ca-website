@@ -107,13 +107,9 @@
 #wb-sm {
   background: none;
   position: relative;
-  // border-bottom: 6px solid $black;
-  // padding-bottom: 20px;
 }
 
 .page-banner {
-
-  // background-image: url("/img/cds/error-banner.svg");
   background-size: cover;
   background-position: center center;
   &.standard {
@@ -127,15 +123,7 @@
     background-image: url("/img/cds/error-banner.svg");
   }
 
-
-
-
-  // height: 12rem;
   position: relative;
-
-  // @include mobile_only {
-  //   border-top: 15px solid $black;
-  // }
 
   .page-blogpost & {
     height: 13.88rem;
@@ -385,9 +373,6 @@ td {
   padding-top: 1.11rem;
   padding-bottom: 1.11rem;
   background-color: #262A2D;
-  // position: absolute;
-  // bottom: 0;
-  // width: 100%;
 
   nav { padding: 0.27rem 0 0 0 !important; }
 }
