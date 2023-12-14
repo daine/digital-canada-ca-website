@@ -15,8 +15,6 @@
 
 // CDS Base Styles and Style Overrides
 html {
-	// This sets the base font size as 1.125rem or 18px. 
-	// font-size: 18px; 
 	scroll-behavior: smooth;
 	height: 100%;
 	position: relative;
@@ -203,7 +201,6 @@ html .container {
 
 .row {
 	width: 100%;
-	// margin: 0 auto;
 }
 
 input.error {
