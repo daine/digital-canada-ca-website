@@ -8,7 +8,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  display: block;
+  align-self: center;
   height: 2.78rem;
   width: 13.88rem;
 
@@ -21,18 +21,9 @@
   }
 }
 
-.cds-logo-mobile {
-    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: none;
-
-  // BILINGUAL SPECIFIC CDS LOGO - MOBILE SCREEN
-  &.en {
-    background-image: url("../img/cds/cds-logo-en-v2.svg");
-  }
-  &.fr {
-    background-image: url("../img/cds/cds-logo-fr-v2.svg") !important;
-  }
+.menu-underline {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  color: #0535d2;
+  text-decoration-thickness: 0.125rem;
 }
