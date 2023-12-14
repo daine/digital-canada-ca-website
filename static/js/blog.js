@@ -46,10 +46,10 @@ function renderBlogResults(blogs) {
                         </a>
                     </div>
                     <div class="date">
-                        ${dateFormat(paginatedBlogs[i].date)}
+                        <span>${dateFormat(paginatedBlogs[i].date)}</span>
                     </div>
-                    <div class="author">${paginatedBlogs[i].author}</div>
-                    <div class="summary">${paginatedBlogs[i].description}</div>
+                    <div class="author"><span>${paginatedBlogs[i].author}</span></div>
+                    <div class="summary"><p>${paginatedBlogs[i].description}</p></div>
                     <gcds-button size="small" button-id="read-full-post-btn" type="link" href='${paginatedBlogs[i].href}'>${readFullPostTranslation()}<span style="display: none">: ${paginatedBlogs[i].title}</span> <gcds-icon name="fa-solid fa-chevron-right" size="inherit"></gcds-icon></gcds-button>
                 </div>
         </li>`
