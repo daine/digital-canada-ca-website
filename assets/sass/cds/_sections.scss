@@ -414,6 +414,7 @@
   .author {
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 0.65rem;
 
     @include tablet {
       // This rule will limit the number of lines to 3
