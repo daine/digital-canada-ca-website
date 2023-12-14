@@ -86,26 +86,6 @@ $(document).ready(function () {
     console.log(document.activeElement)
   })
 
-
-
-
-
-  $("#js-mainNavButton").on("click touchup", function () {
-    $("#js-mobileNav").addClass("active");
-    $("#js-mobileNav--button").focus()
-    console.log('MAIN NAV BTN CLICKED')
-
-
-    
-  });
-
-  $("#js-mobileNav--button").on("click touchup", function () {
-    $("#js-mobileNav").addClass("hiding");
-    setTimeout(function () {
-      $("#js-mobileNav").removeClass("active hiding").removeAttr("class");
-    }, 305);
-  });
-
   // Add target=_blank to external links
   // Thanks to http://css-tricks.com/snippets/jquery/open-external-links-in-new-window/
   $("#wb-cont a[href^='http://']").attr("target", "_blank");
