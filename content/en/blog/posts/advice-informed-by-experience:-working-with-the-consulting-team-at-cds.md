@@ -139,5 +139,5 @@ translationKey: blog-nov-24-22
 
 
 
-<p>And the best way to get started? <a href="https://forms-formulaires.alpha.canada.ca/id/3">Have a conversation with us!&nbsp;</a></p>
+<p>And the best way to get started? <a href="https://forms-formulaires.alpha.canada.ca/form-builder/support/contactus">Have a conversation with us!&nbsp;</a></p>
 

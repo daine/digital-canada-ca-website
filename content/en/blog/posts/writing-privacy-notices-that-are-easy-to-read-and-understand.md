@@ -11,7 +11,7 @@ thumb: https://articles.alpha.canada.ca/uploads/sites/25/2023/01/blog_post_priva
 translationKey: blog-privacy-notices
 ---
 <!-- PRODUCT SUITE - need to replace -->
-<p>Privacy notices and website privacy policies can be long documents with confusing language that often never get read. But what if they were shorter &#8211; <strong>let’s say 80% shorter?</strong> And what if they still met legal and policy requirements and provided users with the information they needed in plain language? With the help of our content designers, as well as privacy and legal colleagues, we’re making this a reality in the <a href="https://digital.canada.ca/product-suite/">products we build</a>.</p>
+<p>Privacy notices and website privacy policies can be long documents with confusing language that often never get read. But what if they were shorter &#8211; <strong>let’s say 80% shorter?</strong> And what if they still met legal and policy requirements and provided users with the information they needed in plain language? With the help of our content designers, as well as privacy and legal colleagues, we’re making this a reality in the products we build</a>.</p>
 
 
 
@@ -101,7 +101,7 @@ translationKey: blog-privacy-notices
 
 
 
-<p>We&#8217;re really grateful to our privacy colleagues in the Office of the CIO and TBS’s Strategic Communications and Ministerial Affairs divisions, who helped us iterate and improve on these. We’re also grateful to <a href="https://twitter.com/CDS_GC/status/1285771764900012032">the thousands of people who helped beta test COVID Alert before it launched</a>, and provided feedback on the privacy notice and other app content.</p>
+<p>We&#8217;re really grateful to our privacy colleagues in the Office of the CIO and TBS’s Strategic Communications and Ministerial Affairs divisions, who helped us iterate and improve on these. We’re also grateful to <a href="https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html">the thousands of people who helped beta test COVID Alert before it launched</a>, and provided feedback on the privacy notice and other app content.</p>
 
 
 

@@ -27,7 +27,7 @@ translationKey: blog-ecrire-inclusivite
 
 
 
-<p>One of the guiding values of public service is <a href="https://www.csps-efpc.gc.ca/about_us/cve-eng.aspx#rfp">respect for people</a>. It is our duty to treat all people with dignity and fairness. One of our <a href="https://digital.canada.ca/our-values/">values</a> at CDS is to <strong>put people at the heart of our services</strong>. Inclusivity, diversity, and accessibility are at the very core of everything we do. In a nutshell, we make sure everyone is included and treated the same way. When communicating with the public or designing public-facing <a href="https://numerique.canada.ca/suite-de-produits/">tools</a>, we need to make sure everyone feels involved, included, and represented, regardless of their age or gender. And of course, this is all done in <a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/">both of Canada’s official languages</a>!</p>
+<p>One of the guiding values of public service is <a href="https://www.csps-efpc.gc.ca/about_us/cve-eng.aspx#rfp">respect for people</a>. It is our duty to treat all people with dignity and fairness. One of our values at CDS is to <strong>put people at the heart of our services</strong>. Inclusivity, diversity, and accessibility are at the very core of everything we do. In a nutshell, we make sure everyone is included and treated the same way. When communicating with the public or designing public-facing <a href="https://digital.canada.ca/">tools</a>, we need to make sure everyone feels involved, included, and represented, regardless of their age or gender. And of course, this is all done in <a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/">both of Canada’s official languages</a>!</p>
 
 
 
