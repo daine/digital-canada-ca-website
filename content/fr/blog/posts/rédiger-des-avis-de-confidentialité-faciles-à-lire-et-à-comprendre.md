@@ -11,7 +11,7 @@ thumb: https://articles.alpha.canada.ca/uploads/sites/25/2023/01/blog_post_priva
 translationKey: blog-privacy-notices
 ---
 
-<p>Les avis de confidentialité et les politiques de confidentialité des sites Web peuvent être longs et employer un langage peu clair, ce qui leur vaut d’être rarement lus. Mais qu’en serait-il s’ils étaient <strong>80 % plus courts</strong>? Et s’ils respectaient toujours les exigences légales et politiques, tout en fournissant les renseignements nécessaires en langage clair et simple? Avec l’aide de nos collègues chargés de la conception de contenu, de la protection de la vie privée et des questions juridiques, nous faisons en sorte que cela soit le cas pour les <a href="https://numerique.canada.ca/suite-de-produits/">produits que nous créons</a>.</p>
+<p>Les avis de confidentialité et les politiques de confidentialité des sites Web peuvent être longs et employer un langage peu clair, ce qui leur vaut d’être rarement lus. Mais qu’en serait-il s’ils étaient <strong>80 % plus courts</strong>? Et s’ils respectaient toujours les exigences légales et politiques, tout en fournissant les renseignements nécessaires en langage clair et simple? Avec l’aide de nos collègues chargés de la conception de contenu, de la protection de la vie privée et des questions juridiques, nous faisons en sorte que cela soit le cas pour les produits que nous créons.</p>
 
 
 
@@ -105,7 +105,7 @@ translationKey: blog-privacy-notices
 
 
 
-<p>Nous remercions nos collègues spécialistes en confidentialité du Bureau de la DPI ainsi que du secteur des communications stratégiques et des affaires ministérielles du SCT de nous avoir apporté leur soutien pour faire évoluer ces avis et les améliorer. Nous souhaitons également remercier <a href="https://twitter.com/SNC_GC/status/1286114285345820672">les milliers de personnes qui ont participé au test bêta d’Alerte COVID avant son lancement</a> et nous ont fait part de leurs commentaires sur l’avis de confidentialité et sur le contenu de l’application.</p>
+<p>Nous remercions nos collègues spécialistes en confidentialité du Bureau de la DPI ainsi que du secteur des communications stratégiques et des affaires ministérielles du SCT de nous avoir apporté leur soutien pour faire évoluer ces avis et les améliorer. Nous souhaitons également remercier <a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/alerte-covid.html">les milliers de personnes qui ont participé au test bêta d’Alerte COVID avant son lancement</a> et nous ont fait part de leurs commentaires sur l’avis de confidentialité et sur le contenu de l’application.</p>
 
 
 

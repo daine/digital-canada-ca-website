@@ -15,7 +15,7 @@ translationKey: blog-gcforms-accessible-approaches
 
 
 
-<p>Formulaires GC est l’un des <a href="https://numerique.canada.ca/suite-de-produits/">outils que nous offrons aux fonctionnaires fédéraux</a> pour appuyer leur prestation de services numériques. Cet outil les aide à créer rapidement et facilement des formulaires en ligne bilingue, accessible et sécurisé qui se conforment à l’image de marque du gouvernement du Canada.</p>
+<p>Formulaires GC est l’un des <a href="https://articles.alpha.canada.ca/forms-formulaires/fr/">outils que nous offrons aux fonctionnaires fédéraux</a> pour appuyer leur prestation de services numériques. Cet outil les aide à créer rapidement et facilement des formulaires en ligne bilingue, accessible et sécurisé qui se conforment à l’image de marque du gouvernement du Canada.</p>
 
 
 
@@ -369,5 +369,5 @@ translationKey: blog-gcforms-accessible-approaches
 
 
 
-<p><a href="https://forms-formulaires.alpha.canada.ca/fr/id/cle4hg480270358ayedaqq1ish">Contactez-nous</a> pour nous permettre d’apprendre de votre travail (d’ailleurs, ce formulaire de rétroaction a été créé à l’aide de Formulaires GC) !</p>
+<p><a href="https://forms-formulaires.alpha.canada.ca/fr/form-builder/support/contactus">Contactez-nous</a> pour nous permettre d’apprendre de votre travail (d’ailleurs, ce formulaire de rétroaction a été créé à l’aide de Formulaires GC) !</p>
 

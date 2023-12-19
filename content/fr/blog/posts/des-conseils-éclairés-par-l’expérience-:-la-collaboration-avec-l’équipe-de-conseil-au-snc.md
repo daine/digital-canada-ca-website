@@ -139,5 +139,5 @@ translationKey: blog-nov-24-22
 
 
 
-<p>La meilleure façon de démarrer, <a href="https://forms-formulaires.alpha.canada.ca/fr/id/3">c’est d’entrer en communication avec nous!&nbsp;</a></p>
+<p>La meilleure façon de démarrer, <a href="https://forms-formulaires.alpha.canada.ca/fr/form-builder/support/contactus">c’est d’entrer en communication avec nous!&nbsp;</a></p>
 
