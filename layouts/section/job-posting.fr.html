@@ -26,9 +26,9 @@
 </div>
 
 <div style="background-color: #d6d9dd;">
-  <div id="apply-now" class="row work-with-us--apply-now container">
+  <div id="apply-now" class="work-with-us--apply-now container">
     {{ if or (eq .Params.archived false) (eq .Params.translationKey "evergreen-job-posting") }}
-    <div class="col-sm-10 col-sm-offset-1 col-xs-12" style="padding-bottom: 3rem;">
+    <div style="padding-bottom: 3rem;">
       <h2>Postuler</h2>
       <form enctype="multipart/form-data" class="text-left" id="contactForm">
         <input type="hidden" id="jobId" name="jobId" value="{{.Params.leverId}}" />
@@ -89,7 +89,7 @@
   
         <!-- Body -->
   
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="body">Aurez-vous besoin de mesures d’adaptation durant le processus de recrutement?</label>
           <div style="margin: 0.5rem 0;">
             <span id="pdf-format-preferred" class="url">Si oui, veuillez préciser lesquelles.</span>
@@ -101,7 +101,7 @@
             obligatoire<br />
           </span>
   
-        </div>
+        </div> -->
   
   
         <!-- Submit-->
