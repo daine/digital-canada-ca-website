@@ -16,7 +16,6 @@ async function initBlogSearch() {
         return el.type == "blog"
     })
 
-    console.log('blogResults is : ', blogResults)
     renderBlogResults(blogResults)
 }
 
@@ -33,7 +32,6 @@ function renderBlogResults(blogs) {
     
     let paginatedBlogs = blogs.slice(start, end);
     var blogResultList = ""
-    console.log(paginatedBlogs)
 
     for (let i = 0; i < paginatedBlogs.length; i++) {
         blogResultList += `
