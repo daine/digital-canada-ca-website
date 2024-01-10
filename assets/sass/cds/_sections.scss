@@ -373,25 +373,6 @@
     }
   }
 
-
-  .photo-container {
-    height: 250px;
-    width: 100%;
-
-    @include logo_break {
-      height: 200px;
-    }
-  }
-
-  .photo {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-
   .text {
     line-height: 1.4;
   }
@@ -504,6 +485,10 @@ article.post {
     display: block;
     margin-right: auto;
     margin-left: auto;
+
+    @include tablet {
+      max-height: 450px;
+    }
   }
 
   a.large-link {
@@ -516,11 +501,6 @@ article.post {
     font-weight: 600;
     font-size: 0.84rem;
     margin: 0rem 0 1.11rem 0;
-
-    .post-title-container {
-      // padding: 25px 0;
-      
-    }
 
     time {
       display: block;
