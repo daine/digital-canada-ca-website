@@ -128,10 +128,25 @@
 .our-hiring-process {
   background-color: #D7E5F5;
   padding: 2rem 0 2rem 0;
-  background-image: url("/img/cds/our-hiring-process.svg");
-  background-size: 50%;
-  background-position: left bottom;
-  background-repeat: no-repeat;
+
+  &:before {
+    content: ' ';
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-image: url("/img/cds/our-hiring-process.svg");
+    background-size: 50%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
+    @include desktop {
+      display: block;
+    }
+  }
 }
 
 .work-with-us--section {
@@ -677,7 +692,7 @@ article.post {
   }
 
   .second-list {
-    background-color: $background-grey;
+    background-color: $light-grey;
     padding: 3rem 0 1rem 0;
   }
 
