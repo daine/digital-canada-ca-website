@@ -1,10 +1,16 @@
-[La version française suit.](##installationetexécution)
+[La version française suit.](#---------------------------------------------------------------------)
 
 # Canadian Digital Service website - digital.canada.ca
 
 This is the official website for the Canadian Digital Service. 
 
 Both [digital.canada.ca](http://digital.canada.ca) (English site) and [numerique.canada.ca](http://numerique.canada.ca) (French site) are published from this repository.
+
+**Table of contents:** 
+* How to install and run
+* Content Management System (CMS)
+    * How to contribute
+    * Submitting pull requests
 
 ## How to install and run
 
@@ -52,6 +58,12 @@ Please tag all pull requests with the `needs-review` label.
 We will do our best to respond within the timeframe of 3 business days and will provide an update once your changes have been made.
 
 ## ---------------------------------------------------------------------
+
+# Site Web du Service numérique canadien — numerique.canada.ca
+
+Ceci est le site officiel du Service numérique canadien.
+
+Les sites [digital.canada.ca](http://digital.canada.ca/) (site en anglais) et [numerique.canada.ca](http://numerique.canada.ca/) (site en français) sont tous deux publiés à partir de ce référentiel.
 
 ## Installation et exécution
 
