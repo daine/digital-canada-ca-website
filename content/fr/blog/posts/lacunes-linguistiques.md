@@ -36,6 +36,6 @@ Nous avons fait des recherches sur les systèmes de gestion du contenu (SGC) que
 
 Une chose est certaine : nous avons beaucoup à faire dans le monde des sources libres concernant l’i18n, surtout dans le cadre de la modernisation actuelle des services offerts aux Canadiens. Dans certains cas, il s’agit simplement de trouver le bon outil. Dans d’autres, nous avons l’occasion de construire et d’utiliser nos propres outils i18n.
 
-Avez-vous des difficultés semblables? Avez-vous trouvé d’excellents outils i18n de source libre? [Veuillez nous les communiquer](mailto:cds-snc@tbs-sct.gc.ca)!
+Avez-vous des difficultés semblables? Avez-vous trouvé d’excellents outils i18n de source libre? [Veuillez nous les communiquer](mailto:cds-snc@servicecanada.gc.ca)!
 
 Nous tenons aussi à nous excuser auprès du développeur qui a eu la tâche ardue de publier le présent article. Nous vous assurons que nous mettons bien la main à la pâte.

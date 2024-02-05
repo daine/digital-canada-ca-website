@@ -33,6 +33,6 @@ We’ve been researching content management systems (CMS) that we can attach to 
 
 One thing’s for sure - we have work to do in the open source space regarding i18n, especially as we modernize services for Canadians. In some cases, it’s all about finding the right tool. In others, we have an opportunity to build and contribute our own i18n tools.
 
-Do you have similar struggles? Have you found any great open source i18n tools? [Please share them with us](mailto:cds-snc@tbs-sct.gc.ca)!
+Do you have similar struggles? Have you found any great open source i18n tools? [Please share them with us](mailto:cds-snc@servicecanada.gc.ca)!
 
 Oh and, sorry to the developer who went through the process to publish this post. We promise we’re working on it.

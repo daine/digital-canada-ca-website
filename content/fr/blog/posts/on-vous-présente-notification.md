@@ -47,7 +47,7 @@ Quelle que soit la taille de votre service, Notification est construit sur une i
 
 Avec Notification, notre principal objectif est de mieux servir les gens en les tenant au courant des services sur lesquels ils comptent, tout en réduisant leurs doutes ou inquiétudes liées au fait de ne pas connaître l’état de leurs prestations de service. Le fait pour une personne d’être renseignée sur les services qu’elle reçoit peut avoir une incidence directe sur sa situation.
 
-Nous recueillons actuellement des commentaires sur Notification auprès des premiers utilisateurs et testeurs pour nous assurer que le système peut répondre à leurs besoins. À mesure que nous poursuivrons nos recherches, nous veillerons à communiquer les résultats aux utilisateurs de Notification afin de rendre leurs services plus efficaces. [Écrivez-nous](mailto:cds-snc@tbs-sct.gc.ca) si vous souhaitez participer à notre étude.
+Nous recueillons actuellement des commentaires sur Notification auprès des premiers utilisateurs et testeurs pour nous assurer que le système peut répondre à leurs besoins. À mesure que nous poursuivrons nos recherches, nous veillerons à communiquer les résultats aux utilisateurs de Notification afin de rendre leurs services plus efficaces. [Écrivez-nous](mailto:cds-snc@servicecanada.gc.ca) si vous souhaitez participer à notre étude.
 
 Nous encourageons toute personne au sein du gouvernement du Canada à créer gratuitement un compte d’essai sur le [site Web](https://notification.alpha.canada.ca/) de [Notification](https://notification.canada.ca/accueil). Essayez-le, dites-nous ce que vous en pensez et commencez à l’utiliser pour améliorer votre service.
 

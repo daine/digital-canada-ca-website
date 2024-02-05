@@ -46,7 +46,7 @@ No matter how big your service, Notify is built on cloud infrastructure that lev
 
 Our main goal with Notify is to serve people better by keeping them informed about the services they rely on, while reducing uncertainties and anxieties around not knowing what happens with their service transactions. Having information about their service transactions can directly impact someone’s life situation.
 
-We’re currently collecting feedback on Notify from early adopters and testers to help ensure the system can meet their needs. As we continue our research, we’ll make sure we share results with those using Notify to help make their services more effective.[Reach out to us](mailto:cds-snc@tbs-sct.gc.ca) if you're interested in participating in our research.
+We’re currently collecting feedback on Notify from early adopters and testers to help ensure the system can meet their needs. As we continue our research, we’ll make sure we share results with those using Notify to help make their services more effective.[Reach out to us](mailto:cds-snc@servicecanada.gc.ca) if you're interested in participating in our research.
 
-We encourage anyone in the Government of Canada to go to the [Notify website](https://notification.canada.ca/) and make a free trial account. Try it, [let us know what you think](mailto:cds-snc@tbs-sct.gc.ca), and start using it to improve your service.
+We encourage anyone in the Government of Canada to go to the [Notify website](https://notification.canada.ca/) and make a free trial account. Try it, [let us know what you think](mailto:cds-snc@servicecanada.gc.ca), and start using it to improve your service.
 

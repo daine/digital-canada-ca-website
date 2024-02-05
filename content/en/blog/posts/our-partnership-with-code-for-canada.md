@@ -54,5 +54,5 @@ So how do you make the most of the partnership? Here are the keys from our persp
 
 Working with C4C has been an exciting opportunity as we share common goals of building better public services and improving digital capacity across government! Participating in the fellowship program is a great opportunity to strengthen the multi-disciplinary approach to problem solving in your organization. Dan, Raluca and Leon have each brought unique expertise and perspectives to CDS that are integral to designing and delivering user-centered services!
 
-[Get in touch with us](mailto:cds-snc@tbs-sct.gc.ca) or with [C4C](mailto:dorothy@codefor.ca) to learn more about our experience or how you can get involved!
+[Get in touch with us](mailto:cds-snc@servicecanada.gc.ca) or with [C4C](mailto:dorothy@codefor.ca) to learn more about our experience or how you can get involved!
 

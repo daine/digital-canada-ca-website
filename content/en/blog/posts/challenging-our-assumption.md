@@ -36,5 +36,5 @@ There are so many great resources on the web for learning about accessibility. T
 * [Des images accessibles](https://openweb.eu.org/articles/accessibilite_images) (in French)
 * [GDS Accessibility Blog](https://accessibility.blog.gov.uk/)
 
-We will continue to blog about accessibility and would love to [hear from you](mailto:cds-snc@tbs-sct.gc.ca) if you have comments, topic suggestions, or ways to improve the accessibility of any of our projects.
+We will continue to blog about accessibility and would love to [hear from you](mailto:cds-snc@servicecanada.gc.ca) if you have comments, topic suggestions, or ways to improve the accessibility of any of our projects.
 

@@ -84,6 +84,6 @@ Alerte COVID nous a donné la chance de souligner l’importance de l’expérie
 
 Le succès d’Alerte COVID dépend en grande partie de la compréhension du service et de la confiance que les gens lui portent.
 
-Bien sûr, ce n’est pas parce que l’application est lancée que le travail est terminé. Nos concepts visuels sont continuellement testés et améliorés. Nous serions ravis de [recevoir vos commentaires](mailto:CDS-SNC@tbs-sct.gc.ca), et nous espérons que les illustrations d’Alerte COVID reflètent bien la diversité canadienne.
+Bien sûr, ce n’est pas parce que l’application est lancée que le travail est terminé. Nos concepts visuels sont continuellement testés et améliorés. Nous serions ravis de [recevoir vos commentaires](mailto:cds-snc@servicecanada.gc.ca), et nous espérons que les illustrations d’Alerte COVID reflètent bien la diversité canadienne.
 
 
