@@ -53,5 +53,5 @@ Même après avoir trouvé une solution basée sur la recherche avec les gens qu
 
 À mesure que nous avançons en phase bêta avec notre projet, nous nous attendons à tester cette hypothèse à maintes reprises. Nous prévoyons effectuer d’autres itérations en menant des recherches supplémentaires et en utilisant des méthodes comme les tests d’utilisabilité.
 
-Vous voulez en savoir plus sur les tests de validation et la façon de les intégrer à votre travail? Communiquez avec nous par [courriel](mailto:cds-snc@tbs-sct.gc.ca) ou sur [Twitter](https://twitter.com/SNC_GC). Nous serons ravis d’échanger avec vous.
+Vous voulez en savoir plus sur les tests de validation et la façon de les intégrer à votre travail? Communiquez avec nous par [courriel](mailto:cds-snc@servicecanada.gc.ca) ou sur [Twitter](https://twitter.com/SNC_GC). Nous serons ravis d’échanger avec vous.
 

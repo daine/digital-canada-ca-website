@@ -43,5 +43,5 @@ Nous croyons que le fait d’établir des normes numériques constitue un grand 
 
 Ce faisant, nous créerions très bientôt une communauté de pratique plus vaste en matière d’évaluation des normes. Elle pourrait mener des évaluations indépendantes, sommaires et sans reproches qui amélioreront la qualité de la prestation des services pour tous.
 
-Aimeriez-vous travailler avec nous ou en apprendre davantage sur nos évaluations relatives aux normes? Contactez-nous par [courriel](mailto:cds-snc@tbs-sct.gc.ca) ou sur [Twitter](https://twitter.com/SNC_GC). Nous serons heureux de vous répondre.
+Aimeriez-vous travailler avec nous ou en apprendre davantage sur nos évaluations relatives aux normes? Contactez-nous par [courriel](mailto:cds-snc@servicecanada.gc.ca) ou sur [Twitter](https://twitter.com/SNC_GC). Nous serons heureux de vous répondre.
 

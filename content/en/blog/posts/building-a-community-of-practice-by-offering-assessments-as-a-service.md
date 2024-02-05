@@ -42,5 +42,5 @@ Based on our experience, we would encourage other Government of Canada departmen
 
 In doing so, we would very soon build up a broader standard assessment community of practice capable of running independent, lightweight and blameless assessments that will lift the quality of service delivery for everyone.
 
-Are you interested in working with us or learning more about our Standards assessments? Get in touch through [email](mailto:cds-snc@tbs-sct.gc.ca) or [Twitter](https://twitter.com/CDS_GC) - we’d love to hear from you.
+Are you interested in working with us or learning more about our Standards assessments? Get in touch through [email](mailto:cds-snc@servicecanada.gc.ca) or [Twitter](https://twitter.com/CDS_GC) - we’d love to hear from you.
 

@@ -43,5 +43,5 @@ Il existe plusieurs excellentes ressources pour en savoir davantage sur l'access
 * [Guide sur l’accessibilité de 18F](https://accessibility.18f.gov/) [En anglais]
 
 
-Nous continuerons de bloguer sur l'accessibilité et nous aimerions que vous nous [fassiez part](mailto:cds-snc@tbs-sct.gc.ca) de vos commentaires, de vos suggestions de thèmes ou de façons d'améliorer l'accessibilité de tous nos projets.
+Nous continuerons de bloguer sur l'accessibilité et nous aimerions que vous nous [fassiez part](mailto:cds-snc@servicecanada.gc.ca) de vos commentaires, de vos suggestions de thèmes ou de façons d'améliorer l'accessibilité de tous nos projets.
 

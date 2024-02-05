@@ -33,5 +33,5 @@ Given the benefits of our co-locating experience, we would recommend the followi
 4. Have a plan for standups/meetings with a distributed team.
 5. Have team conversations in public on [Slack](https://slack.com); it’s easy to feel isolated and disconnected from the team.
 
-As always, [we would love to hear](mailto:cds-snc@tbs-sct.gc.ca) your feedback on this specific partnership and on our work in general.
+As always, [we would love to hear](mailto:cds-snc@servicecanada.gc.ca) your feedback on this specific partnership and on our work in general.
 

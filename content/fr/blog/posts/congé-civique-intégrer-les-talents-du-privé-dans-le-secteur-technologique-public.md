@@ -44,5 +44,5 @@ Le programme de congé pour fonctions civiques est une occasion pour les travail
 
 
 
-Il n’est pas nécessaire d’être fonctionnaire toute sa vie pour avoir un impact réel sur la vie des Canadiens. Si vous voulez mettre vos compétences numériques au profit du SNC en effectuant une période de service encadrée par le programme de congé pour fonctions civiques, [veuillez communiquer avec nous](mailto:cds-snc@tbs-sct.gc.ca). Les entreprises peuvent aussi communiquer directement avec nous. Si vous cherchez à travailler avec le SNC et à profiter de tous les avantages que le congé pour fonctions civiques offre à vos employés, [veuillez nous en informer](mailto:cds-snc@tbs-sct.gc.ca).
+Il n’est pas nécessaire d’être fonctionnaire toute sa vie pour avoir un impact réel sur la vie des Canadiens. Si vous voulez mettre vos compétences numériques au profit du SNC en effectuant une période de service encadrée par le programme de congé pour fonctions civiques, [veuillez communiquer avec nous](mailto:cds-snc@servicecanada.gc.ca). Les entreprises peuvent aussi communiquer directement avec nous. Si vous cherchez à travailler avec le SNC et à profiter de tous les avantages que le congé pour fonctions civiques offre à vos employés, [veuillez nous en informer](mailto:cds-snc@servicecanada.gc.ca).
 

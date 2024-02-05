@@ -51,5 +51,5 @@ Even after we come up with a solution based on research with the people who woul
 
 As we move forward with our project into Beta, we expect to test that hypothesis over and over. We plan to iterate further with more research, using methods such as usability testing.
 
-Want to learn more about validation testing and how to incorporate it into your work? [Email us](mailto:cds-snc@tbs-sct.gc.ca) or reach out on [Twitter](https://twitter.com/CDS_GC) - we’d love to hear from you.
+Want to learn more about validation testing and how to incorporate it into your work? [Email us](mailto:cds-snc@servicecanada.gc.ca) or reach out on [Twitter](https://twitter.com/CDS_GC) - we’d love to hear from you.
 

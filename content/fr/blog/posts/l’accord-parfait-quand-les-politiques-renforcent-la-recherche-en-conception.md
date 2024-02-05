@@ -35,7 +35,7 @@ Après que les clients potentiels ont eu communiqué avec nous, nous avons été
 
 Deux jours avant l’entrevue, le chercheur a envoyé l’énoncé de confidentialité et l’avis de consentement au participant pour qu’il les passe en revue, afin de garantir un consentement éclairé. Il existe bien sûr d’autres méthodes pour recruter des utilisateurs, mais nous avons conclu qu’il s’agissait de la meilleure étant donné la nature de notre problème, notre type de recherche et le groupe d’utilisateurs.
 
-Si vous avez [élaboré un plan de recherche](https://numerique.canada.ca/2018/10/26/elaborer-un-plan-de-researche/) et que vous avez besoin de recruter des utilisateurs pour mener des entrevues, nous avons listé quelques ressources matérielles ci-dessous. Si vous avez trouvé ce billet utile et que vous aimeriez bénéficier de plus de ressources ou de suggestions, vous pouvez nous envoyer un gazouillis ou un message direct à [@SNC_GC](https://twitter.com/SNC_GC), ou nous écrire par courriel à <mailto:cds-snc@tbs-sct.gc.ca>.
+Si vous avez [élaboré un plan de recherche](https://numerique.canada.ca/2018/10/26/elaborer-un-plan-de-researche/) et que vous avez besoin de recruter des utilisateurs pour mener des entrevues, nous avons listé quelques ressources matérielles ci-dessous. Si vous avez trouvé ce billet utile et que vous aimeriez bénéficier de plus de ressources ou de suggestions, vous pouvez nous envoyer un gazouillis ou un message direct à [@SNC_GC](https://twitter.com/SNC_GC), ou nous écrire par courriel à <mailto:cds-snc@servicecanada.gc.ca>.
 
 ## Ressources **à lire**
 

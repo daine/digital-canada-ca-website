@@ -66,5 +66,5 @@ Même si nous avons beaucoup appris des victimes à qui nous avons parlé jusqu�
 
 Nous savons que la manière dont les gens décrivent la cybercriminalité et le fait d’en être victime peut varier selon la langue. Il faut reconnaître que nous n’avons pas encore eu autant de conversations en français qu’en anglais. Nous avons donc besoin de votre aide pour mieux servir les Canadiens et leur offrir des expériences cohérentes qui fonctionnent dans les deux langues officielles.
 
-Parlez-vous français? [Communiquez avec nous](mailto:cds-snc@tbs-sct.gc.ca) pour nous faire part de votre expérience de la cybercriminalité, ou joignez-vous à nous pour une prochaine séance d’essai du prototype.
+Parlez-vous français? [Communiquez avec nous](mailto:cds-snc@servicecanada.gc.ca) pour nous faire part de votre expérience de la cybercriminalité, ou joignez-vous à nous pour une prochaine séance d’essai du prototype.
 

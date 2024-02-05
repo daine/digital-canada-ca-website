@@ -33,5 +33,5 @@ Compte tenu des avantages de l’expérience de partage de locaux, nous recomman
 4. Avoir un plan de réunions, informelles ou autres, de l’équipe décentralisée.
 5. Tenir des conversations d’équipe publiques à l’aide de l’outil [Slack](https://slack.com), car il est facile de se sentir isolé de l’équipe.
 
-Comme toujours, [nous aimerions recevoir](mailto:cds-snc@tbs-sct.gc.ca) vos commentaires sur ce partenariat en particulier et sur notre travail en général.
+Comme toujours, [nous aimerions recevoir](mailto:cds-snc@servicecanada.gc.ca) vos commentaires sur ce partenariat en particulier et sur notre travail en général.
 

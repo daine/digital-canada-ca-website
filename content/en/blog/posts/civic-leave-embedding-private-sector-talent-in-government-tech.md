@@ -25,5 +25,5 @@ Here at CDS, we piloted our Civic Leave program with a senior data engineer at S
 
 The Civic leave program is an opportunity to get tech workers into government to see what the public service is really like, how to build digital government that serves all citizens, and to challenge some of the assumptions that may be out there.
 
-You don’t have to be a life-long public servant to make a real impact on the lives of Canadians. If you want to lend your digital skills in a Civic Leave tour of service at CDS, [get in touch](mailto:cds-snc@tbs-sct.gc.ca). Companies are welcome to approach us directly, too. If you’re looking to work with CDS and take advantage of all the benefits civic leave offers your employees, [please let us know](mailto:cds-snc@tbs-sct.gc.ca).
+You don’t have to be a life-long public servant to make a real impact on the lives of Canadians. If you want to lend your digital skills in a Civic Leave tour of service at CDS, [get in touch](mailto:cds-snc@servicecanada.gc.ca). Companies are welcome to approach us directly, too. If you’re looking to work with CDS and take advantage of all the benefits civic leave offers your employees, [please let us know](mailto:cds-snc@servicecanada.gc.ca).
 

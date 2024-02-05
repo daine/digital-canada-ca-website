@@ -52,5 +52,5 @@ Comment tirer le meilleur parti du partenariat? Voici les clés de notre point d
 
 La collaboration avec C4C s’est revélée une occasion importante, car nous partageons des objectifs communs, soit l’amélioration des services publiques et de la capacité numérique dans l’ensemble du gouvernement. Le recours au programme de C4C est une excellente occasion de renforcer l’approche multidisciplinaire de la résolution de problèmes dans votre organisation! Dan, Raluca et Leon ont chacun apporté au SNC une expertise et un point de vue unique qui font partie intégrante de la conception et de la prestation de services axés sur l’utilisateur.
 
-[Communiquez avec nous](mailto:cds-snc@tbs-sct.gc.ca) ou avec [C4C](mailto:dorothy@codefor.ca) pour en savoir plus sur notre expérience ou sur la façon dont vous pouvez en profiter!
+[Communiquez avec nous](mailto:cds-snc@servicecanada.gc.ca) ou avec [C4C](mailto:dorothy@codefor.ca) pour en savoir plus sur notre expérience ou sur la façon dont vous pouvez en profiter!
 

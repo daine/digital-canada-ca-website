@@ -89,5 +89,5 @@ translationKey: blog-digital-solution-rcmp
 
 
 
-<p>Vous êtes fonctionnaire et travaillez à l’amélioration des services offerts à la population du Canada? <a href="mailto:cds-snc@tbs-sct.gc.ca" target="_blank" rel="noreferrer noopener">Racontez-nous votre histoire</a>!</p>
+<p>Vous êtes fonctionnaire et travaillez à l’amélioration des services offerts à la population du Canada? <a href="mailto:cds-snc@servicecanada.gc.ca" target="_blank" rel="noreferrer noopener">Racontez-nous votre histoire</a>!</p>
 

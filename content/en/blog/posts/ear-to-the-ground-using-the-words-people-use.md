@@ -65,5 +65,5 @@ While we’ve learned a lot from the victims we’ve spoken with so far, we have
 
 We know that the way people describe cybercrime and victimhood might vary depending on the language. Admittedly, we haven’t yet had as many conversations in French as we’ve had in English. We need your help to better serve Canadians and give them consistent experiences that work in both official languages.
 
-Do you speak French? [Get in touch](mailto:cds-snc@tbs-sct.gc.ca) to share your cybercrime experience or join us for an upcoming prototype test session.
+Do you speak French? [Get in touch](mailto:cds-snc@servicecanada.gc.ca) to share your cybercrime experience or join us for an upcoming prototype test session.
 
