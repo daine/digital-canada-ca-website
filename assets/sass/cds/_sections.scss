@@ -47,17 +47,17 @@
   color: $white;
   border-top: 1px solid $black;
 
-  h1 {
-    font-size: 2.22rem;
-    margin-top: 2.22rem;
-    // padding-right: 4rem;
+  // h1 {
+  //   font-size: 2.22rem;
+  //   margin-top: 2.22rem;
+  //   // padding-right: 4rem;
 
-    @include mobile_only {
-      font-size: 1.38rem;
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+  //   @include mobile_only {
+  //     font-size: 1.38rem;
+  //     width: 100%;
+  //     margin-top: 0;
+  //   }
+  // }
 
   .header {
     display: flex;
@@ -267,32 +267,6 @@
     font-size: 1.28rem;
   }
 
-  .submit-button {
-    position: relative;
-    padding: 8px 16px;
-    margin-bottom: 0.84rem;
-    background-color: #000000;
-    border: none;
-    display: inline-block;
-    
-    @include label;
-    padding: 10px 15px;
-    border: none;
-
-    &.inactive {
-      cursor: not-allowed;
-      pointer-events: all !important;
-    }
-  }
-  .submit-button-text {
-    color: white !important;
-    transition: all 0.2s;
-  }
-
-  .loading .submit-button-text{
-    visibility: hidden;
-    opacity: 0;
-  }
   .loading::after {
     content: "";
     position: absolute;
@@ -531,10 +505,6 @@ article.post {
 // CONTACT
 //
 ////////////////////////////////////////////////////
-
-.bg-white + .section--mailing-list {
-  background: white;
-}
 
 // Privacy modal styles
 #privacy-notice-modal {

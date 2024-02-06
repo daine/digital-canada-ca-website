@@ -24,18 +24,73 @@ html {
 	font-size: 16px;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
-	font-size: 21px;
-	font-family	: "SourceSansPro", sans-serif !important;
-}
-
 body {
 	box-sizing	: border-box;
 	overflow-x: hidden;
 	background-color: $bg-color;
 	height: 100vh;
+	font: var(--gcds-font-text);
 }
 
+h1 {
+	font: var(--gcds-font-h1);
+	padding: 0;
+	margin: 0;
+	border-bottom: none;
+
+	@include mobile_only {
+		padding: 0.85rem 0.85rem;
+	}
+}
+
+h2 {
+	font: var(--gcds-font-h2);
+	margin-top: 0;
+}
+
+h3 {
+	font: var(--gcds-font-h3);
+}
+
+h4 {
+	font: var(--gcds-font-h4);
+}
+
+h5 {
+	font: var(--gcds-font-h5);
+}
+
+h6 {
+	font: var(--gcds-font-h6);
+}
+
+ul,ol, li, p {
+	font: var(--gcds-font-text-long);
+}
+
+a {
+	font: inherit;
+	text-decoration-thickness: var(--gcds-link-decoration-thickness);
+    text-underline-offset: var(--gcds-link-underline-offset);
+
+	&:hover {
+		color: var(--gcds-link-hover);
+    	text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
+	}
+
+	&:focus {
+		background-color: var(--gcds-link-focus-background);
+		border-color: var(--gcds-link-focus-background);
+		border-radius: var(--gcds-link-focus-border-radius);
+		box-shadow: var(--gcds-link-focus-box-shadow);
+		color: var(--gcds-link-focus-text);
+		outline: var(--gcds-link-focus-outline-width) solid var(--gcds-link-focus-background);
+		outline-offset: var(--gcds-link-focus-outline-offset);
+		text-decoration: none;
+	}
+}
+
+// this makes sure we have no gap at the bottom
 .footer {
 	position: absolute;
 	width: 100%;
@@ -51,102 +106,6 @@ header[role=banner] {
 	}
 }
 
-a {
-	color 		: inherit;
-	font-weight 	: 500;
-	transition: all 0.3s ease-in-out;
-	
-
-	@include mobile_only {
-		font-size: 0.98rem;
-	}
-
-	@include tablet{
-		font-size: 1.1rem;
-	}
-
-	@include desktop{
-		font-size: inherit;
-	}
-
-	&:visited {
-		color: $dark-grey;
-	}
-
-	&:hover, focus {
-		color: lighten($dark-grey, 15);
-		cursor: pointer;
-	}
-
-	&:hover:not[class] {
-		text-decoration: none;
-		border-bottom : $dark-grey 1px solid;
-	}
-}
-
-p a {
-	color: $link-color;
-}
-
-p, main ul, main ol {
-	font-weight 	: 100;
-	font-size 		: 0.98rem;
-	position 		: relative;
-
-	@include tablet {
-		font-size 	: 1.1rem;
-	}
-
-	@include desktop {
-		font-size 	: 1.125rem;
-		line-height: 1.95rem;
-		margin-bottom: 1.52rem;
-	}
-
-	&.lead {
-		font-size : 1.25rem ;
-		color: $secondary-color;
-
-		@include tablet {
-			font-size: 1.4rem;
-		}
-
-		@include desktop {
-			font-size: 1.66rem;
-		}
-	}
-}
-
-h1, .h1 {
-	padding: 0;
-	margin: 0;
-	font-weight: 100;
-	font-family: "SourceSansPro", sans-serif;
-	border-bottom: none;
-	color: $white;
-	font-size: 1.66rem;
-
-	@include mobile_only {
-		padding: 0.85rem 0.85rem;
-	}
-}
-
-h2 {
-	font-family: "SourceSansPro", sans-serif;
-	font-weight: 600;
-	margin-top: 0;
-	font-size: 2.1rem;
-}
-
-h3 {
-	font-weight: 600;
-	font-size: 1.53rem;
-}
-
-.underline {
-	text-decoration: underline;
-}
-
 html .container {
 	width: 100%;
 	// temporary calc to account for the padding that column classes have
@@ -155,14 +114,6 @@ html .container {
 	@include mobile_only {
 		width: 100%;
 	}
-}
-
-.dark-bg:visited, hover, focus{
-	color: $light-grey;
-}
-
-.term {
-	font-style:italic;
 }
 
 //TODO: this overwrites the whole purpose of the col and we need to reevaluate as right now it breaks trying to use it
@@ -242,38 +193,3 @@ ol ul, ol ol, ul ul, ul ol {
 .bg-med-grey {
 	background: $medium-grey;
 }
-
-.bg-white {
-	background: white;
-}
-
-@mixin major($color: inherit) {
-	font-family	: "SourceSansPro", sans-serif !important;
-	font-size: 2.5rem !important;
-	font-weight: 400;
-	line-height: 1.08;
-	color: $color;
-	margin-top: 1.11rem;
-}
-
-@mixin paragraph {
-	font-family	: "SourceSansPro", sans-serif !important;
-	font-size: 1.22rem !important;
-	line-height: 1.59;
-}
-
-@mixin label {
-	font-family	: "SourceSansPro", sans-serif !important;
-	font-size: 1.25rem !important;
-	font-weight: 600;
-	line-height: 1.244;
-}
-
-@mixin h2styling {
-	font-family	: "SourceSansPro", sans-serif !important;
-	font-weight: 600;
-	font-size: 1.55rem !important;
-	margin-top: 0.55rem;
-}
-
-
