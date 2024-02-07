@@ -34,49 +34,27 @@
     {{ if or (eq .Params.archived false) (eq .Params.translationKey "evergreen-job-posting") }}
     <div style="padding-bottom: 3rem;">
       <h2>Apply</h2>
-      <form enctype="multipart/form-data" class="text-left" id="contactForm">
+      <form enctype="multipart/form-data" id="contactForm">
         <input type="hidden" id="jobId" name="jobId" value="{{.Params.leverId}}" />
+        
         <!-- Full Name -->
-        <!-- <div class="form-group">
-          <label for="name">Full name</label>
-          <input type="text" class="form-control validate-required" id="name" name="name" aria-required="true"
-            aria-describedby="name-required" />
-          <span id="name-required" class="error-message validate-required-message" style="display: none;">This field
-            is required.</span>
-        </div> -->
-
         <gcds-input input-id="name" label="Full name" size="35" required></gcds-input>
 
-        <!-- Email -->
-        <!-- <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" name="email" class="form-control validate-required validate-email" id="email"
-            aria-required="true" aria-describedby="email-required" />
-          <span id="email-required" class="error-message validate-required-message" style="display: none;">This field
-            is required.</span>
-        </div> -->
+        <!-- Pronouns -->
+        <gcds-input id="pronouns" label="Pronouns (optional)" input-id="pronouns" size="35"></gcds-input>
 
+        <!-- Email -->
         <gcds-input input-id="email" label="Email address" type="email" required size="35">
         </gcds-input>
 
+        <!-- <gcds-label label="Preferred language for communication"></gcds-label> -->
+        <!-- Preferred Language -->
+        <gcds-fieldset fieldset-id="preferred-langauge" legend="Preferred language for communication">
+          <gcds-radio radio-id="englishId" label="English" name="englishLang" checked></gcds-radio>
+          <gcds-radio radio-id="frenchId" label="French" name="frenchLang"></gcds-radio>
+        </gcds-fieldset>
+
         <!-- Resume -->
-        <!-- <div class="form-group">
-          <label for="resume">Upload your resume
-            <div style="margin: 0.5rem 0 1rem 0;">
-              <span style="font-weight: normal;" class="url" id="pdf-format-preferred">PDF format preferred.</span>
-    
-            </div>
-            <div class="browse">
-              <div><span style="padding-right: 0.5rem;">Upload a file</span> <i class="fa-solid fa-upload fa-sm"></i>
-                <input class="resume" type="file" id="resume" name="resume"
-                  accept="application/msword, application/pdf, text/plain" required />
-              </div>
-    
-            </div>
-          </label>
-          
-  
-        </div> -->
         <div style="margin-bottom: 1rem;">
           <gcds-file-uploader uploader-id="resume" label="Upload your resume" hint="PDF format preferred" required
             accept="application/msword, application/pdf, text/plain">
@@ -85,27 +63,11 @@
 
 
         <!-- Samples of your work -->
-        <!-- <div class="form-group">
-          <label for="samples">Samples of your work (URL)</label>
-          <div style="margin: 0.5rem 0;">
-            <span class="url">Share with us any relevant URLs showcasing your work.</span>
-  
-          </div>
-          <input type="text" class="form-control" id="samples" name="samples" />
-        </div> -->
         <gcds-input input-id="samples" label="Samples of your work (URL)"
           hint="Share with us any relevant URLs showcasing your work" size="100">
         </gcds-input>
 
         <!-- How did you hear about this job-->
-        <!-- <div class="form-group">
-          <label for="talent_tracking">How did you hear about this job posting?</label>
-          <textarea class="form-control" id="talent_tracking" name="talent_tracking" rows="5"></textarea>
-  
-          <span id="talent-tracking-required" class="error-message validate-required-message" style="display: none;">This
-            field
-            is required.</span>
-        </div> -->
         <gcds-textarea textarea-id="talent_tracking" label="How did you hear about this job posting?" required
           character-count="300">
         </gcds-textarea>
