@@ -3,61 +3,10 @@
 // FRONTPAGE
 //
 ////////////////////////////////////////////////////
-
-.accueil,
-.home {
-  h2 {
-    font-size: 1.95rem;
-    margin-bottom: 1.11rem;
-    text-align: left;
-  }
-
-  @include mobile_only {
-    .title-align {
-      text-align: left;
-      margin-bottom: 0.55rem;
-    }
-  }
-  @include tablet {
-    .title-align {
-      text-align: left;
-      margin-bottom: 0.55rem;
-    }
-  }
-  @include desktop {
-    .title-align {
-      text-align: right;
-    }
-  }
-
-  .title-link {
-    color: $dark-grey;
-    text-align: right;
-    font-size: 1.11rem;
-    text-decoration: underline;
-
-    &:hover {
-      color: $black;
-    }
-  }
-}
-
 .homepage--intro {
   background-color: #31455c;
   color: $white;
   border-top: 1px solid $black;
-
-  // h1 {
-  //   font-size: 2.22rem;
-  //   margin-top: 2.22rem;
-  //   // padding-right: 4rem;
-
-  //   @include mobile_only {
-  //     font-size: 1.38rem;
-  //     width: 100%;
-  //     margin-top: 0;
-  //   }
-  // }
 
   .header {
     display: flex;
@@ -83,10 +32,11 @@
         width: 100%;
         font-size: 1.95rem;
       }
+
       img {
         width: 100%;
-        // align-self: center;
       }
+
       p {
         padding-left: 0.85rem;
       }
@@ -172,10 +122,6 @@
   margin: 0;
   padding: 0;
 
-  h4 {
-    font-size: 1.75rem;
-  }
-
   &__item {
     
     display: flex;
@@ -197,19 +143,13 @@
     line-height: 60px;
     text-align: center;
   }
-
-  h4 {
-    margin-top: 0;
-  }
 }
 
 .work-with-us--apply-now {
   
-  h2 {
-    
+  h2 {  
     margin-bottom: 1.65rem;
-    margin-top: 1.65rem;
-    
+    margin-top: 1.65rem; 
   }
   label {
     color: black;
@@ -313,19 +253,9 @@
   list-style: none;
   margin-top: 1rem;
 
-  @include sm_desktop_screen {
-    // flex-direction: column;
-    // width: 80%;
-    // margin: 0 auto 30px auto;
-  }
-
   .post {
-    // width: 90%;
-    // margin-bottom: 30px;
-
     @include sm_desktop_screen {
       width: 100%;
-      // margin: 0 auto 30px;
     }
   }
 
@@ -338,14 +268,7 @@
   }
 
   .post-container {
-    // background-color: #ffffff;
-    // box-shadow: 5px 8px 5px #e1e4e7;
     border-bottom: 2px solid $background-grey;
-    // margin: 0 auto;
-
-    @include tablet {
-      // height: 615px;
-    }
 
     @include sm_desktop_screen {
       height: 100%;
@@ -575,7 +498,6 @@ article.post {
 
     @include desktop {
       font-size: 1.35rem;
-      // margin: 1.5rem 0 0.5rem 0;
     }
   }
 }
