@@ -1,6 +1,10 @@
+/*
+  Here exists the CSS for page specific styles EXCEPT for the blog page,
+  which you will find in _blogs.scss
+*/
 ////////////////////////////////////////////////////
 //
-// FRONTPAGE
+// HOMEPAGE
 //
 ////////////////////////////////////////////////////
 .homepage--intro {
@@ -48,11 +52,40 @@
   margin-bottom: 45px;
 }
 
-////////////////////////////////////////////////////
-//
-// PRODUCT DASHBOARD
-//
-////////////////////////////////////////////////////
+.partnership-products {
+  padding-top: 2.78rem;
+
+  .first-list {
+    padding: 3rem 0 3rem 0;
+    background-color: #D7E5F5;
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li:before {
+      content: '✓';
+    }
+  }
+
+  .second-list {
+    background-color: $light-grey;
+    padding: 3rem 0 1rem 0;
+  }
+
+  .built-by {
+    @include desktop {
+      display: flex; 
+      align-items: center
+    }
+  }
+
+  @include mobile_only {
+    img {
+      width: 90%;
+    }
+  }
+}
+
 .row.equal {
   @include desktop {
     display: flex;
@@ -68,10 +101,9 @@
   display: flex;
 }
 
-
 ////////////////////////////////////////////////////
 //
-// JOIN OUR TEAM
+// JOBS
 //
 ////////////////////////////////////////////////////
 
@@ -146,7 +178,6 @@
 }
 
 .work-with-us--apply-now {
-  
   h2 {  
     margin-bottom: 1.65rem;
     margin-top: 1.65rem; 
@@ -243,404 +274,44 @@
   }
 }
 
-////////////////////////////////////////////////////
-//
-// BLOG LISTING
-//
-////////////////////////////////////////////////////
-.blogpost-list {
-  padding: 0;
-  list-style: none;
-  margin-top: 1rem;
-
-  .post {
-    @include sm_desktop_screen {
-      width: 100%;
-    }
-  }
-
-  .post:nth-child(odd) {
-    margin-right: 30px;
-
-    @include sm_desktop_screen {
-      margin-right: 0;
-    }
-  }
-
-  .post-container {
-    border-bottom: 2px solid $background-grey;
-
-    @include sm_desktop_screen {
-      height: 100%;
-    }
-  }
-
-  .date {
-    font-size: 0.84rem;
-    color: $section-bg-grey;
-    padding: 5px 0;
-
-    @include tablet {
-      font-size: 0.98rem;
-      font-weight: 300;
-    }
-  }
-
-  .text {
-    line-height: 1.4;
-  }
-
-  h2 {
-    margin-top: 0;
-    font-size: 1.11rem;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .text-container {
-    padding: 0.85rem 0 1.5rem 0;
-  }
-  .blog-title {
-    text-decoration: none;
-  }
-
-  .author {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 0.65rem;
-
-    @include tablet {
-      // This rule will limit the number of lines to 3
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-    }
-  }
-
-  .summary {
-    color: $icon-grey;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-
-    @include tablet {
-      // This rule will limit the number of lines to 5
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 5;
-      -webkit-box-orient: vertical;
-    }
-  }
-
-  .readmore {
-    margin-top: 1.11rem;
-
-    a {
-      font-size: 1rem;
-      display: inline-block;
-      text-decoration: underline;
-    }
-  }
-
-  & li.pagination {
-    position: relative;
-    padding: 0 0.4em;
-  }
-
-  .pagination.active a {
-    background: $primary-color;
-    border: 2.5px solid $primary-color;
-
-    &:hover {
-      border: 2.5px solid $black;
-    }
-  }
-
-  & li.active a::after {
-    width: 100%;
-    display: inline-block;
-    content: "";
-    height: 4px;
-    position: absolute;
-    left: 0%;
-  }
-
-  & .blogpost-paginator {
-    text-align: center;
-    padding: 0;
-    width: 100%;
-
-    a {
-      text-decoration: none;
-      border: 2.5px solid $black;
-      padding: 7.5px 10px;
-
-      &:hover {
-        background: $black;
-        color: $white;
-      }
-    }
-  }
-}
-
-.blog-single {
-  background: white;
-}
-
-article.post {
-
-  img {
-    max-width: 100%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-
-    @include tablet {
-      max-height: 450px;
-    }
-  }
-
-  a.large-link {
-    @include tablet {
-      font-size: 1.25rem;
-    }
-  }
-
-  .post-header {
-    font-weight: 600;
-    font-size: 0.84rem;
-    margin: 0rem 0 1.11rem 0;
-
-    time {
-      display: block;
-      font-weight: 500;
-    }
-
-  }
-}
-
-////////////////////////////////////////////////////
-//
-// CONTACT
-//
-////////////////////////////////////////////////////
-
-// Privacy modal styles
-#privacy-notice-modal {
-  position: relative;
-}
-
-.modal-container {
-  width: 80%;
-  margin: 40px auto;
-}
-
-.modal-content {
-  // overflow-y: initial !important;
-  height: 100vh;
-  z-index: 100;
-  background: $black;
-}
-
-.overlay-def header {
-  padding: 5px 10px 0 15px;
-}
-
-#privacy-notice-modal .modal-header-container {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  align-items: flex-start;
-}
-
-.mfp-close {
-  font-size: 1.11rem;
-  cursor: pointer;
-  background: none;
-  border: none;
-  margin: 5px 0 0 0;
-  padding: 0;
-  width: 25px;
-}
-
-.modal-body {
-  height: 600px;
-  overflow-y: auto;
-}
-
-.mfp-preloader {
-  display: none;
-}
-
-.btn-sm {
-  display: none;
-}
-
-.overlay-close {
-  display: none;
-}
-
-// TODO - update general CSS for the main content section
-// and create specialized H3's etc. where needed.
-.page-legal {
-  h2 {
-    font-weight: 600;
-    font-size: 2.1rem;
-  }
-
-  h3 {
-    font-weight: 600;
-    margin-top: 0.75rem;
-
-    @include desktop {
-      font-size: 1.35rem;
-    }
-  }
-}
-
-////////////////////////////////////////////////////
-//
-// STORIES
-//
-////////////////////////////////////////////////////
-
-.story-text {
-  background-color: $black;
-  color: $white;
-  padding-top: 1.67rem;
-
-  @include mobile_only {
-    height: auto;
-    padding-bottom: 1.67rem;
-
-    h2 {
-      font-size: 1.38rem;
-      margin-top: 1.67rem;
-    }
-  }
-  
-  @include tablet {
-    height: auto;
-    padding-bottom: 2.78rem;
-  }
-
-  @include desktop {
-    height: 52rem;
-  }
-
-  .container {
-    width: 70%;
-  }
-}
-
-.story-image {
-  padding: 0;
-
-  .image-container {
-    background-size: cover;
-    background-position: center center;
-
-    @include tablet {
-      height: 27.75rem;
-    }
-
-    @include desktop {
-      height: 52rem;
-    }
-
+// SINGLE JOB POSTING
+.job-postings-container {
+  //TO DO: this might require a reassessment when we have postings again
+  .padding {
     @include mobile_only {
-      height: 22.25rem;
+      padding: 1.67rem 0;
     }
+  }
+  .content {
+    margin-top: 1.67rem;
   }
 }
 
 ////////////////////////////////////////////////////
 //
-// PARTNERSHIPS PAGE
+// ABOUT-US
 //
 ////////////////////////////////////////////////////
-
-.partnership-products {
-  padding-top: 2.78rem;
-
-  h2 {
-    font-weight: 600;
-    font-size: 2rem;
-  }
-
-  .first-list {
-    padding: 3rem 0 3rem 0;
-    background-color: #D7E5F5;
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li:before {
-      content: '✓';
-    }
-  }
-
-  .second-list {
-    background-color: $light-grey;
-    padding: 3rem 0 1rem 0;
-  }
-
-  .built-by {
-    @include desktop {
-      display: flex; 
-      align-items: center
-    }
-  }
-
-  @include mobile_only {
-    img {
-      width: 90%;
-    }
-  }
-}
-
 .stay-in-touch {
   list-style: none;
   padding: 0;
 }
 
-
 ////////////////////////////////////////////////////
 //
-// PRODUCT SUITE
+// LEGAL (security, privacy, terms, etc.)
 //
 ////////////////////////////////////////////////////
-.card-title {
-  div {
-    padding: 1.11rem 0 1.11rem 0;
-  }
-  h2 {
-    font-weight: 400;
-    font-size: 2.11rem;
-  }
-}
+.security-notice-banner {
+  display: flex;
+  background-color: #D7E5F5;
+  border-inline-start: 0.25rem solid #6584A6;
+  color: #333;
+  margin: 0 0 0.625rem;
+  padding: 0.42rem;
 
-.checklist {
-  ul {
-    padding: 0; 
-    list-style-type: none;
-     li {
-       padding-bottom: 0.55rem;
-       i {
-        color: #115740;
-       }
-       
-     }
-  }
-}
-
-.h2-style {
-  h2 {
-    font-weight: 600;
-    font-size: 2.11rem;
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
   }
 }

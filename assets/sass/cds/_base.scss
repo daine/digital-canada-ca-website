@@ -45,7 +45,9 @@ h1 {
 
 h2 {
 	font: var(--gcds-font-h2);
-	margin-top: 0;
+	&:first-child {
+		margin-top: 0;
+	}
 }
 
 h3 {
