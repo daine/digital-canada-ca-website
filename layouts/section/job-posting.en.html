@@ -48,8 +48,15 @@
         </gcds-input>
 
         <!-- <gcds-label label="Preferred language for communication"></gcds-label> -->
+
+        <!-- <div>
+          <gcds-label label="Preferred language for communication"></gcds-label>
+          <gcds-radio radio-id="englishId" label="English" name="englishLang" checked></gcds-radio>
+          <gcds-radio radio-id="frenchId" label="French" name="frenchLang"></gcds-radio>
+        </div> -->
+
         <!-- Preferred Language -->
-        <gcds-fieldset fieldset-id="preferred-langauge" legend="Preferred language for communication">
+        <gcds-fieldset id="preferred-langauge" fieldset-id="preferred-langauge" legend="Preferred language for communication" required>
           <gcds-radio radio-id="englishId" label="English" name="englishLang" checked></gcds-radio>
           <gcds-radio radio-id="frenchId" label="French" name="frenchLang"></gcds-radio>
         </gcds-fieldset>
@@ -63,9 +70,15 @@
 
 
         <!-- Samples of your work -->
-        <gcds-input input-id="samples" label="Samples of your work (URL)"
-          hint="Share with us any relevant URLs showcasing your work" size="100">
+        <gcds-input input-id="samples" label="Examples of your work (optional)"
+          hint="This can be a link to your portfolio, LinkedIn profile or other work samples" size="100">
         </gcds-input>
+
+
+        <!-- Where did you hear about this job -->
+        <gcds-fieldset id="talent_tracking" fieldset-id="talent_tracking" legend="Where did you hear about this job posting" required>
+
+        </gcds-fieldset>
 
         <!-- How did you hear about this job-->
         <gcds-textarea textarea-id="talent_tracking" label="How did you hear about this job posting?" required
