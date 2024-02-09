@@ -123,6 +123,33 @@ $(document).ready(function () {
     $("#contactForm #pdf-format-preferred").html(file);
   });
 
+  // $("#contactForm #talentTracking").click(function() {
+  //   console.log("RADIO CLICKED")
+  //   // if($('input:radio[name=talent_tracking]:checked').val() == "Other") {
+  //   //   console.log('OTHER CLICKED!')
+  //   // }
+  // })
+  // const otherRadio = document.getElementById("other-Id")
+  // $("#contactForm #talent_tracking").on("click", function (event) {
+  //   if($("#other-Id").attr("checked", true)) {
+  //     console.log('other clicked')
+  //     $("#specificyOther").css("display", "block")
+  //   }
+  // })
+
+  const talentTracking = document.getElementById("talent_tracking")
+  const otherRadio = document.getElementById("other-Id")
+  const specificyOther = document.getElementById("specificyOther")
+
+  talentTracking.addEventListener("click", function (e){
+    if(otherRadio.checked) {
+      console.log("yes")
+      specificyOther.style.display = "block"
+    } else {
+      specificyOther.style.display = "none"
+    }
+  })
+
   /**
    * Contact Form Submit
    */
@@ -203,35 +230,39 @@ $(document).ready(function () {
     var formData = new FormData(theForm);
     var pageLanguage = $("html").attr("lang");
 
+    for (const pair of formData.entries()) {
+      console.log(pair[0], pair[1])
+    }
+
     var endpoint =
       "https://dowr6jfsw2.execute-api.ca-central-1.amazonaws.com/production/lever";
 
-    $.ajax({
-      type: "POST",
-      url: endpoint,
-      data: formData,
-      contentType: false,
-      processData: false,
-      complete: function (r) {
-        console.log(r.responseText);
-      },
-      success: function () {
-        if (pageLanguage == "en") {
-          window.location.href = "/thank-you/";
-        } else {
-          window.location.href = "/merci/";
-        }
-      },
-      error: function (xhr, textStatus, errorThrown) {
-        console.log("Error", textStatus);
-        console.log("Error", errorThrown);
-        if (pageLanguage == "en") {
-          window.location.href = "/error/";
-        } else {
-          window.location.href = "/erreur/";
-        }
-      },
-    });
+    // $.ajax({
+    //   type: "POST",
+    //   url: endpoint,
+    //   data: formData,
+    //   contentType: false,
+    //   processData: false,
+    //   complete: function (r) {
+    //     console.log(r.responseText);
+    //   },
+    //   success: function () {
+    //     if (pageLanguage == "en") {
+    //       window.location.href = "/thank-you/";
+    //     } else {
+    //       window.location.href = "/merci/";
+    //     }
+    //   },
+    //   error: function (xhr, textStatus, errorThrown) {
+    //     console.log("Error", textStatus);
+    //     console.log("Error", errorThrown);
+    //     if (pageLanguage == "en") {
+    //       window.location.href = "/error/";
+    //     } else {
+    //       window.location.href = "/erreur/";
+    //     }
+    //   },
+    // });
   });
 
   /**

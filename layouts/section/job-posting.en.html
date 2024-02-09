@@ -38,27 +38,19 @@
         <input type="hidden" id="jobId" name="jobId" value="{{.Params.leverId}}" />
         
         <!-- Full Name -->
-        <gcds-input input-id="name" label="Full name" size="35" required></gcds-input>
+        <gcds-input input-id="name" label="Full name" size="100" required></gcds-input>
 
         <!-- Pronouns -->
-        <gcds-input id="pronouns" label="Pronouns (optional)" input-id="pronouns" size="35"></gcds-input>
+        <gcds-input id="pronouns" label="Pronouns (optional)" input-id="pronouns" hint="Example: She/her, They/them" size="100"></gcds-input>
 
         <!-- Email -->
-        <gcds-input input-id="email" label="Email address" type="email" required size="35">
+        <gcds-input input-id="email" label="Email address" type="email" required size="100">
         </gcds-input>
 
-        <!-- <gcds-label label="Preferred language for communication"></gcds-label> -->
-
-        <!-- <div>
-          <gcds-label label="Preferred language for communication"></gcds-label>
-          <gcds-radio radio-id="englishId" label="English" name="englishLang" checked></gcds-radio>
-          <gcds-radio radio-id="frenchId" label="French" name="frenchLang"></gcds-radio>
-        </div> -->
-
         <!-- Preferred Language -->
-        <gcds-fieldset id="preferred-langauge" fieldset-id="preferred-langauge" legend="Preferred language for communication" required>
-          <gcds-radio radio-id="englishId" label="English" name="englishLang" checked></gcds-radio>
-          <gcds-radio radio-id="frenchId" label="French" name="frenchLang"></gcds-radio>
+        <gcds-fieldset id="preferred-language" fieldset-id="preferredLang" legend="Preferred language for communication" required>
+          <gcds-radio radio-id="englishId" label="English" name="preferredLang" value="English"></gcds-radio>
+          <gcds-radio radio-id="frenchId" label="French" name="preferredLang" value="French"></gcds-radio>
         </gcds-fieldset>
 
         <!-- Resume -->
@@ -76,14 +68,20 @@
 
 
         <!-- Where did you hear about this job -->
-        <gcds-fieldset id="talent_tracking" fieldset-id="talent_tracking" legend="Where did you hear about this job posting" required>
+        <gcds-fieldset id="talent_tracking" fieldset-id="talentTracking" legend="Where did you hear about this job posting" required>
+          <gcds-radio radio-id="gcJobsId" label="jobs.gc.ca" name="talentTracking" value="jobs.gc.ca"></gcds-radio>
+          <gcds-radio radio-id="linkedinId" label="LinkedIn" name="talentTracking" value="LinkedIn"></gcds-radio>
+          <gcds-radio radio-id="facebookId" label="Facebook" name="talentTracking" value="Facebbok"></gcds-radio>
+          <gcds-radio radio-id="queertechId" label="QueerTech community" name="talentTracking" value="QueerTech"></gcds-radio>
+          <gcds-radio radio-id="referralId" label="Referred by a CDS employee" name="talentTracking" value="Referral"></gcds-radio>
+          <gcds-radio id="other-Id" radio-id="otherId" label="Other" name="talentTracking" value="Other"></gcds-radio>
+
+          <gcds-input id="specificyOther" input-id="specificy-other" label="If 'other', please specify (optional)" size="100"></gcds-input>
 
         </gcds-fieldset>
 
-        <!-- How did you hear about this job-->
-        <gcds-textarea textarea-id="talent_tracking" label="How did you hear about this job posting?" required
-          character-count="300">
-        </gcds-textarea>
+        <!-- Is there anything else we should know about you -->
+        <gcds-textarea textarea-id="applicant-info" label="Is there anything else we should know about you? (optional)" character-count="300"></gcds-textarea>
 
 
         <!-- Submit-->
