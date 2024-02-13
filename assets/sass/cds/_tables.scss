@@ -1,0 +1,44 @@
+// Universal style for tables
+table,
+td,
+th {
+  border: 1px solid $icon-grey;
+}
+
+table {
+  display: table;
+  width: 100%;
+  margin: 25px 0;
+}
+
+th {
+  color: $white;
+  background-color: $icon-grey;
+  font-weight: 500;
+}
+
+td, th {
+  padding: 10px 20px;
+  vertical-align: top;
+}
+
+td {
+  font-weight: 100;
+  color: $icon-grey;
+}
+
+th,
+td {
+  // same base styles as p, main ul, main ol
+  font-size: 0.97rem;
+
+	@include tablet {
+		font-size: 0.7rem;
+	}
+
+	@include desktop {
+		font-size: 1.25rem;
+		line-height: 1.95rem;
+		margin-bottom: 1.53rem;
+	}
+}
