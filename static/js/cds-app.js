@@ -74,11 +74,10 @@ $(document).ready(function () {
 
   const talentTracking = document.getElementById("talent_tracking")
   const otherRadio = document.getElementById("other-Id")
-  const specificyOther = document.getElementById("specificyOther")
+  const specificyOther = document.getElementById("specify-other")
 
   talentTracking.addEventListener("click", function (e){
     if(otherRadio.checked) {
-      console.log("yes")
       specificyOther.style.display = "block"
     } else {
       specificyOther.style.display = "none"
