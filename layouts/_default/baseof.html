@@ -133,7 +133,11 @@
 
     </header>
     <main role="main" property="mainContentOfPage">
-      <h2> {{ hugo.Environment }}</h2>
+      {{ if eq hugo.Environment "production" }}
+      <script src=https://assets.adobedtm.com/be5dfd287373/37efdf424920/launch-d5709858c410.min.js></script>
+      {{ else }}
+      <script src=https://assets.adobedtm.com/be5dfd287373/37efdf424920/launch-195fd36d5a09-staging.min.js></script>
+      {{ end }}
 
       <meta name="dcterms.tite" content="{{ .Params.Title }}" />
       <meta name="dcterms.language" content="{{ i18n "aa-language" }}" />
@@ -176,9 +180,7 @@
     <script src="/js/lazyload.js" async=""></script>
     
 
-
-    <!-- Google Analytics -->
-
+    <script type="text/javascript">_satellite.pageBottom();</script>
   </body>
 
 </html>

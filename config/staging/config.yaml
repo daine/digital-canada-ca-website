@@ -1,6 +1,5 @@
 languages:
   en:
     baseUrl: /
-    title: staging
   fr:
     baseUrl: /fr
