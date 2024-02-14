@@ -134,8 +134,10 @@
     </header>
     <main role="main" property="mainContentOfPage">
       {{ if eq hugo.Environment "production" }}
+      <!-- Production -->
       <script src=https://assets.adobedtm.com/be5dfd287373/37efdf424920/launch-d5709858c410.min.js></script>
       {{ else }}
+      <!-- Staging/Dev -->
       <script src=https://assets.adobedtm.com/be5dfd287373/37efdf424920/launch-195fd36d5a09-staging.min.js></script>
       {{ end }}
 
