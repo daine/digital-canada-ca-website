@@ -133,6 +133,13 @@
 
     </header>
     <main role="main" property="mainContentOfPage">
+      <h2> {{ hugo.Environment }}</h2>
+
+      <meta name="dcterms.tite" content="{{ .Params.Title }}" />
+      <meta name="dcterms.language" content="{{ i18n "aa-language" }}" />
+      <meta name="dcterms.creator" content="{{ i18n "esdc" }}" />
+      <meta name="dcterms.accessRights" content="2" />
+      <meta name="dcterms.service" content="ESDC-EDSC_CDS-SNC" />
       <section id="wb-cont">
         {{ block "main" . }}
         <section class="content">
