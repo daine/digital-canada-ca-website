@@ -58,32 +58,6 @@ $(document).ready(function () {
     $("#contactForm #pdf-format-preferred").html(file);
   });
 
-  // $("#contactForm #talentTracking").click(function() {
-  //   console.log("RADIO CLICKED")
-  //   // if($('input:radio[name=talent_tracking]:checked').val() == "Other") {
-  //   //   console.log('OTHER CLICKED!')
-  //   // }
-  // })
-  // const otherRadio = document.getElementById("other-Id")
-  // $("#contactForm #talent_tracking").on("click", function (event) {
-  //   if($("#other-Id").attr("checked", true)) {
-  //     console.log('other clicked')
-  //     $("#specificyOther").css("display", "block")
-  //   }
-  // })
-
-  const talentTracking = document.getElementById("talent_tracking")
-  const otherRadio = document.getElementById("other-Id")
-  const specificyOther = document.getElementById("specify-other")
-
-  talentTracking.addEventListener("click", function (e){
-    if(otherRadio.checked) {
-      specificyOther.style.display = "block"
-    } else {
-      specificyOther.style.display = "none"
-    }
-  })
-
   /**
    * Contact Form Submit
    */
