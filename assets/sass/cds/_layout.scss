@@ -66,6 +66,10 @@ blockquote{
     width: 80%;
   }
 
+  @include mobile_only {
+    padding: 0 2rem 0 2.5rem;
+  }
+
   &:before, &:after {
     display: inline-block;
     font-size: 6rem;
@@ -73,6 +77,10 @@ blockquote{
     font-weight: 900;
     position: absolute;
     color: $alpha-color;
+
+    @include mobile_only {
+      font-size: 4rem;
+    }
   }
 
   &:before {
@@ -85,8 +93,11 @@ blockquote{
     content: '\201D';
     right: 1rem;
     bottom: 0;
-  }
 
+    @include mobile_only {
+      right: 0;
+    }
+  }
 }
 
 hr {
