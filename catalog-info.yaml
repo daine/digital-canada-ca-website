@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: cds-snc/digital-canada-ca-website
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: production
   owner: cds-snc/team-cds
