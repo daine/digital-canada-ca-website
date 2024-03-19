@@ -40,14 +40,14 @@ jobs:
       uses: cds-snc/terraform-tools-setup@v1
 
     - name: configure aws credentials using OIDC
-      uses: aws-actions/configure-aws-credentials@010d0da01d0b5a38af31e9c3470dbfdabdecca3a # v4.0.1
+      uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
       with:
         role-to-assume: arn:aws:iam::521732289257:role/digital-canada-ca-website-plan   # use for TF plan or when you only need read-only access (works on all branches)
         role-session-name: TFPlan
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Terraform Plan
-      uses: cds-snc/terraform-plan@28d2efe5155573489fa5b5816fad20d44d1f274b # v3.0.7
+      uses: cds-snc/terraform-plan@4719878d72d1b0078e0bce2e7571e854e79903b8 # v3.2.2
       with:
         comment-delete: true
         comment-title: "Production: ${{ matrix.module }}"
