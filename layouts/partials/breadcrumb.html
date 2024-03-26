@@ -5,7 +5,7 @@
             {{ with .GetPage "blog" }}
                 <gcds-breadcrumbs-item href={{ .Page.RelPermalink | absLangURL }}>{{ .Page.Title | title }}</gcds-breadcrumbs-item>
             {{ end }}
-            <gcds-breadcrumbs-item href={{ .Page.RelPermalink | absLangURL }}>{{ .Page.Title | title }}</gcds-breadcrumbs-item>
+            <gcds-breadcrumbs-item href={{ .Page.RelPermalink | absLangURL }}>{{ .Page.Title | markdownify }}</gcds-breadcrumbs-item>
         {{ else }}
             <gcds-breadcrumbs-item href={{ .Page.RelPermalink | absLangURL }}>{{ .Page.Title | title }}</gcds-breadcrumbs-item>
         {{ end }}
