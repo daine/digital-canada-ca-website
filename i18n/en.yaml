@@ -294,12 +294,12 @@ esdc:
 aa-language:
   other: "eng"
 meta-description:
-  other: "Get quick, easy access to all Government of Canada services and information."
+  other: "Canadian Digital Service, Digital products for the Government of Canada, Send automated email and text notifications, Create accessible online forms, Reusable components and web standards, Built by government for government"
 meta-keywords:
-  other: "Employment; Workplace"                        
+  other: "Canadian Digital Service, Platform products, GC Notify, GC Forms, GC Design System, GC Articles, Privacy generator, COVID Alert, Find benefits and services, Digital Credentials, Sign-in Canada"                        
 meta-title:
-  other: "Home"  
-meta-description:
-  other: "Get quick, easy access to all Government of Canada services and information." 
-meta-creator:
-  other: "Employment and Social Development Canada"   
+  other: "Home"
+meta-identifier:
+  other: "Canadian_Digital_Service"
+meta-subject:
+  other: "GC digital, Canadian Digital Service, digital services, digital government, platform, open source, accessibility, cloud, API, agile, testing"        
