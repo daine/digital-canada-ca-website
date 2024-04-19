@@ -69,6 +69,18 @@
 <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.css">
 <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.esm.js"></script>
 <script nomodule src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.js"></script>
+{{ if (eq .RelPermalink "/")}}
+<meta name="description" content="{{ i18n "meta-description" }}"/>
+<meta name="keywords" content="{{ i18n "meta-keywords" }}"/>
+<meta name="dcterms.title" content="{{ i18n "meta-title" }}"/>
+<meta name="dcterms.description" content="{{ i18n "meta-description" }}"/>
+<meta name="dcterms.creator" content="{{ i18n "meta-creator" }}"/>
+<meta name="dcterms.language" title="ISO639-2/T" content="{{ i18n "aa-language" }}"/>
+<meta name="dcterms.subject" title="gccore" content="Agriculture"/>
+<meta name="dcterms.issued" title="W3CDTF" content="2013-12-13"/>
+<meta name="dcterms.modified" title="W3CDTF" content="2024-04-16"/>
+<meta name="dcterms.identifier" content="Employment_and_Social_Development_Canada"/> 
+{{ end }}
 </head>
 
 {{ with $pageTitle }}
@@ -131,7 +143,6 @@
         </div>
       {{ end }}
       {{ end }}
-
     </header>
     <main role="main" property="mainContentOfPage">
       {{ if eq hugo.Environment "production" }}
